@@ -1,0 +1,319 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xml:id="financial" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Financial</title>
+ <indexterm><primary>Financial</primary></indexterm>
+ <indexterm><primary>200, 210</primary></indexterm>
+
+ <para>
+  Depending on the <xref linkend="S.de_024" endterm="de_024" /> (see <xref linkend="S.de_024" /> and
+  <xref linkend="function_codes" />) this transaction class can be used for:
+  <itemizedlist>
+   <listitem><para>POS Purchase</para></listitem>
+   <listitem><para>Cash Withdrawal</para></listitem>
+   <listitem><para>Voids</para></listitem>
+   <listitem><para>Payment/Deposit</para></listitem>
+   <listitem><para>Account transfer</para></listitem>
+   <listitem><para>Refund/Return</para></listitem>
+  </itemizedlist>
+ </para>
+
+ <table frame="all" tocentry="1">
+  <title>Authorization</title>
+  <tgroup cols="5" align="left" colsep="1" rowsep="1">
+   <colspec colname='fld' />
+   <colspec colname='description' colwidth="6*"/>
+   <colspec colname='value' colwidth="4*" />
+   <colspec colname='req' />
+   <colspec colname='resp' />
+   <thead>
+    <row>
+     <entry align="right">Field</entry>
+     <entry>Description</entry>
+     <entry align="center">Value</entry>
+     <entry align="center">Req</entry>
+     <entry align="center">Resp</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry align="right"><emphasis role="bold">MTI</emphasis></entry>
+     <entry>Message Type indicator</entry>
+     <entry/>
+     <entry align="center"><emphasis role="bold">200</emphasis></entry>
+     <entry align="center"><emphasis role="bold">210</emphasis></entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">2</emphasis></entry>
+     <entry><xref linkend="S.de_002" endterm='de_002' /></entry>
+     <entry />
+     <entry align="center">07</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">3</emphasis></entry>
+     <entry><xref linkend="S.de_003" endterm="de_003" /></entry>
+     <entry/>
+     <entry align="center">M</entry>
+     <entry align="center">27</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">4</emphasis></entry>
+     <entry><xref linkend="S.de_004" endterm="de_004" /></entry>
+     <entry />
+     <entry align="center">26</entry>
+     <entry align="center">26</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">7</emphasis></entry>
+     <entry><xref linkend="S.de_007" endterm="de_007" /></entry>
+     <entry />
+     <entry align="center">30</entry>
+     <entry align="center">30</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">11</emphasis></entry>
+     <entry><xref linkend="S.de_011" endterm="de_011" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">12</emphasis></entry>
+     <entry><xref linkend="S.de_012" endterm="de_012" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">13</emphasis></entry>
+     <entry><xref linkend="S.de_013" endterm="de_013" /></entry>
+     <entry />
+     <entry align="center">02</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">14</emphasis></entry>
+     <entry><xref linkend="S.de_014" endterm="de_014" /></entry>
+     <entry />
+     <entry align="center">02</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">18</emphasis></entry>
+     <entry><xref linkend="S.de_018" endterm="de_018" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">36</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">21</emphasis></entry>
+     <entry><xref linkend="S.de_021" endterm="de_021" /></entry>
+     <entry />
+     <entry align="center">33</entry>
+     <entry align="center">33</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">22</emphasis></entry>
+     <entry><xref linkend="S.de_022" endterm="de_022" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">23</emphasis></entry>
+     <entry><xref linkend="S.de_023" endterm="de_023" /></entry>
+     <entry />
+     <entry align="center">02</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">24</emphasis></entry>
+     <entry><xref linkend="S.de_024" endterm="de_024" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">26</emphasis></entry>
+     <entry><xref linkend="S.de_026" endterm="de_026" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry />
+    </row>
+    <!--
+    <row>
+     <entry align="right"><emphasis role="bold">27</emphasis></entry>
+     <entry><xref linkend="S.de_027" endterm="de_027" /></entry>
+     <entry />
+     <entry align="center">18</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">28</emphasis></entry>
+     <entry><xref linkend="S.de_028" endterm="de_028" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">12</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">29</emphasis></entry>
+     <entry><xref linkend="S.de_029" endterm="de_029" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">14</entry>
+    </row>
+    -->
+    <row>
+     <entry align="right"><emphasis role="bold">30</emphasis></entry>
+     <entry><xref linkend="S.de_030" endterm="de_030" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">32</emphasis></entry>
+     <entry><xref linkend="S.de_032" endterm="de_032" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <!--
+    <row>
+     <entry align="right"><emphasis role="bold">33</emphasis></entry>
+     <entry><xref linkend="S.de_033" endterm="de_033" /></entry>
+     <entry />
+     <entry align="center">10</entry>
+     <entry align="center">10</entry>
+    </row>
+    -->
+    <row>
+     <entry align="right"><emphasis role="bold">35</emphasis></entry>
+     <entry><xref linkend="S.de_035" endterm="de_035" /></entry>
+     <entry />
+     <entry align="center">06</entry>
+     <entry />
+    </row>
+    <!--
+    <row>
+     <entry align="right"><emphasis role="bold">36</emphasis></entry>
+     <entry><xref linkend="S.de_036" endterm="de_036" /></entry>
+     <entry />
+     <entry align="center">06</entry>
+     <entry />
+    </row>
+    -->
+    <row>
+     <entry align="right"><emphasis role="bold">38</emphasis></entry>
+     <entry><xref linkend="S.de_038" endterm="de_038" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">31</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">39</emphasis></entry>
+     <entry><xref linkend="S.de_039" endterm="de_039" /></entry>
+     <entry />
+     <entry align="center"></entry>
+     <entry align="center">M</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">41</emphasis></entry>
+     <entry><xref linkend="S.de_041" endterm="de_041" /></entry>
+     <entry />
+     <entry align="center">15</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">42</emphasis></entry>
+     <entry><xref linkend="S.de_042" endterm="de_042" /></entry>
+     <entry />
+     <entry align="center">15</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">43</emphasis></entry>
+     <entry><xref linkend="S.de_043" endterm="de_043" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">45</emphasis></entry>
+     <entry><xref linkend="S.de_045" endterm="de_045" /></entry>
+     <entry />
+     <entry align="center">06</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">46</emphasis></entry>
+     <entry><xref linkend="S.de_046" endterm="de_046" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">49</emphasis></entry>
+     <entry><xref linkend="S.de_049" endterm="de_049" /></entry>
+     <entry />
+     <entry align="center">45</entry>
+     <entry align="center">45</entry>
+    </row>
+    <!--
+    <row>
+     <entry align="right"><emphasis role="bold">53</emphasis></entry>
+     <entry><xref linkend="S.de_053" endterm="de_053" /></entry>
+     <entry />
+     <entry align="center">02</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">58</emphasis></entry>
+     <entry><xref linkend="S.de_058" endterm="de_058" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">20</entry>
+    </row>
+    -->
+    <row>
+     <entry align="right"><emphasis role="bold">59</emphasis></entry>
+     <entry><xref linkend="S.de_059" endterm="de_059" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">63</emphasis></entry>
+     <entry><xref linkend="S.de_063" endterm="de_063" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">111</emphasis></entry>
+     <entry><xref linkend="S.de_111" endterm="de_111" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <!--
+    <row>
+     <entry align="right"><emphasis role="bold">100</emphasis></entry>
+     <entry><xref linkend="S.de_100" endterm="de_100" /></entry>
+     <entry />
+     <entry align="center">19</entry>
+     <entry align="center">19</entry>
+    </row>
+    -->
+   </tbody>
+  </tgroup>
+ </table>
+
+ <note><para>
+         See <xref linkend="conditionals" /> for condition details.</para>
+ </note>
+</section>
+

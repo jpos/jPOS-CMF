@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossary [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<glossary xml:id="glossary" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Glossary</title>
+ <glossentry xml:id="mid">
+  <glossterm><emphasis role="bold">MID</emphasis></glossterm>
+  <glossdef>
+   <para>
+    Merchant ID (see <xref linkend="S.de_042" />).
+   </para>
+  </glossdef>
+ </glossentry>
+ <glossentry xml:id="mti">
+  <glossterm><emphasis role="bold">MTI</emphasis></glossterm>
+  <glossdef>
+   <para>
+    Message Type Indicator (see <xref linkend="de_mti" />)
+   </para>
+  </glossdef>
+ </glossentry>
+
+ <glossentry xml:id="tid">
+  <glossterm><emphasis role="bold">TID</emphasis></glossterm>
+  <glossdef>
+   <para>
+    Terminal ID (see <xref linkend="S.de_041" />).
+   </para>
+  </glossdef>
+ </glossentry>
+ <glossentry xml:id="ttc">
+  <glossterm><emphasis role="bold">TTC</emphasis></glossterm>
+  <glossdef>
+   <para>
+    Transaction Type Code (see <xref linkend="S.de_003" />).
+   </para>
+  </glossdef>
+ </glossentry>
+</glossary>
+

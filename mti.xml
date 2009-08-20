@@ -1,0 +1,73 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xml:id="de_mti" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Message Type Identifiers</title>
+ <indexterm>
+  <primary>Message</primary>
+  <secondary>Identifiers</secondary>
+ </indexterm>
+ <indexterm><primary>MTI</primary></indexterm>
+
+ <para>
+  &PRODUCTNAME; implements the following message classes:
+ </para>
+
+ <table frame="topbot">
+  <title>Message Type Identifiers</title>
+  <tgroup cols="3" align="left" colsep="1" rowsep="1">
+   <colspec colname='request' colwidth="1*"/>
+   <colspec colname='response' colwidth="1*"/>
+   <colspec colname='description' colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Request</entry>
+     <entry>Response</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry align="center"><emphasis role="bold">100</emphasis></entry>
+     <entry align="center"><emphasis role="bold">110</emphasis></entry>
+     <entry>Authorization, Balance Inquiry, Mini statements</entry>
+    </row>
+    <!--
+    <row>
+     <entry align="center"><emphasis role="bold">104</emphasis></entry>
+     <entry align="center"><emphasis role="bold">114</emphasis></entry>
+     <entry>Information/Verification/Authentication</entry>
+    </row>
+    -->
+    <row>
+     <entry align="center"><emphasis role="bold">200</emphasis></entry>
+     <entry align="center"><emphasis role="bold">210</emphasis></entry>
+     <entry>Financial presentment, Purchase, Void, Refund / Return, Refresh, Transfer</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">300</emphasis></entry>
+     <entry align="center"><emphasis role="bold">310</emphasis></entry>
+     <entry>Card Activation/De-Activation</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">304</emphasis></entry>
+     <entry align="center"><emphasis role="bold">314</emphasis></entry>
+     <entry>File Update</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">420</emphasis></entry>
+     <entry align="center"><emphasis role="bold">430</emphasis></entry>
+     <entry>Reversals of Authorization and Financial messages</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">804</emphasis></entry>
+     <entry align="center"><emphasis role="bold">814</emphasis></entry>
+     <entry>Network Management</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</section>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+
+ <info>
+  <title>&PRODUCTNAME;</title>
+  <author>
+   <orgname> jPOS.org </orgname>
+   <email> support@jpos.org </email>
+  </author>
+  <copyright>
+   <year> 2007-2009 </year>
+   <holder> Alejandro Revilla d/b/a jPOS.org </holder>
+  </copyright>
+  <releaseinfo>&VERSION;</releaseinfo>
+  <productname>&PRODUCTNAME;</productname>
+ </info>
+
+ <xi:include href="about.xml"/>
+ 
+  <chapter xml:id="message_structure">
+   <title>Message Structure</title>
+   <xi:include href="field_representation.xml"/>
+   <xi:include href="message_components.xml"/>
+   <xi:include href="mti.xml"/>
+  </chapter>
+  <!-- Chapter Data Elements -->
+  <xi:include href="data_elements.xml"/>
+
+  <chapter xml:id="transaction_definition">
+   <title>Transaction Definition</title>
+   <xi:include href="txn_auth.xml"/>
+   <xi:include href="txn_financial.xml"/>
+   <xi:include href="txn_completion.xml"/>
+   <xi:include href="txn_reversal.xml"/>
+   <xi:include href="txn_add_record.xml"/>
+  </chapter>
+
+  <!-- Appendixes -->
+  <xi:include href="conditionals.xml"/>
+  <xi:include href="function_codes.xml"/>
+  <xi:include href="reason_codes.xml"/>
+  <xi:include href="error_codes.xml"/>
+  <xi:include href="glossary.xml"/>
+  <xi:include href="revision_history.xml"/>
+  <xi:include href="license.xml"/>
+  
+ <index>
+  <title>Index</title>
+ </index>
+</book>
+

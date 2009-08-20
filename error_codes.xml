@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="error_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>Message error codes</title>
+   <para>
+    The following table specifies the Message Error Codes associated with DE 018
+    (see <xref linkend="de_018" />).
+   </para>
+
+  <table frame="all">
+  <title>Message error codes</title>
+  <tgroup cols="2" align="left" colsep="1" rowsep="1">
+   <colspec colname='c1' colwidth="2*"/>
+   <colspec colname='c2' colwidth="8*"/>
+   <thead>
+    <row>
+     <entry>Code</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>0001</entry>
+     <entry>Required data element missing</entry>
+    </row>
+    <row>
+     <entry>0002</entry>
+     <entry>Invalid length</entry>
+    </row>
+    <row>
+     <entry>0003</entry>
+     <entry>Invalid value</entry>
+    </row>
+    <row>
+     <entry>0004</entry>
+     <entry>Amount format error</entry>
+    </row>
+    <row>
+     <entry>0005</entry>
+     <entry>Date format error</entry>
+    </row>
+    <row>
+     <entry>0006</entry>
+     <entry>Account format error</entry>
+    </row>
+    <row>
+     <entry>0007</entry>
+     <entry>Name format error</entry>
+    </row>
+    <row>
+     <entry>0008</entry>
+     <entry>Other format error</entry>
+    </row>
+    <row>
+     <entry>0009</entry>
+     <entry>Data inconsistent with POS data code</entry>
+    </row>
+    <row>
+     <entry>0010</entry>
+     <entry>Inconsistent data, does not match original request</entry>
+    </row>
+    <row>
+     <entry>0011</entry>
+     <entry>Other inconsistent data</entry>
+    </row>
+    <row>
+     <entry>0012</entry>
+     <entry>Recurring data error</entry>
+    </row>
+    <row>
+     <entry>0013</entry>
+     <entry>Customer vendor format error</entry>
+    </row>
+    <row>
+     <entry>0014-3999</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4000-5999</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>6000-9999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+   </tbody>
+  </tgroup>
+  </table>
+</appendix>
+

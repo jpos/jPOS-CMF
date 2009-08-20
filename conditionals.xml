@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="conditionals" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Conditional Codes</title>
+ <para> The following table specifies the Condition Codes used in this documentation. </para>
+
+ <table>
+  <title>Data element condition codes</title>
+  <tgroup cols="2" align="left" colsep="1" rowsep="1">
+   <colspec colname="type" colwidth="1*"/>
+   <colspec colname="comment" colwidth="8*"/>
+   <thead>
+    <row>
+     <entry>Type</entry>
+     <entry>Comment</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>O</entry>
+     <entry>Optional.</entry>
+    </row>
+    <row>
+     <entry>S</entry>
+     <entry>Special field <emphasis role="italic">(see detail below)</emphasis></entry>
+    </row>
+    <row>
+     <entry>M</entry>
+     <entry>Mandatory.</entry>
+    </row>
+    <row>
+     <entry>ME</entry>
+     <entry>Mandatory echo. &productname; echoes the same data (if present) as the original
+      message.</entry>
+    </row>
+    <row>
+     <entry>00</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>01</entry>
+     <entry>Mandatory if fees affect reconciliation.</entry>
+    </row>
+    <row>
+     <entry>02</entry>
+     <entry> Mandatory if information is available and not read electronically from the card (e.g.
+      manual card entry) </entry>
+    </row>
+    <row>
+     <entry>03</entry>
+     <entry> Mandatory, contains the same data as the original authorization (1xx) or financial
+      presentment (2xx) message. </entry>
+    </row>
+    <row>
+     <entry>04</entry>
+     <entry> Mandatory if <xref linkend="de_006" endterm="de_006"/> or <xref linkend="de_008"
+       endterm="de_008"/> is present. </entry>
+    </row>
+    <row>
+     <entry>05</entry>
+     <entry> Mandatory when the reconciliation and transaction currencies differ and this data
+      element was not provided in the request or advice message. </entry>
+    </row>
+    <row>
+     <entry>06</entry>
+     <entry>Mandatory if track data is captured at the point of service.</entry>
+    </row>
+    <row>
+     <entry>07</entry>
+     <entry> Mandatory if the Primary account number conforms to International Standard ISO 7812.
+     </entry>
+    </row>
+    <row>
+     <entry>08</entry>
+     <entry> Mandatory in a replacement, previously authorised, retrieval, representment, partial
+      reversal or partial chargeback. Mandatory in a supplementary authorization, if available.
+     </entry>
+    </row>
+    <row>
+     <entry>09</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>10</entry>
+     <entry> Mandatory when the forwarding institution is not the same as the institution
+      originating the message. </entry>
+    </row>
+    <row>
+     <entry>11</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>12</entry>
+     <entry> Mandatory if transaction affects reconciliation and this data element was not provided
+      in the request or advice message. </entry>
+    </row>
+    <row>
+     <entry>13</entry>
+     <entry> Mandatory if the reconciliation is not in balance. Contains the value calculated by the
+      institution sending the reconciliation advice response. </entry>
+    </row>
+    <row>
+     <entry>14</entry>
+     <entry> Mandatory if the transaction affects reconciliation and checkpoint reconciliation is
+      used and this data element was not provided in the request or advice message. </entry>
+    </row>
+    <row>
+     <entry>15</entry>
+     <entry>Mandatory if available.</entry>
+    </row>
+    <row>
+     <entry>16</entry>
+     <entry> Mandatory in a response message if the data element was present in the original request
+      or advice message. If present, it shall contain the same data as the original message.
+     </entry>
+    </row>
+    <row>
+     <entry>17</entry>
+     <entry> Mandatory in the advice/notification if the data element was present in the original
+      authorization / financial presentment, request / advice notification message. If present, it
+      shall contain the same data as the original message. </entry>
+    </row>
+    <row>
+     <entry>18</entry>
+     <entry> Mandatory if the approval code is required to be less than six characters. </entry>
+    </row>
+    <row>
+     <entry>19</entry>
+     <entry> Mandatory when the receiving institution is not the same as the final destination of
+      the message. </entry>
+    </row>
+    <row>
+     <entry>20</entry>
+     <entry> Mandatory when the institution that processed (approved or denied) an authorization or
+      financial presentment is not the same institution identified in the primary account number.
+     </entry>
+    </row>
+    <row>
+     <entry>21</entry>
+     <entry> Mandatory if a partial approval, declined or rejected transaction. </entry>
+    </row>
+    <row>
+     <entry>22</entry>
+     <entry>Mandatory if different from Date and time local transaction.</entry>
+    </row>
+    <row>
+     <entry>23</entry>
+     <entry>Mandatory if transaction affects reconciliation and checkpoint reconciliation
+     used.</entry>
+    </row>
+    <row>
+     <entry>24</entry>
+     <entry>Mandatory if this message is used for cutover or checkpoint reconciliation.</entry>
+    </row>
+    <row>
+     <entry>25</entry>
+     <entry>Mandatory if this message is used for checkpoint reconciliation.</entry>
+    </row>
+    <row>
+     <entry>26</entry>
+     <entry>Mandatory for all processing codes except for inquiry services (i.e. processing code
+      3xxx).</entry>
+    </row>
+    <row>
+     <entry>27</entry>
+     <entry>Mandatory, shall echo the first two positions of the processing code in the original
+      message.</entry>
+    </row>
+    <row>
+     <entry>28</entry>
+     <entry>Mandatory if function code indicates card administration.</entry>
+    </row>
+    <row>
+     <entry>29</entry>
+     <entry>Mandatory if function code is other than card administration.</entry>
+    </row>
+    <row>
+     <entry>30</entry>
+     <entry>Mandatory in real time transactions.</entry>
+    </row>
+    <row>
+     <entry>31</entry>
+     <entry>Mandatory if approved.</entry>
+    </row>
+   <row>
+     <entry>32</entry>
+     <entry> Mandatory if batch/file transfer control data elements do not uniquely identify the
+      file to be loaded. </entry>
+    </row>
+    <row>
+     <entry>33</entry>
+     <entry> Mandatory once assigned, in all subsequent messages in this transaction (e.g.
+      responses, acknowledgements, advices, notifications and instructions) and all messages in
+      related transactions (e.g. financial presentments, chargebacks, reversals and retrievals).
+      Shall contain the same value as original assigned. </entry>
+    </row>
+    <row>
+     <entry>34</entry>
+     <entry>Mandatory if fee collection is relevant to the life cycle of the transaction.</entry>
+    </row>
+    <row>
+     <entry>35</entry>
+     <entry> Mandatory in a network management message when <emphasis>Function code</emphasis>
+      indicates a key is being delivered. </entry>
+    </row>
+    <row>
+     <entry>36</entry>
+     <entry> Mandatory in request, response/advice, response messages if the receiver detects an
+      error in the request/repeat or advice/repeat messages. </entry>
+    </row>
+    <row>
+     <entry>37</entry>
+     <entry> Mandatory in the error notification message if present in the messages that contained
+      the error condition, if the receiver can parse that message. </entry>
+    </row>
+    <row>
+     <entry>38</entry>
+     <entry> Mandatory in network management messages that denotes the start or end of a file
+      transfer. </entry>
+    </row>
+    <row>
+     <entry>39</entry>
+     <entry> Mandatory in messages which are submitted as part of a batch or file transfer. </entry>
+    </row>
+    <row>
+     <entry>40</entry>
+     <entry> Mandatory in retrieval, chargeback and fee collection messages if provided in an
+      original financial presentment. Shall contain the same values as used in the original
+      transaction. </entry>
+    </row>
+    <row>
+     <entry>41</entry>
+     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is not 650 or 651.</entry>
+    </row>
+    <row>
+     <entry>42</entry>
+     <entry> Mandatory when the transaction is an accumulation transaction and the value applies to
+      all transactions within the accumulated total. </entry>
+    </row>
+    <row>
+     <entry>43</entry>
+     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 111.</entry>
+    </row>
+    <row>
+     <entry>44</entry>
+     <entry>Mandatory if verification involves PAN.</entry>
+    </row>
+    <row>
+     <entry>45</entry>
+     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 109, 110, 112 or 113.</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>
+

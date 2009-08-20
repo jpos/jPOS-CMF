@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="revision_history" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Revision History</title>
+<table frame="topbot">
+ <title>Revision History</title>
+ <tgroup cols="3" align="left" colsep="1" rowsep="1">
+  <colspec colname='revnumber'    colwidth="1*" />
+  <colspec colname='revauthor'    colwidth="1*" />
+  <colspec colname='revremarks'   colwidth="8*"/>
+  <thead>
+   <row>
+    <entry>Revision</entry>
+    <entry>Author</entry>
+    <entry>Description</entry>
+   </row>
+  </thead>
+  <tbody>
+   <row>
+    <entry>Aug 2008, r3382</entry>
+    <entry>apr</entry>
+    <entry>Initial internal revision</entry>
+   </row>
+   <row>
+     <entry>Aug 2009</entry>
+     <entry>apr</entry>
+     <entry>Assorted additions, initial public release 1.0.0</entry>
+   </row>
+  </tbody>
+ </tgroup>
+</table>
+</appendix>
+

@@ -1,0 +1,135 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Field Representation</title>
+ <indexterm><primary>Field Representation</primary></indexterm>
+
+ <para>
+  The message format used by &PRODUCTNAME; uses data elements whose permissible
+  contents are indicated via abbreviations described in the following table:
+ </para>
+
+ <table frame="topbot">
+  <title>Representation abbreviations</title>
+  <indexterm><primary>Naming convention</primary></indexterm>
+  <tgroup cols="2" align="left" colsep="1" rowsep="1">
+   <colspec colname='abbrev' />
+   <colspec colname='description' colwidth="5*"/>
+   <thead>
+    <row>
+     <entry>Abbreviation</entry>
+     <entry>Definition</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry><emphasis role="bold">n</emphasis></entry>
+     <entry>
+      Field length field.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">..nn[n[n]]</emphasis></entry>
+     <entry>
+      Variable length of up to maximum 'nn' characters or digits.
+      All variable length fields shall in addition contain two 
+      (abbreviated as LLVAR), three positions 
+      (abbreviated as LLLVAR) or four positions (abbreviated as LLLLVAR)
+      at the beginning of the data element representing the length 
+      of the field itself.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">Nn</emphasis></entry>
+     <entry>
+      Fixed length numeric field represented in BCD format. 
+      <literal>n</literal> indicates the number of BCD digits. 
+      If the number of BCD digits is odd, a final 'F' is added 
+      to the right.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">N..nn</emphasis></entry>
+     <entry>
+      Variable length numeric field represented in BCD format. 
+      <literal>nn</literal> indicates the maximum number of BCD 
+      digits allowed. 
+      If the number of BCD digits is odd, a final 'F' is added 
+      to the right.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">ANn</emphasis></entry>
+     <entry>
+      Fixed length alphanumeric field (ASCII format).
+      <literal>n</literal> indicates the field length.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">AN..nn</emphasis></entry>
+     <entry>
+      Variable length alphanumeric field (ASCII format).
+      <literal>nn</literal> indicates the maximum field length.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">bn</emphasis></entry>
+     <entry>
+      Fixed length binary field.
+      <literal>n</literal> indicates the field length in bits.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">Bn</emphasis></entry>
+     <entry>
+      Fixed length binary field.
+      <literal>n</literal> indicates the field length in bytes.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">B..nn</emphasis></entry>
+     <entry>
+      Variable length binary field 
+      <literal>nn</literal> indicates the maximum field length in bytes.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">z..nn</emphasis></entry>
+     <entry>
+      Track 2 and 3 code set as specified in ISO-4909, ISO-7811-2 and ISO-7813.
+      <literal>nn</literal> indicates the maximum field length in nibbles.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">Z..nn</emphasis></entry>
+     <entry>
+      Track 2 and 3 code set as specified in ISO-4909, ISO-7811-2 and ISO-7813.
+      <literal>nn</literal> indicates the maximum field length in bytes.
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">LLVAR</emphasis></entry>
+     <entry>
+      Variable length is expressed in two BCD digits (0 to 99)
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">LLLVAR</emphasis></entry>
+     <entry>
+      Variable length is expressed in three BCD digits (0 to 999)
+     </entry>
+    </row>
+    <row>
+     <entry><emphasis role="bold">LLLLVAR</emphasis></entry>
+     <entry>
+      Variable length is expressed in four BCD digits (0 to 9999)
+     </entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</section>
+

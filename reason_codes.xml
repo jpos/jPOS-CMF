@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="reason_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Reason codes</title>
+ <para> The following table specifies the Function Codes associated with DE 025 (see <xref
+   linkend="de_025"/>). </para>
+
+ <table frame="all">
+  <title>Reason codes</title>
+  <tgroup cols="3" align="left" colsep="1" rowsep="1">
+   <colspec colname="c1" colwidth="4*"/>
+   <colspec colname="c1" colwidth="2*"/>
+   <colspec colname="c2" colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Range</entry>
+     <entry>Code</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>0000-0999 Reserved for ISO use</entry>
+     <entry>0000-0999</entry>
+     <entry>Reserved</entry>
+    </row>
+    <row>
+     <entry morerows="14">1000-1499<?br?> Reason for an authorization/financial presentment advice /
+      notification message rather than a request message. </entry>
+     <entry>1000</entry>
+     <entry>Stand-In processing at the card issuer's option</entry>
+    </row>
+    <row>
+     <entry>1001</entry>
+     <entry>Card issuer signed off</entry>
+    </row>
+    <row>
+     <entry>1002</entry>
+     <entry>Card issuer timed out on original request</entry>
+    </row>
+    <row>
+     <entry>1003</entry>
+     <entry>Card issuer unavailable</entry>
+    </row>
+    <row>
+     <entry>1004</entry>
+     <entry>Terminal processed</entry>
+    </row>
+    <row>
+     <entry>1005</entry>
+     <entry>ICC processed</entry>
+    </row>
+    <row>
+     <entry>1006</entry>
+     <entry>Under floor limit</entry>
+    </row>
+    <row>
+     <entry>1007</entry>
+     <entry>Stand-in processing at the acquirer's option</entry>
+    </row>
+    <row>
+     <entry>1008</entry>
+     <entry>Stand-in processing at the receiver's option</entry>
+    </row>
+    <row>
+     <entry>1009</entry>
+     <entry>Receiver signed off</entry>
+    </row>
+    <row>
+     <entry>1010</entry>
+     <entry>Receiver timed out on original request</entry>
+    </row>
+    <row>
+     <entry>1011</entry>
+     <entry>Receiver unavailable</entry>
+    </row>
+    <row>
+     <entry>1012-1150</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>1151-1375</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>1376-1499</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry morerows="26">2000-2999<?br?> Reason for a representment </entry>
+     <entry>2000</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2001</entry>
+     <entry> Invalid acquirer's reference number on chargeback, documentation was received or was
+      not required. </entry>
+    </row>
+    <row>
+     <entry>2002</entry>
+     <entry> Non receipt of required documentation to support chargeback </entry>
+    </row>
+    <row>
+     <entry>2003</entry>
+     <entry>Correct transaction date provided</entry>
+    </row>
+    <row>
+     <entry>2004</entry>
+     <entry>Invalid acquirer's reference number on chargeback, documentation was received</entry>
+    </row>
+    <row>
+     <entry>2005</entry>
+     <entry>Correct card acceptor location/description provided</entry>
+    </row>
+    <row>
+     <entry>2006</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2007</entry>
+     <entry>Transaction did not exceed card acceptor floor limit</entry>
+    </row>
+    <row>
+     <entry>2008</entry>
+     <entry>Card issuer authorised transaction</entry>
+    </row>
+    <row>
+     <entry>2009</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2010</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2011</entry>
+     <entry>Credit previously issued</entry>
+    </row>
+    <row>
+     <entry>2012</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2013</entry>
+     <entry>Chargeback remedied, see corresponding documentation</entry>
+    </row>
+    <row>
+     <entry>2014</entry>
+     <entry>Duplicate chargeback</entry>
+    </row>
+    <row>
+     <entry>2015</entry>
+     <entry>Past chargeback time limit</entry>
+    </row>
+    <row>
+     <entry>2016</entry>
+     <entry> Requested transaction documentation provided (hardship variance) </entry>
+    </row>
+    <row>
+     <entry>2017</entry>
+     <entry>Invalid member message text</entry>
+    </row>
+    <row>
+     <entry>2018</entry>
+     <entry>Correct card acceptor category code provided</entry>
+    </row>
+    <row>
+     <entry>2019</entry>
+     <entry>Authorization advised suspicious</entry>
+    </row>
+    <row>
+     <entry>2020</entry>
+     <entry>No authorization request required or attempted</entry>
+    </row>
+    <row>
+     <entry>2021</entry>
+     <entry>Account not listed on the applicable warning bulleting as of the transaction
+     date</entry>
+    </row>
+    <row>
+     <entry>2022</entry>
+     <entry>Documentation received was illegible</entry>
+    </row>
+    <row>
+     <entry>2023</entry>
+     <entry>Documentation received was invalid/incomplete</entry>
+    </row>
+    <row>
+     <entry>2024-2399</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>2400-2699</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>2700-2999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="7">3000-3999<?br?> Reason for a file action </entry>
+     <entry>3000</entry>
+     <entry>Lost card</entry>
+    </row>
+    <row>
+     <entry>3001</entry>
+     <entry>Stolen card</entry>
+    </row>
+    <row>
+     <entry>3002</entry>
+     <entry>Undelivered card</entry>
+    </row>
+    <row>
+     <entry>3003</entry>
+     <entry>Counterfeit card</entry>
+    </row>
+    <row>
+     <entry>3004</entry>
+     <entry>Other</entry>
+    </row>
+    <row>
+     <entry>3005-3399</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>3400-3699</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>3700-3999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="24">4000-4499<?br?> Reason for a reversal </entry>
+     <entry>4000</entry>
+     <entry>Customer cancellation</entry>
+    </row>
+    <row>
+     <entry>4001</entry>
+     <entry>Unspecified, no action taken</entry>
+    </row>
+    <row>
+     <entry>4002</entry>
+     <entry>Suspected malfunction</entry>
+    </row>
+    <row>
+     <entry>4003</entry>
+     <entry>Format error, no action taken</entry>
+    </row>
+    <row>
+     <entry>4004</entry>
+     <entry>Completed partially</entry>
+    </row>
+    <row>
+     <entry>4005</entry>
+     <entry>Original amount incorrect</entry>
+    </row>
+    <row>
+     <entry>4006</entry>
+     <entry>Response received too late</entry>
+    </row>
+    <row>
+     <entry>4007</entry>
+     <entry>Card acceptor device unable to complete transaction</entry>
+    </row>
+    <row>
+     <entry>4008</entry>
+     <entry>Deposit out of balance</entry>
+    </row>
+    <row>
+     <entry>4009</entry>
+     <entry>No check in envelope</entry>
+    </row>
+    <row>
+     <entry>4010</entry>
+     <entry>Payment out of balance</entry>
+    </row>
+    <row>
+     <entry>4011</entry>
+     <entry>Deposit out of balance/applied contents</entry>
+    </row>
+    <row>
+     <entry>4012</entry>
+     <entry>Payment out of balance/applied contents</entry>
+    </row>
+    <row>
+     <entry>4013</entry>
+     <entry>Unable to deliver message to point of service</entry>
+    </row>
+    <row>
+     <entry>4014</entry>
+     <entry>Suspected malfunction/card retained</entry>
+    </row>
+    <row>
+     <entry>4015</entry>
+     <entry>Suspected malfunction/card returned</entry>
+    </row>
+    <row>
+     <entry>4016</entry>
+     <entry>Suspected malfunction/track 3 not updated</entry>
+    </row>
+    <row>
+     <entry>4017</entry>
+     <entry>Suspected malfunction/no cash dispensed</entry>
+    </row>
+    <row>
+     <entry>4018</entry>
+     <entry>Timed-out at taking money/no cash dispensed</entry>
+    </row>
+    <row>
+     <entry>4019</entry>
+     <entry>Timed-out at taking card/card retained and no cash dispensed</entry>
+    </row>
+    <row>
+     <entry>4020</entry>
+     <entry>Invalid response, no action taken</entry>
+    </row>
+    <row>
+     <entry>4021</entry>
+     <entry>Timeout waiting for response</entry>
+    </row>
+    <row>
+     <entry>4022-4199</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4200-4350</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>4351-4499</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="31">4500-4999<?br?> Reason for a chargeback </entry>
+     <entry>4500</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4501</entry>
+     <entry>Requested transaction information not received</entry>
+    </row>
+    <row>
+     <entry>4502</entry>
+     <entry>Reuqested/required information illegible or missing</entry>
+    </row>
+    <row>
+     <entry>4503-4506</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4507</entry>
+     <entry>Warning bulleting file</entry>
+    </row>
+    <row>
+     <entry>4508</entry>
+     <entry>Requested/required authorization not obtained</entry>
+    </row>
+    <row>
+     <entry>4509-4511</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4512</entry>
+     <entry>Account number not on file</entry>
+    </row>
+    <row>
+     <entry>4513-4523</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4524</entry>
+     <entry>Earlier warning bulletin protection</entry>
+    </row>
+    <row>
+     <entry>4525-2530</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4531</entry>
+     <entry>Transaction amount differs</entry>
+    </row>
+    <row>
+     <entry>4532-4533</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4534</entry>
+     <entry>Duplicate processing</entry>
+    </row>
+    <row>
+     <entry>4535</entry>
+     <entry>Card not valid or expired</entry>
+    </row>
+    <row>
+     <entry>4536</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4537</entry>
+     <entry>No cardholder authorization</entry>
+    </row>
+    <row>
+     <entry>4538-4539</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4540</entry>
+     <entry>Fraudulent processing of transaction</entry>
+    </row>
+    <row>
+     <entry>4541</entry>
+     <entry>Cancelled recurring transaction</entry>
+    </row>
+    <row>
+     <entry>4542</entry>
+     <entry>Late presentment</entry>
+    </row>
+    <row>
+     <entry>4543-4545</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4546</entry>
+     <entry>Correct transaction currency code not provided</entry>
+    </row>
+    <row>
+     <entry>4547</entry>
+     <entry>Exceeds floor limit, not authorised / fraudulent transaction</entry>
+    </row>
+    <row>
+     <entry>4548</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4549</entry>
+     <entry>Questionable card acceptor activity</entry>
+    </row>
+    <row>
+     <entry>4550</entry>
+     <entry>Credit posted as a purchase</entry>
+    </row>
+    <row>
+     <entry>4551-4552</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4553</entry>
+     <entry>Not as described</entry>
+    </row>
+    <row>
+     <entry>4554</entry>
+     <entry>Cardholder dispute, not elsewhere classified</entry>
+    </row>
+    <row>
+     <entry>4555</entry>
+     <entry>Non receipt of merchandise</entry>
+    </row>
+    <row>
+     <entry>4556</entry>
+     <entry>Defective merchandise</entry>
+    </row>
+    <row>
+     <entry morerows="27">Reason for a chargeback<?br?>
+      <emphasis role="italic">(continued)</emphasis>
+     </entry>
+     <entry>4557</entry>
+     <entry>Card activated telephone transaction</entry>
+    </row>
+    <row>
+     <entry>4558</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4559</entry>
+     <entry>Services not rendered</entry>
+    </row>
+    <row>
+     <entry>4560</entry>
+     <entry>Credit not processed</entry>
+    </row>
+    <row>
+     <entry>4561</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4562</entry>
+     <entry>Counterfeit transaction, magnetic stripe authorization fraud</entry>
+    </row>
+    <row>
+     <entry>4563</entry>
+     <entry>Non receipt of required documentation to support representment</entry>
+    </row>
+    <row>
+     <entry>4564</entry>
+     <entry>Documentation received was illegible</entry>
+    </row>
+    <row>
+     <entry>4565</entry>
+     <entry>Documentation received was invalid/incomplete</entry>
+    </row>
+    <row>
+     <entry>4566</entry>
+     <entry>Chargeback contained a valid acquirer's reference number</entry>
+    </row>
+    <row>
+     <entry>4567</entry>
+     <entry>Invalid acquirer's reference number on representment, documentation was received or was
+      not required</entry>
+    </row>
+    <row>
+     <entry>4568</entry>
+     <entry>Invalid acquirer's reference number on representment, documentation was received</entry>
+    </row>
+    <row>
+     <entry>4569-4572</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4573</entry>
+     <entry>Expired card</entry>
+    </row>
+    <row>
+     <entry>4574-4577</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4578</entry>
+     <entry>Ineligible transaction</entry>
+    </row>
+    <row>
+     <entry>4579</entry>
+     <entry>Requested transaction receipt not received</entry>
+    </row>
+    <row>
+     <entry>4580</entry>
+     <entry>Processing error</entry>
+    </row>
+    <row>
+     <entry>4581</entry>
+     <entry>Missing imprint</entry>
+    </row>
+    <row>
+     <entry>4582</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4583</entry>
+     <entry>Not possession of card</entry>
+    </row>
+    <row>
+     <entry>4584</entry>
+     <entry>Missing signature</entry>
+    </row>
+    <row>
+     <entry>4585</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4586</entry>
+     <entry>Alteration of amount</entry>
+    </row>
+    <row>
+     <entry>4587</entry>
+     <entry>Domestic transaction receipt processing violation</entry>
+    </row>
+    <row>
+     <entry>4588-4589</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4590</entry>
+     <entry>Non receipt of merchandise, non receipt of cash at ATM or load transaction value at ATM
+      or load device</entry>
+    </row>
+    <row>
+     <entry>4591-4593</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry morerows="5">Reason for a chargeback<?br?>
+      <emphasis role="italic">(continued)</emphasis>
+     </entry>
+     <entry>4594</entry>
+     <entry>Cancelled guaranteed reservation</entry>
+    </row>
+    <row>
+     <entry>4595</entry>
+     <entry>Advance lodging deposit</entry>
+    </row>
+    <row>
+     <entry>4596</entry>
+     <entry>Transaction exceeds limited amount</entry>
+    </row>
+    <row>
+     <entry>4597-4649</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>4650-4749</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>4750-4999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry morerows="2">5000-5999<?br?> Reason for a reconciliation </entry>
+     <entry>5000-5299</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>5300-5599</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>5600-5999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="26">6000-6499<?br?> Reason for a retrieval or retrieval fulfilment </entry>
+     <entry>6001-6004</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6005</entry>
+     <entry>Cardholder does not agree with amount billed</entry>
+    </row>
+    <row>
+     <entry>6006-6020</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6021</entry>
+     <entry>Cardholder does not recognize transaction</entry>
+    </row>
+    <row>
+     <entry>6022</entry>
+     <entry>ICC transaction certificate and associated data requested</entry>
+    </row>
+    <row>
+     <entry>6023</entry>
+     <entry>Cardholder needs information for personal records</entry>
+    </row>
+    <row>
+     <entry>6024-6027</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6028</entry>
+     <entry>Request for copy bearing signature</entry>
+    </row>
+    <row>
+     <entry>6029</entry>
+     <entry>Travel and entertainment document request</entry>
+    </row>
+    <row>
+     <entry>6030-6031</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6032</entry>
+     <entry>Copy request because original lost in transit</entry>
+    </row>
+    <row>
+     <entry>6033-6034</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6035</entry>
+     <entry>Written cardholder request for original due to inadequate copy of mail/phone order or
+      recurring transaction receipt</entry>
+    </row>
+    <row>
+     <entry>6036</entry>
+     <entry>Legal process request for original, e.g. a subpoena</entry>
+    </row>
+    <row>
+     <entry>6037</entry>
+     <entry>Received copy illegible</entry>
+    </row>
+    <row>
+     <entry>6038</entry>
+     <entry>Paper/handwriting analysis request</entry>
+    </row>
+    <row>
+     <entry>6039-6040</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6041</entry>
+     <entry>Fraud investigation</entry>
+    </row>
+    <row>
+     <entry>6042</entry>
+     <entry>Potential arbitration, chargeback or compliance documentation required</entry>
+    </row>
+    <row>
+     <entry>6043</entry>
+     <entry>Retrieval not fulfilled - not able to trace original transaction</entry>
+    </row>
+    <row>
+     <entry>6044</entry>
+     <entry>Retrieval not fulfilled - invalid reference number</entry>
+    </row>
+    <row>
+     <entry>6045</entry>
+     <entry>Retrieval not fulfilled - reference number/PAN incompatible</entry>
+    </row>
+    <row>
+     <entry>6046</entry>
+     <entry>Requested documentation supplied</entry>
+    </row>
+    <row>
+     <entry>6047</entry>
+     <entry>Retrieval cannot be fulfilled - required/requested documentation is not
+     available</entry>
+    </row>
+    <row>
+     <entry>6048</entry>
+     <entry>Retrieval will not be fulfilled - request for an item that is not required to be
+      provided</entry>
+    </row>
+    <row>
+     <entry>6049</entry>
+     <entry>Retrieval cannot be fulfilled - ICC transaction certificate and associated data is not
+      available</entry>
+    </row>
+    <row>
+     <entry>6050-6199</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry morerows="1">Reason for a retrieval or retrieval fulfilment<?br?>
+      <emphasis role="italic">(continued)</emphasis>
+     </entry>
+     <entry>6200-6299</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>6300-6499</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry morerows="2">6500-6999<?br?> Reason for an administrative message </entry>
+     <entry>6500-6599</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>6600-6799</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>6800-6999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="2">7000-7999<?br?> Reason for a fee collection message </entry>
+     <entry>7000-7299</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>7600-7599</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>7600-7999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="5">8000-8099<?br?> Reason for a network management message </entry>
+     <entry>8000</entry>
+     <entry>Start batch/file transfer, no recovery procedure</entry>
+    </row>
+    <row>
+     <entry>8001</entry>
+     <entry>Start batch/file transfer, recovery procedure</entry>
+    </row>
+    <row>
+     <entry>8002</entry>
+     <entry>End batch/file</entry>
+    </row>
+    <row>
+     <entry>8003-8059</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>8060-8069</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>8070-8099</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="8">8100-8199<?br?> Reason for a key exchange message </entry>
+     <entry>8100</entry>
+     <entry>Standard key exchange/activation key life cycle</entry>
+    </row>
+    <row>
+     <entry>8101</entry>
+     <entry>Standard key exchange/activation keys out of sync</entry>
+    </row>
+    <row>
+     <entry>8102</entry>
+     <entry>Standard key exchange/activation security reasons</entry>
+    </row>
+    <row>
+     <entry>8103</entry>
+     <entry>Standard key exchange key deactivation</entry>
+    </row>
+    <row>
+     <entry>8104</entry>
+     <entry>Standard key exchange verification key life cycle</entry>
+    </row>
+    <row>
+     <entry>8105</entry>
+     <entry>Standard key exchange keys out of sync</entry>
+    </row>
+    <row>
+     <entry>8103-8159</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>8160-8169</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>8170-8199</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="2">8200-8999<?br?> Reserved </entry>
+     <entry>8200-8399</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>8400-8699</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>8700-8999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="2">9000-9999<?br?> Reserved </entry>
+     <entry>9000-9299</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>9300-9599</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>9600-9999</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>

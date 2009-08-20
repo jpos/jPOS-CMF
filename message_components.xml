@@ -1,0 +1,97 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Message Components</title>
+ <indexterm>
+  <primary>Message</primary>
+  <secondary>Components</secondary>
+ </indexterm>
+ <indexterm><primary>Wire Protocol</primary></indexterm>
+ <indexterm><primary>Bitmap</primary></indexterm>
+ <indexterm><primary>MTI</primary></indexterm>
+
+ <para>
+  The ISO-8583 messages transmitted and received by &PRODUCTNAME; 
+  use the following over-the-wire representation:
+ </para>
+
+ <table frame="topbot">
+  <title>Wire Protocol</title>
+  <tgroup cols="4" align="left" colsep="1" rowsep="1">
+   <colspec colname='component' colwidth="1.5*"/>
+   <colspec colname='format'  />
+   <colspec colname='mandatory' />
+   <colspec colname='description' colwidth="4*"/>
+   <thead>
+    <row>
+     <entry>Component</entry>
+     <entry>Format</entry>
+     <entry>Mandatory</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>Message Length</entry>
+     <entry>2 bytes (nbo)</entry>
+     <entry align="center">Yes</entry>
+     <entry>
+      Message length represented as two bytes
+      in network byte order (BIG ENDIAN) used to
+      determine message boundaries in the TCP/IP
+      stream.
+     </entry>
+    </row>
+    <row>
+     <entry>ISO-8583 Version</entry>
+     <entry>N1</entry>
+     <entry align="center">Yes</entry>
+     <entry>
+      ISO-8583 version. &PRODUCTNAME; uses version 2003
+      represented by the constant value <literal>2</literal>.
+     </entry>
+    </row>
+    <row>
+     <entry>MTI</entry>
+     <entry>N3</entry>
+     <entry align="center">Y</entry>
+     <entry>
+      ISO-8583 Message Type Indicator.
+     </entry>
+    </row>
+    <row>
+     <entry>Primary Bitmap</entry>
+     <entry>64 bits</entry>
+     <entry align="center">Yes</entry>
+     <entry>
+      64 bits indicating the list of ISO-8583 data elements
+      present in the message (data elements 2 to 64). The first bit indicates
+      the presence of a secondary bitmap.
+     </entry>
+    </row>
+    <row>
+     <entry>Secondary Bitmap</entry>
+     <entry>64 bits</entry>
+     <entry align="center">Optional</entry>
+     <entry>
+      64 bits indicating the list of ISO-8583 data elements
+      present in the message (65 to 128). 
+     </entry>
+    </row>
+    <row>
+     <entry>Data Elements</entry>
+     <entry>byte stream</entry>
+     <entry align="center">Yes</entry>
+     <entry>
+      Variable length binary representation of the data elements
+      present in the message.
+     </entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</section>
+

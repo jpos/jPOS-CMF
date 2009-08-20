@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="function_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Function codes</title>
+ <para> The following table specifies the Function Codes associated with DE 024 (see <xref
+   linkend="de_024"/>). </para>
+
+ <table frame="all">
+  <title>Function codes</title>
+  <tgroup cols="3" align="left" colsep="1" rowsep="1">
+   <colspec colname="c1" colwidth="4*"/>
+   <colspec colname="c1" colwidth="2*"/>
+   <colspec colname="c2" colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Range</entry>
+     <entry>Code</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>000-099 Reserved for ISO use</entry>
+     <entry>000-099</entry>
+     <entry>Reserved</entry>
+    </row>
+    <row>
+     <entry morerows="10">100-199<?br?> Used in 100, 101, 120, 121, and 140 messages to indicate
+      type of authorization or verification transaction. </entry>
+     <entry>100</entry>
+     <entry>Original authorization - amount accurate</entry>
+    </row>
+    <row>
+     <entry>101</entry>
+     <entry>Original authorization - amount estimated</entry>
+    </row>
+    <row>
+     <entry>102</entry>
+     <entry>Replacement authorization - amount accurate</entry>
+    </row>
+    <row>
+     <entry>103</entry>
+     <entry>Replacement authorization - amount estimated</entry>
+    </row>
+    <row>
+     <entry>108</entry>
+     <entry>Inquiry</entry>
+    </row>
+    <row>
+     <entry>113</entry>
+     <entry>Account verification</entry>
+    </row>
+    <row>
+     <entry>114-159</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>160-179</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>180</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry>181</entry>
+     <entry>Partial authorization supported by terminal</entry>
+    </row>
+    <row>
+     <entry>182-199</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry morerows="5"> 200-299<?br?> Used in 200, 201, 220, 221, and 240 messages to indicate
+      type of financial presentment. </entry>
+     <entry>200</entry>
+     <entry>Original financial presentment request/advice</entry>
+    </row>
+    <row>
+     <entry>201</entry>
+     <entry>Previously approved authorization - amount same</entry>
+    </row>
+    <row>
+     <entry>202</entry>
+     <entry>Previously approved authorization - amount differs</entry>
+    </row>
+    <row>
+     <entry>218-259</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>260-279</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>280-299</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+    <row>
+     <entry morerows="11"> 300-399<?br?> Used in 304, 305, 324, 325, 34, 344, 350, 354, 362, 364,
+      372 and 374 messages to indicate file action required; use 302 when fields within a record are
+      being replaced; if the entire record is being changed, code 304 is recommended. </entry>
+     <entry>300</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>301</entry>
+     <entry>Add record</entry>
+    </row>
+    <row>
+     <entry>302</entry>
+     <entry>Change record</entry>
+    </row>
+    <row>
+     <entry>303</entry>
+     <entry>Delete record</entry>
+    </row>
+    <row>
+     <entry>304</entry>
+     <entry>Replace record</entry>
+    </row>
+    <row>
+     <entry>305</entry>
+     <entry>Inquiry</entry>
+    </row>
+    <row>
+     <entry>306</entry>
+     <entry>Replace file</entry>
+    </row>
+    <row>
+     <entry>309</entry>
+     <entry>Card administration</entry>
+    </row>
+    <row>
+     <entry>310</entry>
+     <entry>Other</entry>
+    </row>
+    <row>
+     <entry>311-359</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>360-379</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>380-399</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+
+    <row>
+     <entry morerows="4"> 400-449<?br?> Used in 420, 421 and 440 messages to indicate the function
+      of the reversal. </entry>
+     <entry>400</entry>
+     <entry>Full reversal, transaction did not complete as approved</entry>
+    </row>
+    <row>
+     <entry>401</entry>
+     <entry> Partial reversal, transaction did not complete for full amount </entry>
+    </row>
+    <row>
+     <entry>402-419</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>420-439</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>440-449</entry>
+     <entry>Reserved for private use</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>

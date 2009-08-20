@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preface [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<preface xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+  <title>About this document</title>
+  <para> This is an internal document used as our development 
+    road map and master workbook.</para>
+  <para>It defines the &PRODUCTNAME; based on the ISO-8583 v2003 standard. </para>
+  <para>A copy of the standard can be purchased at 
+    <link xlink:href="http://iso.org">the ISO Store</link>   
+  </para>
+  <para>Please check our <xref linkend="license" />.</para>
+</preface>

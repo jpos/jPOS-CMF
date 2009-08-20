@@ -1,0 +1,166 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xml:id="add_record" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0">
+ <title>Add Record</title>
+ <indexterm>
+     <primary>File Update</primary>
+     <secondary>Add Record</secondary>
+ </indexterm>
+ <indexterm><primary>304, 314</primary></indexterm>
+
+ <para>
+   This is a general purpose record creation transaction
+   that can be used to create Cards, Cardholders, Accounts,
+   or application specific entities from an ISO-8583 based
+   station.
+ </para>
+
+ <table frame="all" tocentry="1">
+  <title>Add Record</title>
+  <tgroup cols="5" align="left" colsep="1" rowsep="1">
+   <colspec colname='fld' />
+   <colspec colname='description' colwidth="6*"/>
+   <colspec colname='value' colwidth="4*" />
+   <colspec colname='req' />
+   <colspec colname='resp' />
+   <thead>
+    <row>
+     <entry align="right">Field</entry>
+     <entry>Description</entry>
+     <entry align="center">Value</entry>
+     <entry align="center">Req</entry>
+     <entry align="center">Resp</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry align="right"><emphasis role="bold">MTI</emphasis></entry>
+     <entry>Message Type indicator</entry>
+     <entry/>
+     <entry align="center"><emphasis role="bold">304/305</emphasis></entry>
+     <entry align="center"><emphasis role="bold">314</emphasis></entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">2</emphasis></entry>
+     <entry><xref linkend="S.de_002" endterm='de_002' /></entry>
+     <entry />
+     <entry align="center">28</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">7</emphasis></entry>
+     <entry><xref linkend="S.de_007" endterm="de_007" /></entry>
+     <entry />
+     <entry align="center">30</entry>
+     <entry align="center">30</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">11</emphasis></entry>
+     <entry><xref linkend="S.de_011" endterm="de_011" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">12</emphasis></entry>
+     <entry><xref linkend="S.de_012" endterm="de_012" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">18</emphasis></entry>
+     <entry><xref linkend="S.de_018" endterm="de_018" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">36</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">24</emphasis></entry>
+     <entry><xref linkend="S.de_024" endterm="de_024" /></entry>
+     <entry align="center">301</entry>
+     <entry align="center">M</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">25</emphasis></entry>
+     <entry><xref linkend="S.de_025" endterm="de_025" /></entry>
+     <entry />
+     <entry align="center">28</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">32</emphasis></entry>
+     <entry><xref linkend="S.de_032" endterm='de_032' /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">42</emphasis></entry>
+     <entry><xref linkend="S.de_042" endterm='de_042' /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">O</entry>
+    </row>
+    <!--
+        // FIXME de_033 present in the standard but we don't use it yet
+    <row>
+     <entry align="right"><emphasis role="bold">33</emphasis></entry>
+     <entry><xref linkend="S.de_033" endterm="de_033" /></entry>
+     <entry />
+     <entry align="center">10</entry>
+     <entry align="center">10</entry>
+    </row>
+    -->
+    <row>
+     <entry align="right"><emphasis role="bold">39</emphasis></entry>
+     <entry><xref linkend="S.de_039" endterm="de_039" /></entry>
+     <entry />
+     <entry align="center"></entry>
+     <entry align="center">M</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">59</emphasis></entry>
+     <entry><xref linkend="S.de_059" endterm="de_059" /></entry>
+     <entry />
+     <entry />
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">72</emphasis></entry>
+     <entry><xref linkend="S.de_072" endterm="de_072" />
+       (Application specific record data)
+     </entry>
+     <entry>
+     </entry>
+     <entry align="center">O</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">101</emphasis></entry>
+     <entry><xref linkend="S.de_101" endterm="de_101" /></entry>
+     <entry />
+     <entry align="center">29</entry>
+     <entry align="center"></entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">111</emphasis></entry>
+     <entry><xref linkend="S.de_111" endterm="de_111" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">16</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+ <note>
+  <para>See <xref linkend="conditionals" /> for condition details.</para>
+ </note>
+ <xi:include href="txn_add_customer.xml"/>
+ <xi:include href="txn_add_merchant.xml"/>
+</section>
+
