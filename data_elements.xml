@@ -2409,8 +2409,12 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> The following table provides a list of possible function code values supported by
-    &PRODUCTNAME; </para> &table_function_codes; </simplesect>
+   <para>
+     <xref linkend="function_codes" /> 
+     provides a list of function codes values supported by
+     &PRODUCTNAME;    
+   </para>
+  </simplesect>
  </sect1>
  <sect1 xml:id="S.de_025">
   <title xml:id="de_025">Reason Code</title>
