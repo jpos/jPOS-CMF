@@ -14,21 +14,34 @@
   <colspec colname='revremarks'   colwidth="8*"/>
   <thead>
    <row>
-    <entry>Revision</entry>
+    <entry>Date</entry>
+    <entry>Version</entry>
     <entry>Author</entry>
     <entry>Description</entry>
    </row>
   </thead>
   <tbody>
    <row>
-    <entry>Aug 2008, r3382</entry>
+    <entry>Aug 2008</entry>
+    <entry>r3382</entry>
     <entry>apr</entry>
     <entry>Initial internal revision</entry>
    </row>
    <row>
      <entry>Aug 2009</entry>
+     <entry>1.0.0</entry>
      <entry>apr</entry>
-     <entry>Assorted additions, initial public release 1.0.0</entry>
+     <entry>Assorted additions, initial public release</entry>
+   </row>
+   <row>
+     <entry>Aug 2009</entry>
+     <entry>apr</entry>
+     <entry>1.0.1</entry>
+     <entry>
+      Added fields 
+      <xref linkend="de_074" /> and <xref linkend="de_097" /> 
+      used in reconciliation messages.
+     </entry>
    </row>
   </tbody>
  </tgroup>

@@ -3197,7 +3197,123 @@
    </para>
   </simplesect>
  </sect1>
+  
+  <sect1 xml:id="S.de_074">
+    <title xml:id="de_074">Reconciliation data primary</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 074, Reconciliation data primary</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 74</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: N78</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para> This is a constructed data element composed of 6 amount/counter pairs </para>
+      <table frame="topbot">
+        <title>DE 74 subfields</title>
+        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+          <colspec colname="name"/>
+          <colspec colname="format" colwidth="2*"/>
+          <thead>
+            <row>
+              <entry>Name</entry>
+              <entry>Format</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Credits amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Credits number</entry>
+              <entry>N10</entry>
+            </row>
+            <row>
+              <entry>Credits chargeback amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Credits chargeback number</entry>
+              <entry>N10</entry>
+            </row>
+            <row>
+              <entry>Credits reversal amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Credits reversal number</entry>
+              <entry>N10</entry>
+            </row>
+            <row>
+              <entry>Debits amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Debits number</entry>
+              <entry>N10</entry>
+            </row>
+            <row>
+              <entry>Debits chargeback amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Debits chargeback number</entry>
+              <entry>N10</entry>
+            </row>
+            <row>
+              <entry>Debitss reversal amount</entry>
+              <entry>N16</entry>
+            </row>
+            <row>
+              <entry>Debits reversal number</entry>
+              <entry>N10</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </simplesect>
+  </sect1>
+  
 
+  <sect1 xml:id="S.de_097">
+    <title xml:id="de_097">Amount, Net reconciliation</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 097, Amount, Net reconciliation</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 97</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: N21</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para> Net reconciliation amount is a constructed data element 
+        of three parts totalling 21 positions: </para>
+      <itemizedlist>
+        <listitem>
+          <para>ISO-4217 Currency code, N3</para>
+        </listitem>
+        <listitem>
+          <para>Currency minor unit, N1</para>
+        </listitem>
+        <listitem>
+          <para>Net reconciliation Transaction, N17</para>
+        </listitem>
+      </itemizedlist>
+    </simplesect>
+ </sect1>
+  
  <sect1 xml:id="S.de_101">
   <title xml:id="de_101">File Name</title>
   <indexterm>
