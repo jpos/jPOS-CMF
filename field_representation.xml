@@ -28,7 +28,7 @@
     <row>
      <entry><emphasis role="bold">n</emphasis></entry>
      <entry>
-      Field length field.
+      Fixed length field.
      </entry>
     </row>
     <row>
