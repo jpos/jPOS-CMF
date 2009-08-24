@@ -22,34 +22,34 @@
    </row>
   </thead>
   <tbody>
-   <row>
-    <entry>Aug 2008</entry>
-    <entry>r3382</entry>
-    <entry>apr</entry>
-    <entry>Initial internal revision</entry>
-   </row>
-   <row>
-     <entry>Aug 2009</entry>
-     <entry>1.0.0</entry>
-     <entry>apr</entry>
-     <entry>Assorted additions, initial public release</entry>
-   </row>
-   <row>
+    <row>
+     <entry>Aug 24th 2009</entry>
+     <entry>1.0.2</entry>
+     <entry>David Bergert - bergert@olsdallas.com</entry>
+     <entry>Added Result Code Table</entry>
+    </row>      
+    <row>
      <entry>Aug 2009</entry>
      <entry>1.0.1</entry>
      <entry>apr</entry>
      <entry>
-      Added fields 
-      <xref linkend="de_074" /> and <xref linkend="de_097" /> 
-      used in reconciliation messages.
+         Added fields 
+         <xref linkend="de_074" /> and <xref linkend="de_097" /> 
+         used in reconciliation messages.
      </entry>
-   </row>
-   <row>
-    <entry>Aug 24th 2009</entry>
-    <entry>1.0.2</entry>
-    <entry>David Bergert - bergert@olsdallas.com</entry>
-    <entry>Added Result Code Table</entry>
-   </row>
+    </row>      
+    <row>
+     <entry>Aug 2009</entry>
+     <entry>1.0.0</entry>
+     <entry>apr</entry>
+     <entry>Assorted additions, initial public release</entry>
+    </row>    
+    <row>
+     <entry>Aug 2008</entry>
+     <entry>r3382</entry>
+     <entry>apr</entry>
+     <entry>Initial internal revision</entry>
+    </row>
   </tbody>
  </tgroup>
 </table>
