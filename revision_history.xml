@@ -44,6 +44,12 @@
       used in reconciliation messages.
      </entry>
    </row>
+   <row>
+    <entry>Aug 24th 2009</entry>
+    <entry>1.0.2</entry>
+    <entry>David Bergert - bergert@olsdallas.com</entry>
+    <entry>Added Result Code Table</entry>
+   </row>
   </tbody>
  </tgroup>
 </table>

@@ -43,6 +43,7 @@
 
   <!-- Appendixes -->
   <xi:include href="conditionals.xml"/>
+  <xi:include href="result_codes.xml"/>
   <xi:include href="function_codes.xml"/>
   <xi:include href="reason_codes.xml"/>
   <xi:include href="error_codes.xml"/>
