@@ -11,8 +11,8 @@
  <tgroup cols="4" align="left" colsep="1" rowsep="1">
   <colspec colname='revnumber'    colwidth="1*" />
   <colspec colname='revversion'   colwidth="1*" />
-  <colspec colname='revauthor'    colwidth="1*" />
-  <colspec colname='revremarks'   colwidth="8*"/>
+  <colspec colname='revauthor'    colwidth="3*" />
+  <colspec colname='revremarks'   colwidth="6*"/>
   <thead>
    <row>
     <entry>Date</entry>
