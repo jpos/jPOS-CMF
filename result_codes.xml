@@ -4,7 +4,7 @@
 %constants;
 ]>
 
-<appendix xml:id="reason_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+<appendix xml:id="result_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
  <title>Result codes</title>
  <para> The following table specifies the Result Codes associated with DE 039 (see <xref
    linkend="de_039"/>). </para>
