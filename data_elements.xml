@@ -3180,6 +3180,26 @@
     <literal>locale</literal> names are defined at &PRODUCTNAME; configuration time. </para>
   </simplesect>
  </sect1>
+  
+  <sect1 xml:id="S.de_068">
+    <title xml:id="de_068">Batch/file transfer message control</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 068, Batch/file transfer message control</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 68</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: A9</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Used in settlement message to transmit the terminal's batch number.</para>
+    </simplesect>
+  </sect1>
 
  <sect1 xml:id="S.de_072">
   <title xml:id="de_072">Data record</title>

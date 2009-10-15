@@ -38,6 +38,7 @@
    <xi:include href="txn_financial.xml"/>
    <xi:include href="txn_completion.xml"/>
    <xi:include href="txn_reversal.xml"/>
+   <xi:include href="txn_settlement.xml"/>
    <xi:include href="txn_add_record.xml"/>
   </chapter>
 

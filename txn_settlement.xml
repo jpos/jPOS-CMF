@@ -1,0 +1,114 @@
+<!DOCTYPE section [
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+
+<section xml:id="settlement" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Settlement</title>
+ <indexterm><primary>Settlement</primary></indexterm>
+ <indexterm><primary>540, 550</primary></indexterm>
+
+ <table frame="all" tocentry="1">
+  <title>Settlement</title>
+  <tgroup cols="5" align="left" colsep="1" rowsep="1">
+   <colspec colname='fld' />
+   <colspec colname='description' colwidth="6*"/>
+   <colspec colname='value' colwidth="4*" />
+   <colspec colname='req' />
+   <colspec colname='resp' />
+   <thead>
+    <row>
+     <entry align="right">Field</entry>
+     <entry>Description</entry>
+     <entry align="center">Value</entry>
+     <entry align="center">Req</entry>
+     <entry align="center">Resp</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry align="right"><emphasis role="bold">MTI</emphasis></entry>
+     <entry>Message Type indicator</entry>
+     <entry/>
+     <entry align="center"><emphasis role="bold">540</emphasis></entry>
+     <entry align="center"><emphasis role="bold">550</emphasis></entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">7</emphasis></entry>
+     <entry><xref linkend="S.de_007" endterm="de_007" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">11</emphasis></entry>
+     <entry><xref linkend="S.de_011" endterm="de_011" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">12</emphasis></entry>
+     <entry><xref linkend="S.de_012" endterm="de_012" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">13</emphasis></entry>
+     <entry><xref linkend="S.de_013" endterm="de_013" /></entry>
+     <entry />
+     <entry align="center">02</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">24</emphasis></entry>
+     <entry><xref linkend="S.de_024" endterm="de_024" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry />
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">41</emphasis></entry>
+     <entry><xref linkend="S.de_041" endterm="de_041" /></entry>
+     <entry />
+     <entry align="center">15</entry>
+     <entry align="center">16</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">68</emphasis></entry>
+     <entry><xref linkend="S.de_068" endterm="de_068" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">74</emphasis></entry>
+     <entry><xref linkend="S.de_074" endterm="de_074" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">97</emphasis></entry>
+     <entry><xref linkend="S.de_097" endterm="de_097" /></entry>
+     <entry />
+     <entry align="center">M</entry>
+     <entry align="center">ME</entry>
+    </row>
+    <row>
+     <entry align="right"><emphasis role="bold">111</emphasis></entry>
+     <entry><xref linkend="S.de_111" endterm="de_111" /></entry>
+     <entry />
+     <entry align="center">O</entry>
+     <entry align="center">ME</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+
+ <note>
+     <para>See <xref linkend="conditionals" /> for condition details.</para>
+ </note>
+</section>
+
