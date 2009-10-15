@@ -23,6 +23,15 @@
   </thead>
   <tbody>
     <row>
+     <entry>Oct 15th 2009</entry>
+     <entry>1.0.3</entry>
+     <entry>apr</entry>
+     <entry>Added 
+         <xref linkend="S.de_068" /> and 
+         <xref linkend="settlement" />.
+     </entry>
+    </row>      
+    <row>
      <entry>Aug 24th 2009</entry>
      <entry>1.0.2</entry>
      <entry>David Bergert - bergert@olsdallas.com</entry>
