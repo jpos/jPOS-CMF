@@ -3,64 +3,68 @@
 <!ENTITY % constants SYSTEM "constants.ent" >
 %constants;
 ]>
-
 <appendix xml:id="revision_history" xmlns="http://docbook.org/ns/docbook" version="5.0">
  <title>Revision History</title>
-<table frame="topbot">
- <title>Revision History</title>
- <tgroup cols="4" align="left" colsep="1" rowsep="1">
-  <colspec colname='revnumber'    colwidth="1*" />
-  <colspec colname='revversion'   colwidth="1*" />
-  <colspec colname='revauthor'    colwidth="3*" />
-  <colspec colname='revremarks'   colwidth="6*"/>
-  <thead>
-   <row>
-    <entry>Date</entry>
-    <entry>Version</entry>
-    <entry>Author</entry>
-    <entry>Description</entry>
-   </row>
-  </thead>
-  <tbody>
+ <table frame="topbot">
+  <title>Revision History</title>
+  <tgroup cols="4" align="left" colsep="1" rowsep="1">
+   <colspec colname="revnumber" colwidth="1*"/>
+   <colspec colname="revversion" colwidth="1*"/>
+   <colspec colname="revauthor" colwidth="3*"/>
+   <colspec colname="revremarks" colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Date</entry>
+     <entry>Version</entry>
+     <entry>Author</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>Nov 7th 2009</entry>
+     <entry>1.0.4</entry>
+     <entry>Andy Orrock</entry>
+     <entry>Changed references to 'begin sentinel' to 'start sentinel' in <xref linkend="S.de_035"
+      />.  Provided additional data element definition information for <xref linkend="S.de_007"/>,
+       <xref linkend="S.de_023"/>, <xref linkend="S.de_024"/>, <xref linkend="S.de_025"/>, <xref
+       linkend="S.de_026"/>, <xref linkend="S.de_032"/>, <xref linkend="S.de_041"/>, <xref
+       linkend="S.de_042"/>, <xref linkend="S.de_043"/>, <xref linkend="S.de_046"/>, <xref
+       linkend="S.de_056"/>, <xref linkend="S.de_059"/>, <xref linkend="S.de_074"/>, <xref
+       linkend="S.de_097"/> and <xref linkend="S.de_101"/></entry>
+    </row>
     <row>
      <entry>Oct 15th 2009</entry>
      <entry>1.0.3</entry>
      <entry>apr</entry>
-     <entry>Added 
-         <xref linkend="S.de_068" /> and 
-         <xref linkend="settlement" />.
-     </entry>
-    </row>      
+     <entry>Added <xref linkend="S.de_068"/> and <xref linkend="settlement"/>. </entry>
+    </row>
     <row>
      <entry>Aug 24th 2009</entry>
      <entry>1.0.2</entry>
      <entry>David Bergert - bergert@olsdallas.com</entry>
      <entry>Added Result Code Table</entry>
-    </row>      
+    </row>
     <row>
      <entry>Aug 2009</entry>
      <entry>1.0.1</entry>
      <entry>apr</entry>
-     <entry>
-         Added fields 
-         <xref linkend="de_074" /> and <xref linkend="de_097" /> 
-         used in reconciliation messages.
-     </entry>
-    </row>      
+     <entry>Added fields <xref linkend="de_074"/> and <xref linkend="de_097"/> used in
+      reconciliation messages. </entry>
+    </row>
     <row>
      <entry>Aug 2009</entry>
      <entry>1.0.0</entry>
      <entry>apr</entry>
      <entry>Assorted additions, initial public release</entry>
-    </row>    
+    </row>
     <row>
      <entry>Aug 2008</entry>
      <entry>r3382</entry>
      <entry>apr</entry>
      <entry>Initial internal revision</entry>
     </row>
-  </tbody>
- </tgroup>
-</table>
+   </tbody>
+  </tgroup>
+ </table>
 </appendix>
-

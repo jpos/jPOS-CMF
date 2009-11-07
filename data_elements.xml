@@ -1,8 +1,7 @@
-<!DOCTYPE chapter [
+<!DOCTYPE chapter[
   <!ENTITY % constants SYSTEM "constants.ent" >
   %constants;
 ]>
-
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0">
  <title>Data Elements</title>
@@ -31,13 +30,11 @@
      </listitem>
      <listitem>
       <para>Three digit message identifier</para>
-      <para>(see <xref linkend="de_mti" /> for details)</para>
+      <para>(see <xref linkend="de_mti"/> for details)</para>
      </listitem>
-    </itemizedlist>
-   </para>
+    </itemizedlist></para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_002">
   <title xml:id="de_002">Primary Account Number (PAN)</title>
   <indexterm>
@@ -60,7 +57,6 @@
     obtain the primary account by parsing the track-two data contained there. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_003">
   <title xml:id="de_003">Processing Code</title>
   <indexterm>
@@ -88,11 +84,9 @@
      <listitem>
       <para>Account Type Code 2, AN2</para>
      </listitem>
-    </itemizedlist>
-   </para>
+    </itemizedlist></para>
    <para> The Transaction Type Code (TTC) is used along with the Message Type Indicator (MTI) as a
     key to uniquely identify the type of transaction being processed. </para>
-
    <table frame="topbot">
     <title>Positions 1 &amp; 2 (Transaction Type Code)</title>
     <tgroup cols="3" align="left" colsep="1" rowsep="1">
@@ -264,12 +258,10 @@
      </tbody>
     </tgroup>
    </table>
-
    <para> The Transaction type code describes the specific transaction type. The Account type Code 1
     describes the account type affected for debits and inquiries and the "from" account for
     transfers. The Account type Code 2 describes the account type affected for credits and the "to"
     account for transfers. </para>
-
    <table frame="topbot">
     <title>Account Types</title>
     <tgroup cols="2" align="left" colsep="1" rowsep="1">
@@ -335,7 +327,6 @@
    </table>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_004">
   <title xml:id="de_004">Amount transaction</title>
   <indexterm>
@@ -366,7 +357,6 @@
    </itemizedlist>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_006">
   <title xml:id="de_006">Amount cardholder billing</title>
   <indexterm>
@@ -384,8 +374,7 @@
   <simplesect>
    <title>Description</title>
    <para> If transaction fee(s) and/or currency conversion is involved in the transaction,
-    &PRODUCTNAME; uses this data element to represent the actual amount billed to the
-    cardholder. </para>
+    &PRODUCTNAME; uses this data element to represent the actual amount billed to the cardholder. </para>
    <itemizedlist>
     <listitem>
      <para>ISO-4217 Currency code, N3</para>
@@ -399,7 +388,6 @@
    </itemizedlist>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_007">
   <title xml:id="de_007">Date and time transmission</title>
   <indexterm>
@@ -416,10 +404,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Transmission date and time in UTC (MMDDhhmmss). </para>
+   <para>Date and time the message initiator sends this message expressed in UTC (MMDDhhmmss).
+   </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_008">
   <title xml:id="de_008">Amount cardholder billing fee</title>
   <indexterm>
@@ -436,8 +424,8 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> If a transaction fee is involved, &PRODUCTNAME; uses this data element to represent
-    the actual fee amount. </para>
+   <para> If a transaction fee is involved, &PRODUCTNAME; uses this data element to represent the
+    actual fee amount. </para>
    <note>
     <para>DE 006 (<xref endterm="de_006" linkend="de_006"/>) contains the total amount including
      this fee.</para>
@@ -455,7 +443,6 @@
    </itemizedlist>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_011">
   <title xml:id="de_011">System Trace Audit Number (STAN)</title>
   <indexterm>
@@ -475,7 +462,6 @@
    <para> Unique sequence number used to match a request/response pair. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_012">
   <title xml:id="de_012">Date and time local transaction</title>
   <indexterm>
@@ -497,7 +483,6 @@
    <para> This field remains unchanged throughout the lifetime of the transaction. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_013">
   <title xml:id="de_013">Date effective</title>
   <indexterm>
@@ -521,7 +506,6 @@
    </note>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_014">
   <title xml:id="de_014">Expiration date</title>
   <indexterm>
@@ -543,7 +527,6 @@
     after which the card has to be flagged as expired and the transaction declined. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_017">
   <title xml:id="de_017">Capture date</title>
   <indexterm>
@@ -563,7 +546,6 @@
    <para> &PRODUCTNAME; capture date in MMDD format. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_018">
   <title xml:id="de_018">Message Error Indicator</title>
   <indexterm>
@@ -607,11 +589,11 @@
     01 to denote a message that was accepted and processed but contained invalid data in
     non-critical elements (00=error, 01=warning). </para>
    <para> The message error code contains a code identifying the error condition as described in the
-    following table: </para> &table_error_codes; <para> The data element in error contains the
-    data element number (001-128) and same goes for data sub-element, data set, bit or tag. </para>
+    following table: </para>&table_error_codes;
+   <para> The data element in error contains the data element number (001-128) and same goes for
+    data sub-element, data set, bit or tag. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_021">
   <title xml:id="de_021">Transaction life cycle identification data</title>
   <indexterm>
@@ -642,11 +624,9 @@
      <listitem>
       <para>Life cycle authentication token, N4</para>
      </listitem>
-    </itemizedlist>
-   </para>
+    </itemizedlist></para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_022">
   <title xml:id="de_022">Point-of-Service data code</title>
   <indexterm>
@@ -677,9 +657,7 @@
      <listitem>
       <para>Security characteristics</para>
      </listitem>
-    </itemizedlist>
-   </para>
-
+    </itemizedlist></para>
    <table frame="all">
     <title>Card reading method used at POS</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
@@ -1018,7 +996,6 @@
     <para>Bits 17 to 32 are reserved for ISO, National and Private use and not currently used by
      &PRODUCTNAME;.</para>
    </note>
-
    <para> The following table lists the value attributed to each bit of the 32 bits (four bytes)
     which indicate the cardholder verification method actually used by the POS. </para>
    <table frame="all">
@@ -1358,7 +1335,6 @@
     <para> Bits 17 to 32 are reserved for ISO, National and Private use and not currently used by
      &PRODUCTNAME;. </para>
    </note>
-
    <para> The following table lists the value attributed to each bit of the 32 bits (four bytes)
     which indicate the POS environment. </para>
    <table frame="all">
@@ -1698,7 +1674,6 @@
     <para> Bits 17 to 32 are reserved for ISO, National and Private use and not currently used by
      &PRODUCTNAME;. </para>
    </note>
-
    <para> The following table lists the value attributed to each bit of the 32 bits (four bytes)
     which indicate the security characteristics. </para>
    <table frame="all">
@@ -2389,10 +2364,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Card Sequence Number. </para>
+   <para>A number distinguishing between separate cards with the same primary account number.
+   </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_024">
   <title xml:id="de_024">Function Code</title>
   <indexterm>
@@ -2409,10 +2384,8 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para>
-     <xref linkend="function_codes" /> 
-     provides a list of function codes values supported by
-     &PRODUCTNAME;    
+   <para>A code indicating the specific purpose of a message within its message class.  <xref
+     linkend="function_codes"/> provides a list of function codes values supported by &PRODUCTNAME;
    </para>
   </simplesect>
  </sect1>
@@ -2432,11 +2405,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> 
-     <xref linkend="reason_codes" /> 
-     provides a list of possible reason code values supported by
-     &PRODUCTNAME; 
-   </para>  
+   <para>Provides the receiver of a request, advice or notification message with the reason, or
+    purpose, of the message.  <xref linkend="reason_codes"/> provides a list of possible reason code
+    values supported by &PRODUCTNAME;
+   </para>
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_026">
@@ -2455,10 +2427,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Merchant Category Code. </para>
+   <para>Code classifying the type of business being done by the card acceptor for this transaction
+   </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_030">
   <title xml:id="de_030">Amounts original</title>
   <indexterm>
@@ -2514,10 +2486,9 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Acquiring institution identification code. </para>
+   <para>A code identifying the acquirer. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_035">
   <title xml:id="de_035">Track 2 data</title>
   <indexterm>
@@ -2536,7 +2507,7 @@
    <title>Description</title>
    <para> The information encoded on the Track 2 of the magnetic stripe <footnote>
      <para>See ISO-7813</para>
-    </footnote> including field separators and excluding the begin sentinel, end sentinel and
+    </footnote> including field separators and excluding the start sentinel, end sentinel and
     longitudinal redundancy check (LRC) characters. </para>
    <para> This is a compound field consisting of the following elements: </para>
    <table frame="topbot">
@@ -2560,7 +2531,7 @@
        <entry>can be either '=' or 'D'</entry>
       </row>
       <row>
-       <entry>Expiration date</entry>
+       <entry>Expiration Date</entry>
        <entry>in YYMM format</entry>
       </row>
       <row>
@@ -2569,14 +2540,13 @@
       </row>
       <row>
        <entry>Discretionary data</entry>
-       <entry>up to available digits</entry>
+       <entry>balance of available digits</entry>
       </row>
      </tbody>
     </tgroup>
    </table>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_037">
   <title xml:id="de_037">Retrieval Reference Number</title>
   <indexterm>
@@ -2593,15 +2563,13 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Alphanumeric code assigned by &PRODUCTNAME; in order to uniquely identify a
-    transaction. This code remains unchanged throughout the life of the transaction. <tip>
+   <para> Alphanumeric code assigned by &PRODUCTNAME; in order to uniquely identify a transaction.
+    This code remains unchanged throughout the life of the transaction. <tip>
      <para> Although this field is called Retrieval Reference "Number", please note this is an
       alphanumeric field that may contain regular characters.</para>
-    </tip>
-   </para>
+    </tip></para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_038">
   <title xml:id="de_038">Approval Code</title>
   <indexterm>
@@ -2622,7 +2590,6 @@
    </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_039">
   <title xml:id="de_039">Result Code</title>
   <indexterm>
@@ -2639,13 +2606,12 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Result Code returned by &PRODUCTNAME; to indicate whether the transaction is approved
-    or declined. </para>
+   <para> Result Code returned by &PRODUCTNAME; to indicate whether the transaction is approved or
+    declined. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_041">
-  <title xml:id="de_041">Card Acceptor Terminal ID (TID)</title>
+  <title xml:id="de_041">Card Acceptor Terminal ID ('TID')</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 041, Card Acceptor Terminal ID (TID)</secondary>
@@ -2660,13 +2626,12 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> This data element along is used to uniquely identify the terminal originating a
-    transaction. </para>
+   <para>A code used to uniquely identify the terminal originating a transaction; this code is also
+    referred to as the Terminal Identifier or 'TID.' </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_042">
-  <title xml:id="de_042">Card Acceptor Identification Code (MID)</title>
+  <title xml:id="de_042">Card Acceptor Identification Code ('MID')</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 042, Card Acceptor Identification Code (MID)</secondary>
@@ -2681,10 +2646,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Uniquely identify the card acceptor (i.e. a Merchant). </para>
+   <para>A code used to uniquely identify the card acceptor originating a transaction; this code is
+    also referrred to as the Merchant Identifier or 'MID.'  </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_043">
   <title xml:id="de_043">Card acceptor name/location</title>
   <indexterm>
@@ -2701,7 +2666,8 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Constructed data field containing: </para>
+   <para>The name and location of the card acceptor as known to the cardholder.  This is a
+    constructed data field containing: </para>
    <table frame="topbot">
     <title>DE 43 subfields</title>
     <tgroup cols="2" align="left" colsep="1" rowsep="1">
@@ -2785,11 +2751,10 @@
    <title>Description</title>
    <para> The information encoded on the Track 1 of the magnetic stripe <footnote>
      <para>See ISO-7813</para>
-    </footnote> including field separators and excluding the begin sentinel, end sentinel and
-    longitudinal redundancy check (LRC) characters. </para>
+    </footnote> including field separators and excluding the start sentinel, end sentinel and
+    longitudinal redundancy check ('LRC') characters. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_046">
   <title xml:id="de_046">Amounts fees</title>
   <indexterm>
@@ -2806,8 +2771,8 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> This is a constructed data element composed of up to six sets of 36-digit values. Each set
-    of values shall consist of four parts. </para>
+   <para>Fees associated with this transaction.  This is a constructed data element composed of up
+    to six sets of 36-digit values. Each set of values shall consist of four parts. </para>
    <table frame="topbot">
     <title>DE 46 subfields</title>
     <tgroup cols="2" align="left" colsep="1" rowsep="1">
@@ -2830,8 +2795,7 @@
           <listitem>
            <para><emphasis role="bold">07</emphasis> Card Acceptor Service fee</para>
           </listitem>
-         </itemizedlist>
-        </para>
+         </itemizedlist></para>
        </entry>
       </row>
       <row>
@@ -2851,7 +2815,6 @@
    </table>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_049">
   <title xml:id="de_049">Verification data</title>
   <indexterm>
@@ -2946,7 +2909,6 @@
      </tbody>
     </tgroup>
    </table>
-
    <table frame="topbot">
     <title>DE 49 subfields, Dataset identifier 72</title>
     <tgroup cols="4" align="left" colsep="1" rowsep="1">
@@ -2992,7 +2954,6 @@
    </table>
   </simplesect>
  </sect1>
-
  <!--
  <sect1 xml:id="S.de_053">
   <title xml:id="de_053">Security Related Control Information</title>
@@ -3020,7 +2981,6 @@
   </simplesect>
  </sect1>
  -->
-
  <sect1 xml:id="S.de_054">
   <title xml:id="de_054">Additional Amount(s)</title>
   <indexterm>
@@ -3076,8 +3036,7 @@
           <listitem>
            <para><emphasis role="bold">40</emphasis> Amount cash. </para>
           </listitem>
-         </itemizedlist>
-        </para>
+         </itemizedlist></para>
        </entry>
       </row>
       <row>
@@ -3117,7 +3076,8 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> This is a constructed data element composed of four sub elements: <itemizedlist>
+   <para>Key data elements contained in the original message.  Provided in reversal transactions.
+    This is a constructed data element composed of four sub elements: <itemizedlist>
      <listitem>
       <para>Original Protocol version and Message Type Identifier (MTI), N4 </para>
       <para>See: <xref linkend="de_mti"/></para>
@@ -3134,8 +3094,7 @@
       <para>Original Acquiring Institution Identification Code, N..11 </para>
       <para>See: <xref linkend="de_032"/></para>
      </listitem>
-    </itemizedlist>
-   </para>
+    </itemizedlist></para>
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_059">
@@ -3154,10 +3113,10 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Transport data </para>
+   <para>Contains data from the originator of the message that shall be returned unaltered in a
+    response message. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_063">
   <title xml:id="de_063">Display message</title>
   <indexterm>
@@ -3180,27 +3139,25 @@
     <literal>locale</literal> names are defined at &PRODUCTNAME; configuration time. </para>
   </simplesect>
  </sect1>
-  
-  <sect1 xml:id="S.de_068">
-    <title xml:id="de_068">Batch/file transfer message control</title>
-    <indexterm>
-      <primary>Data Elements</primary>
-      <secondary>DE 068, Batch/file transfer message control</secondary>
-    </indexterm>
-    <simplesect>
-      <title>Data Element: 68</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Format: A9</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Description</title>
-      <para>Used in settlement message to transmit the terminal's batch number.</para>
-    </simplesect>
-  </sect1>
-
+ <sect1 xml:id="S.de_068">
+  <title xml:id="de_068">Batch/file transfer message control</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 068, Batch/file transfer message control</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 68</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: A9</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>Used in settlement message to transmit the terminal's batch number.</para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_072">
   <title xml:id="de_072">Data record</title>
   <indexterm>
@@ -3217,127 +3174,124 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Other data required to be passed to support an administrative or file action message.
+   <para>Other data required to be passed to support an administrative or file action message.
    </para>
   </simplesect>
  </sect1>
-  
-  <sect1 xml:id="S.de_074">
-    <title xml:id="de_074">Reconciliation data primary</title>
-    <indexterm>
-      <primary>Data Elements</primary>
-      <secondary>DE 074, Reconciliation data primary</secondary>
-    </indexterm>
-    <simplesect>
-      <title>Data Element: 74</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Format: N78</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Description</title>
-      <para> This is a constructed data element composed of 6 amount/counter pairs </para>
-      <table frame="topbot">
-        <title>DE 74 subfields</title>
-        <tgroup cols="2" align="left" colsep="1" rowsep="1">
-          <colspec colname="name"/>
-          <colspec colname="format" colwidth="2*"/>
-          <thead>
-            <row>
-              <entry>Name</entry>
-              <entry>Format</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>Credits amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Credits number</entry>
-              <entry>N10</entry>
-            </row>
-            <row>
-              <entry>Credits chargeback amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Credits chargeback number</entry>
-              <entry>N10</entry>
-            </row>
-            <row>
-              <entry>Credits reversal amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Credits reversal number</entry>
-              <entry>N10</entry>
-            </row>
-            <row>
-              <entry>Debits amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Debits number</entry>
-              <entry>N10</entry>
-            </row>
-            <row>
-              <entry>Debits chargeback amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Debits chargeback number</entry>
-              <entry>N10</entry>
-            </row>
-            <row>
-              <entry>Debitss reversal amount</entry>
-              <entry>N16</entry>
-            </row>
-            <row>
-              <entry>Debits reversal number</entry>
-              <entry>N10</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-    </simplesect>
-  </sect1>
-  
-
-  <sect1 xml:id="S.de_097">
-    <title xml:id="de_097">Amount, Net reconciliation</title>
-    <indexterm>
-      <primary>Data Elements</primary>
-      <secondary>DE 097, Amount, Net reconciliation</secondary>
-    </indexterm>
-    <simplesect>
-      <title>Data Element: 97</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Format: N21</title>
-      <para/>
-    </simplesect>
-    <simplesect>
-      <title>Description</title>
-      <para> Net reconciliation amount is a constructed data element 
-        of three parts totalling 21 positions: </para>
-      <itemizedlist>
-        <listitem>
-          <para>ISO-4217 Currency code, N3</para>
-        </listitem>
-        <listitem>
-          <para>Currency minor unit, N1</para>
-        </listitem>
-        <listitem>
-          <para>Net reconciliation Transaction, N17</para>
-        </listitem>
-      </itemizedlist>
-    </simplesect>
+ <sect1 xml:id="S.de_074">
+  <title xml:id="de_074">Reconciliation data primary</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 074, Reconciliation data primary</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 74</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N78</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>Number and amount values required to complete the reconciliation of financial totals.  This
+    is a constructed data element composed of 6 amount/counter pairs </para>
+   <table frame="topbot">
+    <title>DE 74 subfields</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+     <colspec colname="name"/>
+     <colspec colname="format" colwidth="2*"/>
+     <thead>
+      <row>
+       <entry>Name</entry>
+       <entry>Format</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Credits amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Credits number</entry>
+       <entry>N10</entry>
+      </row>
+      <row>
+       <entry>Credits chargeback amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Credits chargeback number</entry>
+       <entry>N10</entry>
+      </row>
+      <row>
+       <entry>Credits reversal amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Credits reversal number</entry>
+       <entry>N10</entry>
+      </row>
+      <row>
+       <entry>Debits amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Debits number</entry>
+       <entry>N10</entry>
+      </row>
+      <row>
+       <entry>Debits chargeback amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Debits chargeback number</entry>
+       <entry>N10</entry>
+      </row>
+      <row>
+       <entry>Debitss reversal amount</entry>
+       <entry>N16</entry>
+      </row>
+      <row>
+       <entry>Debits reversal number</entry>
+       <entry>N10</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </simplesect>
  </sect1>
-  
+ <sect1 xml:id="S.de_097">
+  <title xml:id="de_097">Amount, Net reconciliation</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 097, Amount, Net reconciliation</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 97</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N21</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>The net value (in the indicated currenncy) of all gross amounts.  Net reconciliation amount
+    is a constructed data element of three parts totalling 21 positions: </para>
+   <itemizedlist>
+    <listitem>
+     <para>ISO-4217 Currency code, N3</para>
+    </listitem>
+    <listitem>
+     <para>Currency minor unit, N1</para>
+    </listitem>
+    <listitem>
+     <para>Net reconciliation Transaction, N17</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_101">
   <title xml:id="de_101">File Name</title>
   <indexterm>
@@ -3354,10 +3308,9 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> File Name being accessed. </para>
+   <para>The actual or abbreviated name of the file being accessed by the transaction. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_102">
   <title xml:id="de_102">Account identification 1</title>
   <indexterm>
@@ -3374,10 +3327,9 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Used to reference a source account in a transfer transaction. </para>
+   <para>Used to reference a source account in a transfer transaction. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_103">
   <title xml:id="de_103">Account identification 2</title>
   <indexterm>
@@ -3394,10 +3346,9 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Used to reference a destination account in a transfer transaction. </para>
+   <para>Used to reference a destination account in a transfer transaction. </para>
   </simplesect>
  </sect1>
-
  <sect1 xml:id="S.de_111">
   <title xml:id="de_111">Discretionary user data</title>
   <indexterm>
@@ -3414,7 +3365,7 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Optional user field to be echoed by the &PRODUCTNAME; system. </para>
+   <para>Optional user field to be echoed by the &PRODUCTNAME; system. </para>
   </simplesect>
  </sect1>
 </chapter>
