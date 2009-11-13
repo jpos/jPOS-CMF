@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE preface [
+<!DOCTYPE appendix [
 <!ENTITY % constants SYSTEM "constants.ent" >
 %constants;
 ]>
 
-<preface xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="license">
+<appendix xml:id="license" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
  <title>License terms</title>
   <para>
     <mediaobject>
@@ -23,4 +23,4 @@
     Permissions beyond the scope of this license may be available at 
     <link xlink:href="http://jpos.org/contact?p=cmf">&COMPANY_ABBR;</link>.   
   </para>
-</preface>
+</appendix>
