@@ -3036,6 +3036,9 @@
           <listitem>
            <para><emphasis role="bold">40</emphasis> Amount cash. </para>
           </listitem>
+          <listitem>
+           <para><emphasis role="bold">42</emphasis> Amount surcharge. </para>
+          </listitem>
          </itemizedlist></para>
        </entry>
       </row>
