@@ -3353,10 +3353,10 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_111">
-  <title xml:id="de_111">Discretionary user data</title>
+  <title xml:id="de_111">Discretionary handback data</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 111, Discretionary user data</secondary>
+   <secondary>DE 111, Discretionary handback data</secondary>
   </indexterm>
   <simplesect>
    <title>Data Element: 111</title>
@@ -3368,7 +3368,26 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para>Optional user field to be echoed by the &PRODUCTNAME; system. </para>
+   <para>Optional user field to be echoed back by the &PRODUCTNAME; based system. </para>
   </simplesect>
  </sect1>
+  <sect1 xml:id="S.de_112">
+    <title xml:id="de_112">Discretionary transport data</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 112, Discretionary transport data</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 112</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Optional user field to be logged by the &PRODUCTNAME; based system and transmitted to Destination Stations</para>
+    </simplesect>
+  </sect1>
 </chapter>

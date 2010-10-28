@@ -21,6 +21,12 @@
     </row>
    </thead>
    <tbody>
+     <row>
+       <entry>Jun 23th 2010</entry>
+       <entry>1.0.5</entry>
+       <entry>apr</entry>
+       <entry>Added <xref linkend="S.de_112" /></entry>
+     </row>
     <row>
      <entry>Nov 7th 2009</entry>
      <entry>1.0.4</entry>

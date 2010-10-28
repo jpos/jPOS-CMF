@@ -8,18 +8,18 @@
  xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
 
  <info>
-  <title>&PRODUCTNAME;</title>
-  <author>
-   <orgname>jPOS.org</orgname>
-   <email>support@jpos.org</email>
-  </author>
-  <copyright>
-   <year> 2007-2009 </year>
-   <holder> Alejandro Revilla d/b/a jPOS.org </holder>
-  </copyright>
-  <releaseinfo>&VERSION;</releaseinfo>
-  <productname>&PRODUCTNAME;</productname>
- </info>
+    <title>&PRODUCTNAME;</title>
+    <author>
+      <orgname>jPOS.org</orgname>
+      <email>support@jpos.org</email>
+    </author>
+    <copyright>
+      <year> 2007-2010 </year>
+      <holder> Alejandro Revilla d/b/a jPOS.org </holder>
+    </copyright>
+    <releaseinfo>&VERSION;</releaseinfo>
+    <productname>&PRODUCTNAME;</productname>
+  </info>
 
  <xi:include href="about.xml"/>
  
