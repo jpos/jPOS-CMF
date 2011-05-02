@@ -9,7 +9,7 @@
   <primary>Data Elements</primary>
  </indexterm>
  <sect1 xml:id="S.de_000">
-  <title xml:id="de_000">Message Type Identifier</title>
+  <title xml:id="de_000">MTI - Message Type Identifier</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>MTI, Message Type Identifier</secondary>
@@ -36,7 +36,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_002">
-  <title xml:id="de_002">Primary Account Number (PAN)</title>
+  <title xml:id="de_002">DE-002 Primary Account Number (PAN)</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 002, Primary Account Number (PAN)</secondary>
@@ -58,7 +58,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_003">
-  <title xml:id="de_003">Processing Code</title>
+  <title xml:id="de_003">DE-003 Processing Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 003, Processing Code</secondary>
@@ -328,7 +328,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_004">
-  <title xml:id="de_004">Amount transaction</title>
+  <title xml:id="de_004">DE-004 Amount transaction</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 004, Amount transaction</secondary>
@@ -358,7 +358,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_006">
-  <title xml:id="de_006">Amount cardholder billing</title>
+  <title xml:id="de_006">DE-006 Amount cardholder billing</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 006, Amount cardholder billing</secondary>
@@ -389,7 +389,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_007">
-  <title xml:id="de_007">Date and time transmission</title>
+  <title xml:id="de_007">DE-007 Date and time transmission</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 007, Transmission date and time</secondary>
@@ -409,7 +409,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_008">
-  <title xml:id="de_008">Amount cardholder billing fee</title>
+  <title xml:id="de_008">DE-008 Amount cardholder billing fee</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 008, Amount cardholder billing fee</secondary>
@@ -444,7 +444,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_011">
-  <title xml:id="de_011">System Trace Audit Number (STAN)</title>
+  <title xml:id="de_011">DE-011 System Trace Audit Number (STAN)</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 011, System Trace Audit Number</secondary>
@@ -463,7 +463,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_012">
-  <title xml:id="de_012">Date and time local transaction</title>
+  <title xml:id="de_012">DE-012 Date and time local transaction</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 012, Date and time local transaction</secondary>
@@ -484,7 +484,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_013">
-  <title xml:id="de_013">Date effective</title>
+  <title xml:id="de_013">DE-013 Date effective</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 013, Date effective</secondary>
@@ -507,7 +507,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_014">
-  <title xml:id="de_014">Expiration date</title>
+  <title xml:id="de_014">DE-014 Expiration date</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 014, Expiration date</secondary>
@@ -528,7 +528,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_017">
-  <title xml:id="de_017">Capture date</title>
+  <title xml:id="de_017">DE-017 Capture date</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 017, Capture date</secondary>
@@ -547,7 +547,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_018">
-  <title xml:id="de_018">Message Error Indicator</title>
+  <title xml:id="de_018">DE-018 Message Error Indicator</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 018, Message Error Indicator</secondary>
@@ -595,7 +595,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_021">
-  <title xml:id="de_021">Transaction life cycle identification data</title>
+  <title xml:id="de_021">DE-021 Transaction life cycle identification data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 021, Transaction life cycle identification data</secondary>
@@ -628,7 +628,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_022">
-  <title xml:id="de_022">Point-of-Service data code</title>
+  <title xml:id="de_022">DE-022 Point-of-Service data code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 022, Point-of-Service entry mode</secondary>
@@ -2349,7 +2349,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_023">
-  <title xml:id="de_023">Card Sequence Number</title>
+  <title xml:id="de_023">DE-023 jCard Sequence Number</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 023, Card Sequence Number</secondary>
@@ -2369,7 +2369,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_024">
-  <title xml:id="de_024">Function Code</title>
+  <title xml:id="de_024">DE-024 Function Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 024, Function Code</secondary>
@@ -2390,7 +2390,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_025">
-  <title xml:id="de_025">Reason Code</title>
+  <title xml:id="de_025">DE-025 Reason Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 025, Function Code</secondary>
@@ -2412,7 +2412,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_026">
-  <title xml:id="de_026">Merchant Category Code</title>
+  <title xml:id="de_026">DE-026 Merchant Category Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 026, Merchant Category Code</secondary>
@@ -2432,7 +2432,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_030">
-  <title xml:id="de_030">Amounts original</title>
+  <title xml:id="de_030">DE-030 Amounts original</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 030, Amounts original</secondary>
@@ -2471,7 +2471,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_032">
-  <title xml:id="de_032">Acquiring institution identification code</title>
+  <title xml:id="de_032">DE-032 Acquiring institution identification code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 032, Acquiring institution identification code</secondary>
@@ -2490,7 +2490,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_035">
-  <title xml:id="de_035">Track 2 data</title>
+  <title xml:id="de_035">DE-035 Track 2 data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 035, Track 2 data</secondary>
@@ -2548,7 +2548,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_037">
-  <title xml:id="de_037">Retrieval Reference Number</title>
+  <title xml:id="de_037">DE-037 Retrieval Reference Number</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 037, Retrieval Reference Number</secondary>
@@ -2571,7 +2571,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_038">
-  <title xml:id="de_038">Approval Code</title>
+  <title xml:id="de_038">DE-038 Approval Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 038, Approval Code</secondary>
@@ -2591,7 +2591,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_039">
-  <title xml:id="de_039">Result Code</title>
+  <title xml:id="de_039">DE-039 Result Code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 039, Result Code</secondary>
@@ -2611,7 +2611,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_041">
-  <title xml:id="de_041">Card Acceptor Terminal ID ('TID')</title>
+  <title xml:id="de_041">DE-041 Card Acceptor Terminal ID ('TID')</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 041, Card Acceptor Terminal ID (TID)</secondary>
@@ -2631,7 +2631,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_042">
-  <title xml:id="de_042">Card Acceptor Identification Code ('MID')</title>
+  <title xml:id="de_042">DE-042 Card Acceptor Identification Code ('MID')</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 042, Card Acceptor Identification Code (MID)</secondary>
@@ -2651,7 +2651,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_043">
-  <title xml:id="de_043">Card acceptor name/location</title>
+  <title xml:id="de_043">DE-043 Card acceptor name/location</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 043, Card acceptor name/location</secondary>
@@ -2734,7 +2734,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_045">
-  <title xml:id="de_045">Track 1 data</title>
+  <title xml:id="de_045">DE-045 Track 1 data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 045, Track 1 data</secondary>
@@ -2756,7 +2756,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_046">
-  <title xml:id="de_046">Amounts fees</title>
+  <title xml:id="de_046">DE-046 Amounts fees</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 046, Amounts fees</secondary>
@@ -2816,7 +2816,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_049">
-  <title xml:id="de_049">Verification data</title>
+  <title xml:id="de_049">DE-049 Verification data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 049, Verification data</secondary>
@@ -2982,7 +2982,7 @@
  </sect1>
  -->
  <sect1 xml:id="S.de_054">
-  <title xml:id="de_054">Additional Amount(s)</title>
+  <title xml:id="de_054">DE-054 Additional Amount(s)</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 054, Additional Amount(s)</secondary>
@@ -3064,7 +3064,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_056">
-  <title xml:id="de_056">Original data elements</title>
+  <title xml:id="de_056">DE-056 Original data elements</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 056, Original data elements</secondary>
@@ -3101,7 +3101,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_059">
-  <title xml:id="de_059">Transport data</title>
+  <title xml:id="de_059">DE-059 Transport data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 059, Transport data</secondary>
@@ -3121,7 +3121,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_063">
-  <title xml:id="de_063">Display message</title>
+  <title xml:id="de_063">DE-063 Display message</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 063, Display message</secondary>
@@ -3143,7 +3143,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_068">
-  <title xml:id="de_068">Batch/file transfer message control</title>
+  <title xml:id="de_068">DE-068 Batch/file transfer message control</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 068, Batch/file transfer message control</secondary>
@@ -3162,7 +3162,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_072">
-  <title xml:id="de_072">Data record</title>
+  <title xml:id="de_072">DE-072 Data record</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 072, Data record</secondary>
@@ -3182,7 +3182,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_074">
-  <title xml:id="de_074">Reconciliation data primary</title>
+  <title xml:id="de_074">DE-074 Reconciliation data primary</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 074, Reconciliation data primary</secondary>
@@ -3265,7 +3265,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_097">
-  <title xml:id="de_097">Amount, Net reconciliation</title>
+  <title xml:id="de_097">DE-097 Amount, Net reconciliation</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 097, Amount, Net reconciliation</secondary>
@@ -3296,7 +3296,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_101">
-  <title xml:id="de_101">File Name</title>
+  <title xml:id="de_101">DE-101 File Name</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 101, File Name</secondary>
@@ -3315,7 +3315,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_102">
-  <title xml:id="de_102">Account identification 1</title>
+  <title xml:id="de_102">DE-102 Account identification 1</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 102, Account identification 1</secondary>
@@ -3334,7 +3334,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_103">
-  <title xml:id="de_103">Account identification 2</title>
+  <title xml:id="de_103">DE-103 Account identification 2</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 103, Account identification 2</secondary>
@@ -3353,7 +3353,7 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_111">
-  <title xml:id="de_111">Discretionary handback data</title>
+  <title xml:id="de_111">DE-111 Discretionary handback data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 111, Discretionary handback data</secondary>
@@ -3372,7 +3372,7 @@
   </simplesect>
  </sect1>
   <sect1 xml:id="S.de_112">
-    <title xml:id="de_112">Discretionary transport data</title>
+    <title xml:id="de_112">DE-112 Discretionary transport data</title>
     <indexterm>
       <primary>Data Elements</primary>
       <secondary>DE 112, Discretionary transport data</secondary>
