@@ -30,7 +30,7 @@
      </listitem>
      <listitem>
       <para>Three digit message identifier</para>
-      <para>(see <xref linkend="de_mti"/> for details)</para>
+      <para>(see <xref linkend="de_000"/> for details)</para>
      </listitem>
     </itemizedlist></para>
   </simplesect>
@@ -2489,6 +2489,25 @@
    <para>A code identifying the acquirer. </para>
   </simplesect>
  </sect1>
+  <sect1 xml:id="S.de_033">
+    <title xml:id="de_033">DE-033 Forwarding institution identification code</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 032, Forwarding institution identification code</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 33</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: N..11, LLVAR</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>A code identifying the forwarding institution. </para>
+    </simplesect>
+  </sect1>
  <sect1 xml:id="S.de_035">
   <title xml:id="de_035">DE-035 Track 2 data</title>
   <indexterm>
@@ -3387,7 +3406,28 @@
     </simplesect>
     <simplesect>
       <title>Description</title>
-      <para>Optional user field to be logged by the &PRODUCTNAME; based system and transmitted to Destination Stations</para>
+      <para>Optional user field to be handled by the &PRODUCTNAME; based system and transmitted to Destination Stations</para>
+    </simplesect>
+  </sect1>
+  <sect1 xml:id="S.de_113">
+    <title xml:id="de_113">DE-113 jCard-specific data elements</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 113, Card-specific data elements</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 113</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para><emphasis role="bold">jCard</emphasis> uses data element 113 to hold application specific data elements.
+      See <xref linkend="jcard_data_elements" /> for details.
+      </para>
     </simplesect>
   </sect1>
 </chapter>

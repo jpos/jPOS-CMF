@@ -22,6 +22,20 @@
    </thead>
    <tbody>
      <row>
+       <entry>May, 2011</entry>
+       <entry>1.0.6-DRAFT</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Changed wording in <xref linkend="S.de_112" /> to indicate it's a transport field, no logging is required.</para></listitem>
+           <listitem><para>Added <xref linkend="S.de_113" /> and <xref linkend="jcard_data_elements" /></para></listitem>
+           <listitem><para><xref linkend="add_record" /> now supports optional field <xref linkend="S.de_113" /></para></listitem>
+           <listitem><para><xref linkend="add_record" /> clarifies the fact that field 2 is optional</para></listitem>
+           <listitem><para><xref linkend="add_record" /> uses field 33 (<xref linkend="S.de_033"/>) instead of 32</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
        <entry>Jun 23th 2010</entry>
        <entry>1.0.5</entry>
        <entry>apr</entry>

@@ -31,6 +31,7 @@
   </chapter>
   <!-- Chapter Data Elements -->
   <xi:include href="data_elements.xml"/>
+  <xi:include href="jcard_data_elements.xml"/>
 
   <chapter xml:id="transaction_definition">
    <title>Transaction Definition</title>

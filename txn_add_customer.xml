@@ -44,8 +44,11 @@
     <row>
      <entry align="right"><emphasis role="bold">2</emphasis></entry>
      <entry><xref linkend="S.de_002" endterm='de_002' /></entry>
-     <entry>The Customer Primary Account Number</entry>
-     <entry align="center">M</entry>
+     <entry>
+       Customer Primary Account Number.
+       If not present, an auto-generated ID will be used and returned on the 314 response.   
+     </entry>
+     <entry align="center">O</entry>
      <entry align="center">M</entry>
     </row>
     <row>
@@ -119,15 +122,13 @@
      <entry align="center">16</entry>
     </row>
     <row>
-     <entry align="right"><emphasis role="bold">72</emphasis></entry>
-     <entry><xref linkend="S.de_072" endterm="de_072" />
-       (Application specific record data)
-     </entry>
-     <entry>
-     </entry>
-     <entry align="center">O</entry>
-     <entry align="center">16</entry>
+      <entry align="right"><emphasis role="bold">72</emphasis></entry>
+      <entry><xref linkend="S.de_072" endterm="de_072" /></entry>
+      <entry />
+      <entry />
+      <entry align="center">16</entry>
     </row>
+     
     <row>
      <entry align="right"><emphasis role="bold">101</emphasis></entry>
      <entry><xref linkend="S.de_101" endterm="de_101" /></entry>
@@ -141,6 +142,13 @@
      <entry />
      <entry align="center">O</entry>
      <entry align="center">16</entry>
+    </row>
+    <row>
+       <entry align="right"><emphasis role="bold">113</emphasis></entry>
+       <entry><xref linkend="S.de_111" endterm="de_113" /></entry>
+       <entry />
+       <entry align="center">O</entry>
+       <entry align="center">16</entry>
     </row>
    </tbody>
   </tgroup>

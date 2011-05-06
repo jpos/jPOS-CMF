@@ -13,9 +13,8 @@
 
  <para>
    This is a general purpose record creation transaction
-   that can be used to create Cards, Cardholders, Accounts,
-   or application specific entities from an ISO-8583 based
-   station.
+   that can be used to create Cards, Customers, Accounts,
+   or application specific entities.
  </para>
 
  <table frame="all" tocentry="1">
@@ -93,8 +92,8 @@
      <entry />
     </row>
     <row>
-     <entry align="right"><emphasis role="bold">32</emphasis></entry>
-     <entry><xref linkend="S.de_032" endterm='de_032' /></entry>
+     <entry align="right"><emphasis role="bold">33</emphasis></entry>
+     <entry><xref linkend="S.de_033" endterm='de_033' /></entry>
      <entry />
      <entry align="center">O</entry>
      <entry align="center">O</entry>
@@ -154,6 +153,13 @@
      <entry align="center">O</entry>
      <entry align="center">16</entry>
     </row>
+     <row>
+       <entry align="right"><emphasis role="bold">113</emphasis></entry>
+       <entry><xref linkend="S.de_113" endterm="de_113" /></entry>
+       <entry />
+       <entry align="center">O</entry>
+       <entry align="center">16</entry>
+     </row>
    </tbody>
   </tgroup>
  </table>

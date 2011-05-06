@@ -1,0 +1,33 @@
+<!DOCTYPE chapter[
+  <!ENTITY % constants SYSTEM "constants.ent" >
+  %constants;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
+ <title>jCard Data Elements</title>
+ <indexterm>
+  <primary>Data Elements</primary>
+ </indexterm>
+ <!--
+ <sect1 xml:id="S.de_113.2">
+  <title xml:id="de_113.2">Protocol Version</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.2 - </secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: MTI</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N4, NUM</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+   </para>
+  </simplesect>
+ </sect1>
+ -->
+</chapter>
+
