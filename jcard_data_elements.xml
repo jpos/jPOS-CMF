@@ -7,27 +7,388 @@
  <indexterm>
   <primary>Data Elements</primary>
  </indexterm>
- <!--
  <sect1 xml:id="S.de_113.2">
-  <title xml:id="de_113.2">Protocol Version</title>
+  <title xml:id="de_113.2">DE-113.2 Protocol Version</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 113.2 - </secondary>
+   <secondary>DE 113.2 - Protocol Version</secondary>
   </indexterm>
   <simplesect>
-   <title>Data Element: MTI</title>
+   <title>Data Element: 113.2</title>
    <para/>
   </simplesect>
   <simplesect>
-   <title>Format: N4, NUM</title>
+   <title>Format: AN..20, LLVAR</title>
    <para/>
   </simplesect>
   <simplesect>
    <title>Description</title>
    <para> 
+     jPOS-CMF version used by client
    </para>
   </simplesect>
  </sect1>
- -->
+ <sect1 xml:id="S.de_113.3">
+  <title xml:id="de_113.3">DE-113.3 First Name</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.3 - First Name</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.3</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact First name
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.4">
+  <title xml:id="de_113.4">DE-113.4 Middle name</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.4 - Middle Name</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.4</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact Middle name
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.5">
+  <title xml:id="de_113.5">DE-113.5 Lastname</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.6 - Lastname</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.6</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact Lastname
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.6">
+  <title xml:id="de_113.6">DE-113.6 Secondary lastname</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.6 - Secondary lastname</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.6</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact secondary lastname
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.7">
+  <title xml:id="de_113.7">DE-113.7 Email</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.7 - Email</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.7</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..20, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact email address
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.8">
+  <title xml:id="de_113.8">DE-113.8 Status flags</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.8 - Active </secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N 2</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+     This is a flags field, individual flag values are:
+     <itemizedlist>
+       <listitem><para><emphasis role="bold">0x0001</emphasis> - ACTIVE</para></listitem>
+       <listitem><para><emphasis role="bold">0x0002</emphasis> - SUSPENDED</para></listitem>
+     </itemizedlist>
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.9">
+  <title xml:id="de_113.9">DE-113.9 Honorific</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.9 - Honorific</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.9</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..10, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Contact honorific
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.10">
+  <title xml:id="de_113.10">DE-113.10 Gender</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.10 - Gender</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.10</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN 1</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    'M' for male, 'F' for female.
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.11">
+  <title xml:id="de_113.11">DE-113.11 Address 1</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.11 - Address 1</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.11</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact address 1
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.12">
+  <title xml:id="de_113.12">DE-113.12 Address 2</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.12 - Address 2</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.12</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact address 2
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.13">
+  <title xml:id="de_113.13">DE-113.13 City</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.13 - City</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.13</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..40, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact city
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.14">
+  <title xml:id="de_113.14">DE-113.14 State code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.14 - State code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.14</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN 2</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    US-specific state code (used for US contacts only).
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.15">
+  <title xml:id="de_113.15">DE-113.15 Zipcode</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.15 - Zipcode</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.15</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..10, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact zip / postal code
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.16">
+  <title xml:id="de_113.16">DE-113.16 Country code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.16 - Country</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.16</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN 2</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact ISO-3166 two-letter country code.
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.17">
+  <title xml:id="de_113.17">DE-113.17 Phone</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.17 - Phone</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.17</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..20, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Customer/Merchant/Contact primary phone number
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.18">
+  <title xml:id="de_113.18">DE-113.18 Notes</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.18 - Notes</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.18</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..99, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    General purpose notes field
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.19">
+  <title xml:id="de_113.19">DE-113.19 Dates</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.19 - Dates</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.19</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..32, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    General purpose date(s) field in 'YYYYMMDD' format.
+    Length is multiple of 8.
+   </para>
+  </simplesect>
+ </sect1>
 </chapter>
 
