@@ -6,8 +6,7 @@
 
 <appendix xml:id="function_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
  <title>Function codes</title>
- <para> The following table specifies the Function Codes associated with DE 024 (see <xref
-   linkend="de_024"/>). </para>
+ <para> The following table specifies the Function Codes associated with DE 024 (see <xref linkend="de_024"/>). </para>
 
  <table frame="all">
   <title>Function codes</title>
@@ -29,7 +28,7 @@
      <entry>Reserved</entry>
     </row>
     <row>
-     <entry morerows="10">100-199<?br?> Used in 100, 101, 120, 121, and 140 messages to indicate
+     <entry morerows="11">100-199<?br?> Used in 100, 101, 120, 121, and 140 messages to indicate
       type of authorization or verification transaction. </entry>
      <entry>100</entry>
      <entry>Original authorization - amount accurate</entry>
@@ -71,8 +70,12 @@
      <entry>Partial authorization supported by terminal</entry>
     </row>
     <row>
-     <entry>182-199</entry>
-     <entry>Reserved for private use</entry>
+     <entry>182</entry>
+     <entry>jCard private use: <xref linkend="S.de_002" endterm='de_002' /> contains customer ID</entry>
+    </row>
+    <row>
+     <entry>183-199</entry>
+     <entry>Additional reserved for private use</entry>
     </row>
     <row>
      <entry morerows="5"> 200-299<?br?> Used in 200, 201, 220, 221, and 240 messages to indicate
