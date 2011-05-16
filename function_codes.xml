@@ -71,7 +71,13 @@
     </row>
     <row>
      <entry>182</entry>
-     <entry>jCard private use: <xref linkend="S.de_002" endterm='de_002' /> contains customer ID</entry>
+     <entry>jCard private use: 
+         <xref linkend="S.de_002" endterm='de_002' /> contains customer ID
+         or
+         <xref linkend="S.de_102" endterm='de_102' /> and
+         <xref linkend="S.de_103" endterm='de_103' /> contains 
+         source and destination accounts.
+     </entry>
     </row>
     <row>
      <entry>183-199</entry>
