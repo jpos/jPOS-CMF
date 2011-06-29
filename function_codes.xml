@@ -80,6 +80,12 @@
      </entry>
     </row>
     <row>
+     <entry>183</entry>
+     <entry>jCard private use: 
+         <xref linkend="S.de_002" endterm='de_002' /> contains token ID
+     </entry>
+    </row>
+    <row>
      <entry>183-199</entry>
      <entry>Additional reserved for private use</entry>
     </row>
