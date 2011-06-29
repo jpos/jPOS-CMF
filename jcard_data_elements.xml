@@ -391,10 +391,10 @@
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_113.20">
-  <title xml:id="de_113.20">DE-113.20 Customer Alternate Identifier</title>
+  <title xml:id="de_113.20">DE-113.20 Alternate Identifier</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 113.20 - Customer Alternate Identifier</secondary>
+   <secondary>DE 113.20 - Alternate Identifier</secondary>
   </indexterm>
   <simplesect>
    <title>Data Element: 113.20</title>
