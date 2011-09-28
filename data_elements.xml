@@ -357,6 +357,36 @@
    </itemizedlist>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_005">
+  <title xml:id="de_005">DE-005 Amount reconciliation</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 005, Amount reconciliation</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 5</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N16</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> Transaction amount is a constructed data element of three parts totalling 16 positions: </para>
+   <itemizedlist>
+    <listitem>
+     <para>ISO-4217 Currency code, N3</para>
+    </listitem>
+    <listitem>
+     <para>Currency minor unit, N1</para>
+    </listitem>
+    <listitem>
+     <para>Amount Transaction, N12</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_006">
   <title xml:id="de_006">DE-006 Amount cardholder billing</title>
   <indexterm>
