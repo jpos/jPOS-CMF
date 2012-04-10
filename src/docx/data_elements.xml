@@ -30,7 +30,6 @@
      </listitem>
      <listitem>
       <para>Three digit message identifier</para>
-      <para>(see <xref linkend="de_000"/> for details)</para>
      </listitem>
     </itemizedlist></para>
   </simplesect>
@@ -457,7 +456,7 @@
    <para> If a transaction fee is involved, &PRODUCTNAME; uses this data element to represent the
     actual fee amount. </para>
    <note>
-    <para>DE 006 (<xref endterm="de_006" linkend="de_006"/>) contains the total amount including
+    <para>DE 006 (<xref endterm="de_006" linkend="S.de_006"/>) contains the total amount including
      this fee.</para>
    </note>
    <itemizedlist>
@@ -532,7 +531,7 @@
    <para> Effective date in CCYYMM format. </para>
    <note>
     <para> &PRODUCTNAME; uses this field to assist in date calculations related to DE 007 (<xref
-      endterm="de_007" linkend="de_007"/>) which does not contain Century/Year. </para>
+      endterm="de_007" linkend="S.de_007"/>) which does not contain Century/Year. </para>
    </note>
   </simplesect>
  </sect1>
@@ -3061,7 +3060,7 @@
      <tbody>
       <row>
        <entry>Account Type</entry>
-       <entry>N2 (see <xref linkend="de_003"/>)</entry>
+       <entry>N2 (see <xref linkend="S.de_003"/>)</entry>
       </row>
       <row>
        <entry>Amount Type</entry>
@@ -3132,19 +3131,19 @@
     This is a constructed data element composed of four sub elements: <itemizedlist>
      <listitem>
       <para>Original Protocol version and Message Type Identifier (MTI), N4 </para>
-      <para>See: <xref linkend="de_mti"/></para>
+      <para>See: <xref linkend="S.de_000"/></para>
      </listitem>
      <listitem>
       <para>Original System Trace Audit Number (STAN), N12</para>
-      <para>See: <xref linkend="de_011"/></para>
+      <para>See: <xref linkend="S.de_011"/></para>
      </listitem>
      <listitem>
       <para>Original Date and Time Local Transaction in UTC (CCYYMMDDhhmmss), N14 </para>
-      <para>See: <xref linkend="de_012"/></para>
+      <para>See: <xref linkend="S.de_012"/></para>
      </listitem>
      <listitem>
       <para>Original Acquiring Institution Identification Code, N..11 </para>
-      <para>See: <xref linkend="de_032"/></para>
+      <para>See: <xref linkend="S.de_032"/></para>
      </listitem>
     </itemizedlist></para>
   </simplesect>
@@ -3185,7 +3184,7 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Display message associated with the result code (see <xref linkend="de_039"/>) for the
+   <para> Display message associated with the result code (see <xref linkend="S.de_039"/>) for the
      <literal>locale</literal> name specified in the request. </para>
    <para>
     <literal>locale</literal> names are defined at &PRODUCTNAME; configuration time. </para>

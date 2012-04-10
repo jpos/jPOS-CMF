@@ -57,7 +57,7 @@
     </row>
     <row>
      <entry>04</entry>
-     <entry> Mandatory if <xref linkend="de_006" endterm="de_006"/> or <xref linkend="de_008"
+     <entry> Mandatory if <xref linkend="S.de_006" endterm="de_006"/> or <xref linkend="S.de_008"
        endterm="de_008"/> is present. </entry>
     </row>
     <row>
@@ -234,7 +234,7 @@
     </row>
     <row>
      <entry>41</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is not 650 or 651.</entry>
+     <entry>Mandatory if <xref linkend="S.de_024" endterm="de_024"/> is not 650 or 651.</entry>
     </row>
     <row>
      <entry>42</entry>
@@ -243,7 +243,7 @@
     </row>
     <row>
      <entry>43</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 111.</entry>
+     <entry>Mandatory if <xref linkend="S.de_024" endterm="de_024"/> is 111.</entry>
     </row>
     <row>
      <entry>44</entry>
@@ -251,7 +251,7 @@
     </row>
     <row>
      <entry>45</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 109, 110, 112 or 113.</entry>
+     <entry>Mandatory if <xref linkend="S.de_024" endterm="de_024"/> is 109, 110, 112 or 113.</entry>
     </row>
    </tbody>
   </tgroup>

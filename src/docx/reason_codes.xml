@@ -7,7 +7,7 @@
 <appendix xml:id="reason_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
  <title>Reason codes</title>
  <para> The following table specifies the Function Codes associated with DE 025 (see <xref
-   linkend="de_025"/>). </para>
+   linkend="S.de_025"/>). </para>
 
  <table frame="all">
   <title>Reason codes</title>
