@@ -9,8 +9,8 @@
  <indexterm><primary>100, 110</primary></indexterm>
 
  <para>
-  Depending on the <xref xlink:href="de_024" /> (see <xref xlink:href="de_024" /> and
-  <xref xlink:href="function_codes" />) this transaction class can be used for:
+  Depending on the <xref linkend="S.de_024" endterm="de_024" /> (see <xref linkend="S.de_024" /> and
+  <xref linkend="function_codes" />) this transaction class can be used for:
   <itemizedlist>
    <listitem><para>Balance Inquiry / Mini-Statement</para></listitem>
    <listitem><para>Authorization</para></listitem>
@@ -45,21 +45,21 @@
     </row>
     <row>
      <entry align="right"><emphasis role="bold">2</emphasis></entry>
-      <entry><xref xlink:href="de_002" /></entry>
+     <entry><xref linkend="S.de_002" endterm='de_002' /></entry>
      <entry />
      <entry align="center">07</entry>
      <entry align="center">16</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">3</emphasis></entry>
-     <entry><xref xlink:href="de_003" /></entry>
+     <entry><xref linkend="S.de_003" endterm="de_003" /></entry>
      <entry/>
      <entry align="center">M</entry>
      <entry align="center">27</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">4</emphasis></entry>
-     <entry><xref xlink:href="de_004" /></entry>
+     <entry><xref linkend="S.de_003" endterm="de_004" /></entry>
      <entry />
      <entry align="center">26</entry>
      <entry align="center">26</entry>

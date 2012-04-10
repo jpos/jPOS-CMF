@@ -9,7 +9,7 @@
  <indexterm><primary>200, 210</primary></indexterm>
 
  <para>
-  Depending on the <xref endterm="de_024" /> (see <xref xlink:href="de_024" /> and
+  Depending on the <xref linkend="S.de_024" endterm="de_024" /> (see <xref linkend="S.de_024" /> and
   <xref linkend="function_codes" />) this transaction class can be used for:
   <itemizedlist>
    <listitem><para>POS Purchase</para></listitem>
