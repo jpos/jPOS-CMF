@@ -2,8 +2,7 @@
   <!ENTITY % constants SYSTEM "constants.ent" >
   %constants;
 ]>
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
- version="5.0">
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
  <title>Data Elements</title>
  <indexterm>
   <primary>Data Elements</primary>
@@ -30,7 +29,7 @@
      </listitem>
      <listitem>
       <para>Three digit message identifier</para>
-      <para>(see <xref linkend="de_000"/> for details)</para>
+      <para>(see <xref xlink:href="de_000"/> for details)</para>
      </listitem>
     </itemizedlist></para>
   </simplesect>
@@ -108,8 +107,7 @@
        <entry>
         <emphasis role="bold">00</emphasis>
        </entry>
-       <entry>Authorization (Goods and Services) <emphasis role="italic">(See <xref linkend="auth"
-         />)</emphasis>
+       <entry>Authorization (Goods and Services) <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -119,8 +117,7 @@
        <entry>
         <emphasis role="bold">02</emphasis>
        </entry>
-       <entry>Authorization Void (Goods and Services) <emphasis role="italic">(See <xref
-          linkend="auth"/>)</emphasis>
+       <entry>Authorization Void (Goods and Services) <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -130,7 +127,7 @@
        <entry>
         <emphasis role="bold">20</emphasis>
        </entry>
-       <entry>Refund/Return <emphasis role="italic">(See <xref linkend="auth"/>)</emphasis>
+       <entry>Refund/Return <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -140,7 +137,7 @@
        <entry>
         <emphasis role="bold">22</emphasis>
        </entry>
-       <entry>Refund/Return Void <emphasis role="italic">(See <xref linkend="auth"/>)</emphasis>
+       <entry>Refund/Return Void <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -150,7 +147,7 @@
        <entry>
         <emphasis role="bold">30</emphasis>
        </entry>
-       <entry>Balance Inquiry <emphasis role="italic">(See <xref linkend="auth"/>)</emphasis>
+       <entry>Balance Inquiry <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -169,7 +166,7 @@
        <entry>
         <emphasis role="bold">01</emphasis>
        </entry>
-       <entry>Cash Withdrawal <emphasis role="italic">(See <xref linkend="auth"/>)</emphasis>
+       <entry>Cash Withdrawal <emphasis role="italic">(See <xref xlink:href="auth"/>)</emphasis>
        </entry>
       </row>
       <row>
@@ -252,7 +249,7 @@
         <emphasis role="bold">XX</emphasis>
        </entry>
        <entry>Reversal - use same code as original <emphasis role="italic">(See <xref
-          linkend="reversal"/>)</emphasis>
+          xlink:href="reversal"/>)</emphasis>
        </entry>
       </row>
      </tbody>
@@ -457,7 +454,7 @@
    <para> If a transaction fee is involved, &PRODUCTNAME; uses this data element to represent the
     actual fee amount. </para>
    <note>
-    <para>DE 006 (<xref endterm="de_006" linkend="de_006"/>) contains the total amount including
+    <para>DE 006 (<xref endterm="de_006" xlink:href="de_006"/>) contains the total amount including
      this fee.</para>
    </note>
    <itemizedlist>
@@ -532,7 +529,7 @@
    <para> Effective date in CCYYMM format. </para>
    <note>
     <para> &PRODUCTNAME; uses this field to assist in date calculations related to DE 007 (<xref
-      endterm="de_007" linkend="de_007"/>) which does not contain Century/Year. </para>
+      endterm="de_007" xlink:href="de_007"/>) which does not contain Century/Year. </para>
    </note>
   </simplesect>
  </sect1>
@@ -619,7 +616,7 @@
     01 to denote a message that was accepted and processed but contained invalid data in
     non-critical elements (00=error, 01=warning). </para>
    <para> The message error code contains a code identifying the error condition as described in the
-    following table: </para>&table_error_codes;
+    following table: </para> <!-- TODO: &table_error_codes; -->
    <para> The data element in error contains the data element number (001-128) and same goes for
     data sub-element, data set, bit or tag. </para>
   </simplesect>
@@ -2415,7 +2412,7 @@
   <simplesect>
    <title>Description</title>
    <para>A code indicating the specific purpose of a message within its message class.  <xref
-     linkend="function_codes"/> provides a list of function codes values supported by &PRODUCTNAME;
+     xlink:href="function_codes"/> provides a list of function codes values supported by &PRODUCTNAME;
    </para>
   </simplesect>
  </sect1>
@@ -2436,7 +2433,7 @@
   <simplesect>
    <title>Description</title>
    <para>Provides the receiver of a request, advice or notification message with the reason, or
-    purpose, of the message.  <xref linkend="reason_codes"/> provides a list of possible reason code
+    purpose, of the message.  <xref xlink:href="reason_codes"/> provides a list of possible reason code
     values supported by &PRODUCTNAME;
    </para>
   </simplesect>
@@ -3061,7 +3058,7 @@
      <tbody>
       <row>
        <entry>Account Type</entry>
-       <entry>N2 (see <xref linkend="de_003"/>)</entry>
+       <entry>N2 (see <xref xlink:href="de_003"/>)</entry>
       </row>
       <row>
        <entry>Amount Type</entry>
@@ -3132,19 +3129,19 @@
     This is a constructed data element composed of four sub elements: <itemizedlist>
      <listitem>
       <para>Original Protocol version and Message Type Identifier (MTI), N4 </para>
-      <para>See: <xref linkend="de_mti"/></para>
+      <para>See: <xref xlink:href="de_mti"/></para>
      </listitem>
      <listitem>
       <para>Original System Trace Audit Number (STAN), N12</para>
-      <para>See: <xref linkend="de_011"/></para>
+      <para>See: <xref xlink:href="de_011"/></para>
      </listitem>
      <listitem>
       <para>Original Date and Time Local Transaction in UTC (CCYYMMDDhhmmss), N14 </para>
-      <para>See: <xref linkend="de_012"/></para>
+      <para>See: <xref xlink:href="de_012"/></para>
      </listitem>
      <listitem>
       <para>Original Acquiring Institution Identification Code, N..11 </para>
-      <para>See: <xref linkend="de_032"/></para>
+      <para>See: <xref xlink:href="de_032"/></para>
      </listitem>
     </itemizedlist></para>
   </simplesect>
@@ -3185,7 +3182,7 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Display message associated with the result code (see <xref linkend="de_039"/>) for the
+   <para> Display message associated with the result code (see <xref xlink:href="de_039"/>) for the
      <literal>locale</literal> name specified in the request. </para>
    <para>
     <literal>locale</literal> names are defined at &PRODUCTNAME; configuration time. </para>
@@ -3456,7 +3453,7 @@
     <simplesect>
       <title>Description</title>
       <para><emphasis role="bold">jCard</emphasis> uses data element 113 to hold application specific data elements.
-      See <xref linkend="jcard_data_elements" /> for details.
+      See <xref xlink:href="jcard_data_elements" /> for details.
       </para>
     </simplesect>
   </sect1>

@@ -3,21 +3,18 @@
   %constants;
 ]>
 
-<section xml:id="financial" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
- <title>Financial</title>
- <indexterm><primary>Financial</primary></indexterm>
- <indexterm><primary>200, 210</primary></indexterm>
+<section xml:id="auth" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+ <title>Authorization / Balance Inquiry</title>
+ <indexterm><primary>Authorization</primary></indexterm>
+ <indexterm><primary>100, 110</primary></indexterm>
 
  <para>
-  Depending on the <xref linkend="S.de_024" endterm="de_024" /> (see <xref linkend="S.de_024" /> and
-  <xref linkend="function_codes" />) this transaction class can be used for:
+  Depending on the <xref xlink:href="de_024" /> (see <xref xlink:href="de_024" /> and
+  <xref xlink:href="function_codes" />) this transaction class can be used for:
   <itemizedlist>
-   <listitem><para>POS Purchase</para></listitem>
-   <listitem><para>Cash Withdrawal</para></listitem>
-   <listitem><para>Voids</para></listitem>
-   <listitem><para>Payment/Deposit</para></listitem>
-   <listitem><para>Account transfer</para></listitem>
-   <listitem><para>Refund/Return</para></listitem>
+   <listitem><para>Balance Inquiry / Mini-Statement</para></listitem>
+   <listitem><para>Authorization</para></listitem>
+   <listitem><para>Verification (MTI 104)</para></listitem>
   </itemizedlist>
  </para>
 
@@ -43,26 +40,26 @@
      <entry align="right"><emphasis role="bold">MTI</emphasis></entry>
      <entry>Message Type indicator</entry>
      <entry/>
-     <entry align="center"><emphasis role="bold">200</emphasis></entry>
-     <entry align="center"><emphasis role="bold">210</emphasis></entry>
+     <entry align="center"><emphasis role="bold">100</emphasis></entry>
+     <entry align="center"><emphasis role="bold">110</emphasis></entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">2</emphasis></entry>
-     <entry><xref linkend="S.de_002" endterm='de_002' /></entry>
+      <entry><xref xlink:href="de_002" /></entry>
      <entry />
      <entry align="center">07</entry>
      <entry align="center">16</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">3</emphasis></entry>
-     <entry><xref linkend="S.de_003" endterm="de_003" /></entry>
+     <entry><xref xlink:href="de_003" /></entry>
      <entry/>
      <entry align="center">M</entry>
      <entry align="center">27</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">4</emphasis></entry>
-     <entry><xref linkend="S.de_004" endterm="de_004" /></entry>
+     <entry><xref xlink:href="de_004" /></entry>
      <entry />
      <entry align="center">26</entry>
      <entry align="center">26</entry>
@@ -268,7 +265,7 @@
      <entry><xref linkend="S.de_053" endterm="de_053" /></entry>
      <entry />
      <entry align="center">02</entry>
-     <entry />
+     <entry/>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">58</emphasis></entry>
@@ -312,8 +309,9 @@
   </tgroup>
  </table>
 
- <note><para>
-         See <xref linkend="conditionals" /> for condition details.</para>
+ <note>
+  <para>See <xref linkend="conditionals" /> for condition details.</para>
  </note>
 </section>
-
+ 
+ 

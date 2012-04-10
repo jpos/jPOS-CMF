@@ -4,7 +4,7 @@
 %constants;
 ]>
 
-<appendix xml:id="conditionals" xmlns="http://docbook.org/ns/docbook" version="5.0">
+<appendix xml:id="conditionals" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
  <title>Conditional Codes</title>
  <para> The following table specifies the Condition Codes used in this documentation. </para>
 
@@ -34,7 +34,7 @@
     </row>
     <row>
      <entry>ME</entry>
-     <entry>Mandatory echo. &productname; echoes the same data (if present) as the original
+     <entry>Mandatory echo. &PRODUCTNAME; echoes the same data (if present) as the original
       message.</entry>
     </row>
     <row>
@@ -57,8 +57,7 @@
     </row>
     <row>
      <entry>04</entry>
-     <entry> Mandatory if <xref linkend="de_006" endterm="de_006"/> or <xref linkend="de_008"
-       endterm="de_008"/> is present. </entry>
+     <entry>Mandatory if <xref xlink:href="de_006"/> or <xref xlink:href="de_008" /> is present. </entry>
     </row>
     <row>
      <entry>05</entry>
@@ -234,7 +233,7 @@
     </row>
     <row>
      <entry>41</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is not 650 or 651.</entry>
+     <entry>Mandatory if <xref xlink:href="de_024" /> is not 650 or 651.</entry>
     </row>
     <row>
      <entry>42</entry>
@@ -243,7 +242,7 @@
     </row>
     <row>
      <entry>43</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 111.</entry>
+     <entry>Mandatory if <xref xlink:href="de_024" /> is 111.</entry>
     </row>
     <row>
      <entry>44</entry>
@@ -251,7 +250,7 @@
     </row>
     <row>
      <entry>45</entry>
-     <entry>Mandatory if <xref linkend="de_024" endterm="de_024"/> is 109, 110, 112 or 113.</entry>
+     <entry>Mandatory if <xref xlink:href="de_024" /> is 109, 110, 112 or 113.</entry>
     </row>
    </tbody>
   </tgroup>

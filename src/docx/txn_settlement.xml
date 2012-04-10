@@ -35,70 +35,70 @@
     </row>
     <row>
      <entry align="right"><emphasis role="bold">7</emphasis></entry>
-     <entry><xref linkend="S.de_007" endterm="de_007" /></entry>
+     <entry><xref xlink:href="de_007" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">11</emphasis></entry>
-     <entry><xref linkend="S.de_011" endterm="de_011" /></entry>
+     <entry><xref xlink:href="de_011" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">12</emphasis></entry>
-     <entry><xref linkend="S.de_012" endterm="de_012" /></entry>
+     <entry><xref xlink:href="de_012" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">13</emphasis></entry>
-     <entry><xref linkend="S.de_013" endterm="de_013" /></entry>
+     <entry><xref xlink:href="de_013" /></entry>
      <entry />
      <entry align="center">02</entry>
      <entry />
     </row>
     <row>
      <entry align="right"><emphasis role="bold">24</emphasis></entry>
-     <entry><xref linkend="S.de_024" endterm="de_024" /></entry>
+     <entry><xref xlink:href="de_024" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry />
     </row>
     <row>
      <entry align="right"><emphasis role="bold">41</emphasis></entry>
-     <entry><xref linkend="S.de_041" endterm="de_041" /></entry>
+     <entry><xref xlink:href="de_041" /></entry>
      <entry />
      <entry align="center">15</entry>
      <entry align="center">16</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">68</emphasis></entry>
-     <entry><xref linkend="S.de_068" endterm="de_068" /></entry>
+     <entry><xref xlink:href="de_068" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">74</emphasis></entry>
-     <entry><xref linkend="S.de_074" endterm="de_074" /></entry>
+     <entry><xref xlink:href="de_074" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">97</emphasis></entry>
-     <entry><xref linkend="S.de_097" endterm="de_097" /></entry>
+     <entry><xref xlink:href="de_097" /></entry>
      <entry />
      <entry align="center">M</entry>
      <entry align="center">ME</entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">111</emphasis></entry>
-     <entry><xref linkend="S.de_111" endterm="de_111" /></entry>
+     <entry><xref xlink:href="de_111" /></entry>
      <entry />
      <entry align="center">O</entry>
      <entry align="center">ME</entry>
@@ -108,7 +108,7 @@
  </table>
 
  <note>
-     <para>See <xref linkend="conditionals" /> for condition details.</para>
+     <para>See <xref xlink:href="conditionals" /> for condition details.</para>
  </note>
 </section>
 
