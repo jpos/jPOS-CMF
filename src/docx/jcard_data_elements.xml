@@ -411,5 +411,26 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.21">
+  <title xml:id="de_113.21">DE-113.21 Card Product ID</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.21 - Card Product ID</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.21</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..16, LLNUM</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Application-specific card product identifier.
+   </para>
+  </simplesect>
+ </sect1>
 </chapter>
 
