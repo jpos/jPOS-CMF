@@ -432,5 +432,26 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.22">
+  <title xml:id="de_113.22">DE-113.22 UUID(s)</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.22 - UUID</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.22</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..221</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    General purpose UUID(s) - this field supports up to six comma-separated UUIDs.
+   </para>
+  </simplesect>
+ </sect1>
 </chapter>
 
