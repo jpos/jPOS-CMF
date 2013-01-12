@@ -86,7 +86,13 @@
      </entry>
     </row>
     <row>
-     <entry>183-199</entry>
+     <entry>184</entry>
+     <entry>jCard private use: 
+         <xref linkend="S.de_113.20" endterm='de_113.20' /> contains wallet ID
+     </entry>
+    </row>
+    <row>
+     <entry>185-199</entry>
      <entry>Additional reserved for private use</entry>
     </row>
     <row>
