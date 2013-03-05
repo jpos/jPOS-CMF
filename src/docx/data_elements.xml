@@ -552,6 +552,27 @@
     after which the card has to be flagged as expired and the transaction declined. </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_015">
+  <title xml:id="de_015">DE-015 Settlement date</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 015, Settlement date</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 15</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N8 (CCYYMMDD)</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+      Settlement date in CCYYMMDD format.
+    </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_017">
   <title xml:id="de_017">DE-017 Capture date</title>
   <indexterm>
