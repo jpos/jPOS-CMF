@@ -528,11 +528,7 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para> Effective date in CCYYMM format. </para>
-   <note>
-    <para> &PRODUCTNAME; uses this field to assist in date calculations related to DE 007 (<xref
-      endterm="de_007" linkend="S.de_007"/>) which does not contain Century/Year. </para>
-   </note>
+   <para> Effective card date in CCYYMM format. </para>
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_014">
