@@ -3019,6 +3019,25 @@
    </table>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_052">
+  <title xml:id="de_052">DE-052 PIN Block</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 052, PIN Data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 52</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: B8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>PIN related data in ISO 9564-1 format used to identify the cardholder</para>
+  </simplesect>
+ </sect1>
  <!--
  <sect1 xml:id="S.de_053">
   <title xml:id="de_053">Security Related Control Information</title>
