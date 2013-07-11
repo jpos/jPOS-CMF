@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+       <entry>Jul, 2013</entry>
+       <entry>1.0.9</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added jCard field 113.23, SSN</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
        <entry>Mar, 2013</entry>
        <entry>1.0.8</entry>
        <entry>apr</entry>

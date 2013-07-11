@@ -453,5 +453,26 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.23">
+  <title xml:id="de_113.23">DE-113.23 SSN</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.23 - SSN</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.23</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: A 11</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Social Security Number in XXX-XX-XXXX
+   </para>
+  </simplesect>
+ </sect1>
 </chapter>
 
