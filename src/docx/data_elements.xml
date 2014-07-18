@@ -707,7 +707,7 @@
    <table frame="all">
     <title>Card reading method used at POS</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
-     <colspec colname="c1" colwidth="8*"/>
+     <colspec colname="c1" colwidth="6*"/>
      <thead>
       <row>
        <entry/>
@@ -865,7 +865,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -884,7 +884,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -903,7 +903,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -922,7 +922,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -998,7 +998,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -1017,7 +1017,7 @@
        <entry>-</entry>
       </row>
       <row>
-       <entry>Reserved</entry>
+       <entry>Reserved ISO</entry>
        <entry>-</entry>
        <entry>-</entry>
        <entry>-</entry>
@@ -1038,16 +1038,346 @@
      </tbody>
     </tgroup>
    </table>
-   <note>
-    <para>Bits 17 to 32 are reserved for ISO, National and Private use and not currently used by
-     &PRODUCTNAME;.</para>
-   </note>
+   <table frame="all">
+    <title>Card reading method used at POS (Bits 17 to 32)</title>
+    <tgroup cols="17" align="left" colsep="1" rowsep="1">
+     <colspec colname="c1" colwidth="6*"/>
+     <thead>
+      <row>
+       <entry/>
+       <entry>B17</entry>
+       <entry>B18</entry>
+       <entry>B19</entry>
+       <entry>B20</entry>
+       <entry>B21</entry>
+       <entry>B22</entry>
+       <entry>B23</entry>
+       <entry>B24</entry>
+       <entry>B25</entry>
+       <entry>B26</entry>
+       <entry>B27</entry>
+       <entry>B28</entry>
+       <entry>B29</entry>
+       <entry>B30</entry>
+       <entry>B31</entry>
+       <entry>B32</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved ISO</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved National</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved National</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved National</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved National</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved National</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Track1 Present (jCard Private)</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>1</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Track2 Present (jCard Private)</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>1</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved Private</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved Private</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+       <entry>-</entry>
+      </row>
+      <row>
+       <entry>Reserved Private</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>-</entry>
+       <entry>x</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+
    <para> The following table lists the value attributed to each bit of the 32 bits (four bytes)
     which indicate the cardholder verification method actually used by the POS. </para>
    <table frame="all">
     <title>Cardholder verification method used at POS</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
-     <colspec colname="c1" colwidth="8*"/>
+     <colspec colname="c1" colwidth="6*"/>
      <thead>
       <row>
        <entry/>
@@ -1386,7 +1716,7 @@
    <table frame="all">
     <title>POS environment</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
-     <colspec colname="c1" colwidth="8*"/>
+     <colspec colname="c1" colwidth="6*"/>
      <thead>
       <row>
        <entry/>
@@ -1725,7 +2055,7 @@
    <table frame="all">
     <title>Security characteristics (Bits 1 to 16)</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
-     <colspec colname="c1" colwidth="8*"/>
+     <colspec colname="c1" colwidth="6*"/>
      <thead>
       <row>
        <entry/>
@@ -2058,7 +2388,7 @@
    <table frame="all">
     <title>Security characteristics (Bits 17 to 32)</title>
     <tgroup cols="17" align="left" colsep="1" rowsep="1">
-     <colspec colname="c1" colwidth="8*"/>
+     <colspec colname="c1" colwidth="6*"/>
      <thead>
       <row>
        <entry/>
@@ -3038,9 +3368,8 @@
    <para>PIN related data in ISO 9564-1 format used to identify the cardholder</para>
   </simplesect>
  </sect1>
- <!--
  <sect1 xml:id="S.de_053">
-  <title xml:id="de_053">Security Related Control Information</title>
+  <title xml:id="de_053">DE-053 Security Related Control Information</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 053, Security Related Control Information</secondary>
@@ -3064,7 +3393,6 @@
    </para>
   </simplesect>
  </sect1>
- -->
  <sect1 xml:id="S.de_054">
   <title xml:id="de_054">DE-054 Additional Amount(s)</title>
   <indexterm>
@@ -3377,6 +3705,25 @@
      <para>Net reconciliation Transaction, N17</para>
     </listitem>
    </itemizedlist>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_100">
+  <title xml:id="de_032">DE-100 Receiving institution identification code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 100, Receiving institution identification code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 100</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..11, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>A code identifying the receiving institution. </para>
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_101">

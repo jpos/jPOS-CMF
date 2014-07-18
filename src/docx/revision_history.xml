@@ -22,6 +22,27 @@
    </thead>
    <tbody>
      <row>
+       <entry>Jul, 2014</entry>
+       <entry>1.0.11</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE TRACK1 and TRACK2 reading methods to Pos Data Code (DE 22)</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
+       <entry>Dec, 2013</entry>
+       <entry>1.0.10</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE 100, receiving institution code</para></listitem>
+           <listitem><para>Re-enabled DE 53</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
        <entry>Jul, 2013</entry>
        <entry>1.0.9</entry>
        <entry>apr</entry>
