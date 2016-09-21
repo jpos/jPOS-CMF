@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+       <entry>Sep, 2016</entry>
+       <entry>1.0.12</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE 113.24 (Installments information)</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
        <entry>Jul, 2014</entry>
        <entry>1.0.11</entry>
        <entry>apr</entry>

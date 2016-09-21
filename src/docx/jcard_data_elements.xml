@@ -474,5 +474,61 @@
    </para>
   </simplesect>
  </sect1>
+<sect1 xml:id="S.de_113.24">
+  <title xml:id="de_113.24">DE-113.24 Installments Information</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.24 - Installments Information</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.24</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N4</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Used for specify Installments Transactions.
+   </para>
+   <table frame="topbot">
+    <title>Data Element: 113.24</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+     <colspec colname="name"/>
+     <colspec colname="format" colwidth="2*"/>
+     <thead>
+      <row>
+       <entry>Subfield</entry>
+       <entry>Values</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Installment Plan Type</entry>
+       <entry>
+        <para> N2 <itemizedlist>
+          <listitem>
+           <para><emphasis role="bold">10</emphasis> Merchant Financed Plan</para>
+          </listitem>
+          <listitem>
+           <para><emphasis role="bold">11</emphasis> Issuer Financed Plan</para>
+          </listitem>
+          <listitem>
+           <para><emphasis role="bold">12</emphasis> Acquirer Financed Plan</para>
+          </listitem>
+         </itemizedlist></para>
+       </entry>
+      </row>
+      <row>
+       <entry>Number of installments</entry>
+       <entry>N2</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </simplesect>
+ </sect1>
 </chapter>
 
