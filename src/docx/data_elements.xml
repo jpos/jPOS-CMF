@@ -690,7 +690,7 @@
   <simplesect>
    <title>Description</title>
    <para> Indicates the method used to capture the PAN as well as the terminal's capabilities. </para>
-   <para> This is a constructed data element composed of four 32-bit (four bytes each) indicating: <itemizedlist>
+   <para> This is a constructed data element composed of four 32-bit elements (four bytes each) indicating: <itemizedlist>
      <listitem>
       <para>Card reading method used at POS</para>
      </listitem>
