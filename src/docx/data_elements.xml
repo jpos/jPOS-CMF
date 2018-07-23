@@ -3676,6 +3676,44 @@
    </table>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_093">
+  <title xml:id="de_093">DE-093 Transaction destination institution identification code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 093, Transaction destination institution identification code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 93</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..11, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>A code identifying the Transaction destination institution.</para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_094">
+  <title xml:id="de_094">DE-094 Transaction originator institution identification code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 094, Transaction originator institution identification code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 99</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..11, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>A code identifying the Transaction originator institution identification. </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_097">
   <title xml:id="de_097">DE-097 Amount, Net reconciliation</title>
   <indexterm>
@@ -3707,8 +3745,27 @@
    </itemizedlist>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_099">
+  <title xml:id="de_099">DE-099 Settlement institution identification code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 099, Settlement institution identification code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 99</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..11, LLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>A code identifying the settlement institution. </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_100">
-  <title xml:id="de_032">DE-100 Receiving institution identification code</title>
+  <title xml:id="de_100">DE-100 Receiving institution identification code</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 100, Receiving institution identification code</secondary>
