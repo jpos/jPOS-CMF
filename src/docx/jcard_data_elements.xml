@@ -530,5 +530,26 @@
    </table>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.25">
+  <title xml:id="de_113.25">DE-113.25 Network Name</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.25 - Network Name</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.25</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Network Name
+   </para>
+  </simplesect>
+ </sect1>
 </chapter>
 
