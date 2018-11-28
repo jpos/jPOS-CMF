@@ -3475,6 +3475,25 @@
    </table>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_055">
+  <title xml:id="de_055">DE-055 Integrated Circuit Card (ICC) Related Data</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 055, Integrated Circuit Card (ICC) Related Data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 55</title>
+  </simplesect>
+  <simplesect>
+   <title>Format: B..9999, LLLLVAR</title>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    This field contains integrated circuit card (ICC) related data in an ISO 7816-6 TLV coding structure.
+   </para>
+  </simplesect>
+ </sect1> 
  <sect1 xml:id="S.de_056">
   <title xml:id="de_056">DE-056 Original data elements</title>
   <indexterm>
