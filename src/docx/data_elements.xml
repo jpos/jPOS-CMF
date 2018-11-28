@@ -3879,10 +3879,10 @@
     </simplesect>
   </sect1>
   <sect1 xml:id="S.de_113">
-    <title xml:id="de_113">DE-113 jCard-specific data elements</title>
+    <title xml:id="de_113">DE-113 jCard / jPTS data elements</title>
     <indexterm>
       <primary>Data Elements</primary>
-      <secondary>DE 113, Card-specific data elements</secondary>
+      <secondary>DE 113, jCard / jPTS data elements</secondary>
     </indexterm>
     <simplesect>
       <title>Data Element: 113</title>
@@ -3894,7 +3894,7 @@
     </simplesect>
     <simplesect>
       <title>Description</title>
-      <para><emphasis role="bold">jCard</emphasis> uses data element 113 to hold application specific data elements.
+      <para><emphasis role="bold">jCard and jPTS</emphasis> use data element 113 to hold application specific data elements.
       See <xref linkend="jcard_data_elements" /> for details.
       </para>
     </simplesect>

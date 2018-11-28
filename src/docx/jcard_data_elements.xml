@@ -3,7 +3,7 @@
   %constants;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
- <title>jCard Data Elements</title>
+ <title>jCard / jPTS Data Elements</title>
  <indexterm>
   <primary>Data Elements</primary>
  </indexterm>
@@ -551,5 +551,26 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.39">
+  <title xml:id="de_113.39">DE-113.39 Remote Result Code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.39 - Remote ISO Result Code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.39</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..4</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Remote ISO result code.
+   </para>
+  </simplesect>
+ </sect1> 
 </chapter>
 
