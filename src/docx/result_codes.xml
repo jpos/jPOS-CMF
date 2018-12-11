@@ -47,31 +47,51 @@
     </row>
     <row>
      <entry>1003</entry>
-     <entry>Card Suspended</entry>
+     <entry>Contact acquirer</entry>
     </row>
     <row>
      <entry>1004</entry>
-     <entry>Card Stolen - pickup</entry>
+     <entry>Restricted card</entry>
     </row>
     <row>
      <entry>1005</entry>
-     <entry>Card Lost</entry>
+     <entry>Contact Acquirer Security</entry>
+    </row>
+    <row>
+     <entry>1006</entry>
+     <entry>Allowable PIN tries exceeded</entry>
+    </row>
+    <row>
+     <entry>1007</entry>
+     <entry>Refer to card issuer</entry>
+    </row>
+    <row>
+     <entry>1008</entry>
+     <entry>Refer to card issuer - special conditions</entry>
+    </row>
+    <row>
+     <entry>1009</entry>
+     <entry>Invalid card acceptor</entry>
     </row>
     <row>
      <entry>1011</entry>
-     <entry>Card Not Found</entry>
+     <entry>Invalid card number</entry>
     </row>
     <row>
      <entry>1012</entry>
-     <entry>Cardholder Not Found</entry>
+     <entry>PIN data required</entry>
+    </row>
+    <row>
+     <entry>1013</entry>
+     <entry>Unacceptable fee</entry>
     </row>
     <row>
      <entry>1014</entry>
-     <entry>Account Not Found</entry>
+     <entry>No account of type requested</entry>
     </row>
     <row>
      <entry>1015</entry>
-     <entry>Invalid Request</entry>
+     <entry>Requested function not supported</entry>
     </row>
     <row>
      <entry>1016</entry>
