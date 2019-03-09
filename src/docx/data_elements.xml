@@ -116,10 +116,30 @@
         <emphasis role="bold">100</emphasis>
        </entry>
        <entry>
+        <emphasis role="bold">01</emphasis>
+       </entry>
+       <entry>Authorization (Cash Withdrawal)
+       </entry>
+      </row>
+      <row>
+       <entry>
+        <emphasis role="bold">100</emphasis>
+       </entry>
+       <entry>
         <emphasis role="bold">02</emphasis>
        </entry>
        <entry>Authorization Void (Goods and Services) <emphasis role="italic">(See <xref
           linkend="auth"/>)</emphasis>
+       </entry>
+      </row>
+      <row>
+       <entry>
+        <emphasis role="bold">100</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">09</emphasis>
+       </entry>
+       <entry>Authorization (Purchase with cashback)
        </entry>
       </row>
       <row>
