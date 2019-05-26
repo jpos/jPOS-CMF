@@ -572,5 +572,26 @@
    </para>
   </simplesect>
  </sect1> 
+ <sect1 xml:id="S.de_113.63">
+  <title xml:id="de_113.63">DE-113.63 Additional Data - reserved for private use</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.63 - Additional Data - reserved for private use</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.63</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..9999</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       Reserved for implementation-specific additional data.
+   </para>
+  </simplesect>
+ </sect1> 
 </chapter>
 
