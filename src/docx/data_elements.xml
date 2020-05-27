@@ -3031,7 +3031,7 @@
   <simplesect>
    <title>Description</title>
    <para> Result Code returned by &PRODUCTNAME; to indicate whether the transaction is approved or
-    declined. </para>
+    declined. <xref  linkend="result_codes"/> provides a list of result codes supported by &PRODUCTNAME;</para>
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_041">
