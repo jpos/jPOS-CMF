@@ -195,6 +195,29 @@
      <entry>440-449</entry>
      <entry>Reserved for private use</entry>
     </row>
+
+    <!--Function codes for fee collections-->
+    <row>
+     <entry morerows="4"> 700-799<?br?> Used in 720, 722, 740 and 742 messages to indicate type of fee collection. </entry>
+     <entry>700</entry>
+     <entry>Fee Collection Message</entry>
+    </row>
+    <row>
+     <entry>701</entry>
+     <entry> Fee Collection cancellation, full or partial </entry>
+    </row>
+    <row>
+     <entry>702-759</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>760-779</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>780-799</entry>
+     <entry>Reserved for private use</entry>
+    </row>
    </tbody>
   </tgroup>
  </table>
