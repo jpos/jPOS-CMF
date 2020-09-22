@@ -47,6 +47,17 @@
      <entry>Financial presentment, Purchase, Void, Refund / Return, Refresh, Transfer</entry>
     </row>
     <row>
+     <entry align="center"><emphasis role="bold">220</emphasis></entry>
+     <entry align="center"><emphasis role="bold">230</emphasis></entry>
+     <entry>Financial presentment Advice</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">240</emphasis></entry>
+     <entry align="center"><emphasis role="bold">250</emphasis></entry>
+     <entry>Financial presentment Notification</entry>
+    </row>
+
+    <row>
      <entry align="center"><emphasis role="bold">300</emphasis></entry>
      <entry align="center"><emphasis role="bold">310</emphasis></entry>
      <entry>Card Activation/De-Activation</entry>
@@ -60,6 +71,26 @@
      <entry align="center"><emphasis role="bold">420</emphasis></entry>
      <entry align="center"><emphasis role="bold">430</emphasis></entry>
      <entry>Reversals of Authorization and Financial messages</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">720</emphasis></entry>
+     <entry align="center"><emphasis role="bold">730</emphasis></entry>
+     <entry>Acquirer Fee Collection Advice</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">722</emphasis></entry>
+     <entry align="center"><emphasis role="bold">732</emphasis></entry>
+     <entry>Issuer Fee Collection Advice</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">740</emphasis></entry>
+     <entry align="center"><emphasis role="bold">750</emphasis></entry>
+     <entry>Acquirer Fee Collection Notification</entry>
+    </row>
+    <row>
+     <entry align="center"><emphasis role="bold">742</emphasis></entry>
+     <entry align="center"><emphasis role="bold">752</emphasis></entry>
+     <entry>Issuer Fee Collection Notification</entry>
     </row>
     <row>
      <entry align="center"><emphasis role="bold">804</emphasis></entry>
