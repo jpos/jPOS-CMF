@@ -3213,9 +3213,12 @@
        <entry>Fee Type</entry>
        <entry>
         <para> N2 <itemizedlist>
-          <listitem>
-           <para><emphasis role="bold">00</emphasis> Transaction fee </para>
-          </listitem>
+         <listitem>
+          <para><emphasis role="bold">00</emphasis> Transaction fee </para>
+         </listitem>
+         <listitem>
+          <para><emphasis role="bold">02</emphasis> Fee Collection Fee</para>
+         </listitem>
           <listitem>
            <para><emphasis role="bold">07</emphasis> Card Acceptor Service fee</para>
           </listitem>
@@ -3625,6 +3628,36 @@
   <simplesect>
    <title>Description</title>
    <para>Used in settlement message to transmit the terminal's batch number.</para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_069">
+  <title xml:id="de_069">DE-069 Batch/file transfer control data</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 069, Batch/file transfer control data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 69</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: A40</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>This data element is a constructed data element of two parts.</para>
+   <itemizedlist>
+    <listitem>
+     <para>Batch/file transfer message count, N8</para>
+     <para>Indicates the total number of notification or instruction messages to be transmitted for this batch.</para>
+    </listitem>
+    <listitem>
+     <para>Batch/file transfer file identification, A32</para>
+     <para>Provides the unique identifier assigned to the batch.</para>
+    </listitem>
+   </itemizedlist>
+
   </simplesect>
  </sect1>
  <sect1 xml:id="S.de_072">
