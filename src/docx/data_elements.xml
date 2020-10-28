@@ -3480,6 +3480,12 @@
           <listitem>
            <para><emphasis role="bold">42</emphasis> Amount surcharge. </para>
           </listitem>
+          <listitem>
+           <para><emphasis role="bold">80</emphasis> Gratuity. </para>
+          </listitem>
+          <listitem>
+           <para><emphasis role="bold">81</emphasis> Amount taxed. </para>
+          </listitem>
          </itemizedlist></para>
        </entry>
       </row>

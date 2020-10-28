@@ -551,6 +551,90 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.26">
+  <title xml:id="de_113.26">DE-113.26 Device ID/IMEI</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.26 - Device ID/IMEI</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.26</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N..16</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+   A device identifier or IMEI (International Mobile Equipment Identity).
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.27">
+  <title xml:id="de_113.27">DE-113.27 Geolocation</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.27 - Geolocation</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.27</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+   A geolocation. Comma-separated string of latitude and longitude.
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.28">
+  <title xml:id="de_113.28">DE-113.28 Cardholder Identification Data</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.28 - Cardholder Identification Data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.28</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+   Cardholder identification data.
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.29">
+  <title xml:id="de_113.29">DE-113.29 Invoice</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.29 - Invoice</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.29</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+   Invoice information
+   </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_113.39">
   <title xml:id="de_113.39">DE-113.39 Remote Result Code</title>
   <indexterm>
