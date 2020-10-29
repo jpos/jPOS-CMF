@@ -195,6 +195,56 @@
      <entry>440-449</entry>
      <entry>Reserved for private use</entry>
     </row>
+    <row>
+     <entry morerows="7"> 800-809<?br?> Used in  804 messages to indicate system conditions. </entry>
+     <entry>800</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>801</entry>
+     <entry>Sign on</entry>
+    </row>
+    <row>
+     <entry>802</entry>
+     <entry>Sign off</entry>
+    </row>
+    <row>
+     <entry>803</entry>
+     <entry>Target system not available</entry>
+    </row>
+    <row>
+     <entry>804</entry>
+     <entry>Message originator's system in backup</entry>
+    </row>
+    <row>
+     <entry>805</entry>
+     <entry>Special instruction</entry>
+    </row>
+    <row>
+     <entry>806</entry>
+     <entry>Initiate alternate routing</entry>
+    </row>
+    <row>
+     <entry>807-809</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry morerows="3"> 830-839<?br?> Used in  804 messages to indicate system conditions. </entry>
+     <entry>830</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>831</entry>
+     <entry>Echo test</entry>
+    </row>
+    <row>
+     <entry>832</entry>
+     <entry>Response received</entry>
+    </row>
+    <row>
+     <entry>833-839</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
    </tbody>
   </tgroup>
  </table>
