@@ -283,6 +283,17 @@
           linkend="reversal"/>)</emphasis>
        </entry>
       </row>
+      <row>
+       <entry>
+        <emphasis role="bold">600</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">70</emphasis>
+       </entry>
+       <entry><anchor xml:id="txcode.pin_change" xreflabel="PIN Change transaction code"/>
+        PIN Change <emphasis role="italic">(See <xref linkend="S.de_113.52"/>)</emphasis>
+       </entry>
+      </row>
      </tbody>
     </tgroup>
    </table>
