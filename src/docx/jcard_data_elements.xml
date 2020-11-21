@@ -655,7 +655,46 @@
     Remote ISO result code.
    </para>
   </simplesect>
- </sect1> 
+ </sect1>
+ <sect1 xml:id="S.de_113.52" xreflabel="DE 113.52">
+  <title xml:id="de_113.52" xreflabel="DE 113.52">DE-113.52 New PIN Block for PIN Change operation</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.52, New PIN Data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.52</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: B8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>PIN related data in ISO 9564-1 format used to define the new PIN in 
+    <emphasis role="italic"> <link linkend="txcode.pin_change">PIN Change Operation</link></emphasis></para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.53">
+  <title xml:id="de_113.53">DE-113.53 Security Related Control Information</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.53, KSN</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.53</title>
+  </simplesect>
+  <simplesect>
+   <title>Format: B..48, LLVAR</title>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    This field contains the KSN used for encryption of <xref linkend="S.de_113.52"/> when using DUKPT.
+   </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_113.63">
   <title xml:id="de_113.63">DE-113.63 Additional Data - reserved for private use</title>
   <indexterm>

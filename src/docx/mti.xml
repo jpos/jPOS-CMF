@@ -73,6 +73,11 @@
      <entry>Reversals of Authorization and Financial messages</entry>
     </row>
     <row>
+     <entry align="center"><emphasis role="bold">600</emphasis></entry>
+     <entry align="center"><emphasis role="bold">610</emphasis></entry>
+     <entry>Administrative</entry>
+    </row>
+    <row>
      <entry align="center"><emphasis role="bold">720</emphasis></entry>
      <entry align="center"><emphasis role="bold">730</emphasis></entry>
      <entry>Acquirer Fee Collection Advice</entry>
@@ -92,7 +97,7 @@
      <entry align="center"><emphasis role="bold">752</emphasis></entry>
      <entry>Issuer Fee Collection Notification</entry>
     </row>
-    <row>
+   <row>
      <entry align="center"><emphasis role="bold">804</emphasis></entry>
      <entry align="center"><emphasis role="bold">814</emphasis></entry>
      <entry>Network Management</entry>
