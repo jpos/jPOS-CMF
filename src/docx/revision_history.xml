@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jun, 2021</entry>
+      <entry>1.0.14</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added result code 9102</para></listitem>
+        </itemizedlist>
+      </entry>      
+      </row>  
+      <row>     
        <entry>May, 2018</entry>
        <entry>1.0.13</entry>
        <entry>apr</entry>
