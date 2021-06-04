@@ -192,7 +192,11 @@
     <row>
      <entry>1823</entry>
      <entry>Invalid Acquirer</entry>
-    </row>   
+    </row>  
+    <row>
+      <entry>9102</entry>
+      <entry>Invalid transaction</entry>
+     </row>       
    </tbody>
   </tgroup>
  </table>
