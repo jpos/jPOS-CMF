@@ -516,6 +516,71 @@
    </itemizedlist>
   </simplesect>
  </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_009">
+  <title xml:id="de_009">DE-009 Conversion rate reconciliation</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 009, Conversion rate reconciliation</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 9</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> The factor used in the conversion from transaction to reconciliation amount. The
+    <xref endterm="de_004" linkend="S.de_004"/> is multiplied by this conversion rate to determine <xref endterm="de_005" linkend="S.de_005"/>.
+   </para>
+   <itemizedlist>
+    <listitem>
+     <para>Decimal separator position, N1</para>
+    </listitem>
+    <listitem >
+     <para  xml:id="conversion-rates">Conversion rate, N7</para>
+    </listitem>
+   </itemizedlist>
+   <para>
+    The first digit (Decimal separator position) is the position of the decimal separator starting from the right.
+    In other words, to get the conversion rate you need to multiply the second part by 10<superscript>-n</superscript>,
+    where n is the first digit.
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_010">
+  <title xml:id="de_010">DE-010 Conversion ratee, cardholder billing</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 010, Conversion rate, cardholder billing</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 10</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> The factor used in the conversion from transaction to cardholder billing amount. The
+    <xref endterm="de_004" linkend="S.de_004"/> is multiplied by this conversion rate to determine <xref endterm="de_006" linkend="S.de_006"/>.
+    See <xref linkend="conversion-rates" endterm="de_009"/>
+   </para>
+   <itemizedlist>
+    <listitem>
+     <para>Decimal separator position, N1. </para>
+    </listitem>
+    <listitem>
+     <para>Conversion rate, N7</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+
+ </sect1>
  <sect1 xml:id="S.de_011">
   <title xml:id="de_011">DE-011 System Trace Audit Number (STAN)</title>
   <indexterm>
@@ -2340,6 +2405,7 @@
     to six sets of 36-digit values. Each set of values shall consist of four parts. </para>
    <table frame="topbot">
     <title>DE 46 subfields</title>
+    <?dbfo keep-together="always" ?>
     <tgroup cols="2" align="left" colsep="1" rowsep="1">
      <colspec colname="name"/>
      <colspec colname="format" colwidth="2*"/>
@@ -2372,7 +2438,7 @@
       </row>
       <row>
        <entry>Conversion rate</entry>
-       <entry>N8</entry>
+       <entry>N8 <footnote><para>See <xref linkend="conversion-rates" endterm="de_009"/></para></footnote> </entry>
       </row>
       <row>
        <entry>Amount reconciliation fee</entry>
