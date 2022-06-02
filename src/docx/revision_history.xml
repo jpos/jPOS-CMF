@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jun, 2022</entry>
+      <entry>1.0.15</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added Point of service capability (DE 027)</para></listitem>
+        </itemizedlist>
+      </entry>      
+      </row>  
+     <row>
       <entry>Jun, 2021</entry>
       <entry>1.0.14</entry>
       <entry>Federico González</entry>
