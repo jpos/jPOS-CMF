@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>jpos.org</groupId>
   <artifactId>jpos-cmf</artifactId>
-  <version>1.0.14</version>
+  <version>1.0.16</version>
   <name>jPOS-CMF</name>
   <packaging>pom</packaging>
 
