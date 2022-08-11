@@ -3,7 +3,7 @@
   %constants;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
- <title>jCard / jPTS Data Elements</title>
+ <title>TPP Data Elements</title>
  <indexterm>
   <primary>Data Elements</primary>
  </indexterm>
