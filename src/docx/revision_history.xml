@@ -22,6 +22,17 @@
    </thead>
    <tbody>
      <row>
+      <entry>Aug, 2022</entry>
+      <entry>1.0.16</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added fields 113.64 and 113.65.</para></listitem>
+          <listitem><para>Renamed chapter 3.</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>Jun, 2022</entry>
       <entry>1.0.15</entry>
       <entry>Alejandro Revilla</entry>
@@ -30,7 +41,7 @@
           <listitem><para>Added Point of service capability (DE 027)</para></listitem>
         </itemizedlist>
       </entry>      
-      </row>  
+     </row>  
      <row>
       <entry>Jun, 2021</entry>
       <entry>1.0.14</entry>
