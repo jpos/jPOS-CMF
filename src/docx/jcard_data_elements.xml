@@ -3,7 +3,7 @@
   %constants;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
- <title>jCard / jPTS Data Elements</title>
+ <title>TPP Data Elements</title>
  <indexterm>
   <primary>Data Elements</primary>
  </indexterm>
@@ -713,6 +713,48 @@
    <title>Description</title>
    <para> 
        Reserved for implementation-specific additional data.
+   </para>
+  </simplesect>
+ </sect1> 
+ <sect1 xml:id="S.de_113.64">
+  <title xml:id="de_113.64">DE-113.64 Source station</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.64 - Source station</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..50</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       Source station name.
+   </para>
+  </simplesect>
+ </sect1> 
+ <sect1 xml:id="S.de_113.65">
+  <title xml:id="de_113.65">DE-113.65 Destination station</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.65 - Destination station</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.65</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..50</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       Destination station name.
    </para>
   </simplesect>
  </sect1> 
