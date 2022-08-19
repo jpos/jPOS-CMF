@@ -758,5 +758,26 @@
    </para>
   </simplesect>
  </sect1> 
+ <sect1 xml:id="S.de_113.66">
+  <title xml:id="de_113.66">DE-113.66 Card scheme</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.66 - Card scheme</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.66</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..32</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       Card scheme symbolic name
+   </para>
+  </simplesect>
+ </sect1> 
 </chapter>
 
