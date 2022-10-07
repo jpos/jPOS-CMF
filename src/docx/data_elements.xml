@@ -684,6 +684,25 @@
     data sub-element, data set, bit or tag. </para>
   </simplesect>
  </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_019">
+  <title xml:id="de_019">DE-019 Acquiring Institution Country Code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 019, Acquiring Institution Country Code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 19</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N3</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>A code identifying the country of the acquiring institution. </para>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
  <sect1 xml:id="S.de_021">
   <title xml:id="de_021">DE-021 Transaction life cycle identification data</title>
   <indexterm>
