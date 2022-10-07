@@ -87,6 +87,11 @@
     </row>
     <row>
      <entry>184</entry>
+     <entry>Partial authorization supported by terminal, Support approved only the purchase and not the cashback
+     </entry>
+    </row>
+    <row>
+     <entry>184</entry>
      <entry>jCard private use: 
          <xref linkend="S.de_113.20" endterm='de_113.20' /> contains wallet ID
      </entry>
