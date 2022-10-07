@@ -2942,6 +2942,50 @@
    <para>A code identifying the Transaction originator institution identification. </para>
   </simplesect>
  </sect1><?hard-pagebreak?>
+
+ <sect1 xml:id="S.de_095">
+  <title xml:id="de_095">DE-095 Replacement Amounts</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 095, Replacement Amounts</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 95</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N96</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> This field contains the corrected amounts of an authorization transaction. This field has 3 subfields:</para>
+   <itemizedlist>
+    <listitem>
+     <para>DE 095.01: Actual Transaction Amount</para>
+    </listitem>
+    <listitem>
+     <para>DE 095.02: Actual Settlement Amount</para>
+    </listitem>
+    <listitem>
+     <para>DE 095.03: Actual Cardholder Billing Amount</para>
+    </listitem>
+   </itemizedlist>
+   <para> Each subfield has 16-positions, each a data element constructed of three parts: </para>
+   <itemizedlist>
+    <listitem>
+     <para>ISO-4217 Currency code, N3</para>
+    </listitem>
+    <listitem>
+     <para>Currency minor unit, N1</para>
+    </listitem>
+    <listitem>
+     <para>Amount Transaction, N12</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
+ 
  <sect1 xml:id="S.de_097">
   <title xml:id="de_097">DE-097 Amount, Net reconciliation</title>
   <indexterm>
