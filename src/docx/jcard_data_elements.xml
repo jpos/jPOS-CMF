@@ -635,6 +635,49 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.30">
+  <title xml:id="de_113.30">DE-113.30 Presentment Sequence Count</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.30 - Presentment Sequence Count</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.30</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N2</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    The total number of presentment records for the authorization
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.31">
+  <title xml:id="de_113.31">DE-113.31 Presentment Sequence Number</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.31 - Presentment Sequence Number</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.31</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N2</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    A sequence number that distinguishes a specific presentment message among multiple presentment messages being submitted
+    for a single authorization
+   </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_113.32">
   <title xml:id="de_113.32">DE-113.32 Origin Transaction Identifier</title>
   <indexterm>
@@ -819,49 +862,6 @@
    <title>Description</title>
    <para> 
        Card scheme symbolic name
-   </para>
-  </simplesect>
- </sect1>
-
- <sect1 xml:id="S.de_113.67">
-  <title xml:id="de_113.67">DE-113.67 Online Risk Assessment, Risk Score</title>
-  <indexterm>
-   <primary>Data Elements</primary>
-   <secondary>DE 113.67 - Online Risk Assessment, Risk Score</secondary>
-  </indexterm>
-  <simplesect>
-   <title>Data Element: 113.67</title>
-   <para/>
-  </simplesect>
-  <simplesect>
-   <title>Format: N3</title>
-   <para/>
-  </simplesect>
-  <simplesect>
-   <title>Description</title>
-   <para>
-    This value indicates the degree of risk associated with a transaction (000 to 100) 
-   </para>
-  </simplesect>
- </sect1>
- <sect1 xml:id="S.de_113.68-72">
-  <title xml:id="de_113.68-72">DE-113.68-72 Online Risk Assessment, Reserve for private use</title>
-  <indexterm>
-   <primary>Data Elements</primary>
-   <secondary>DE 113.68-72 Online Risk Assessment, Reserve for private use</secondary>
-  </indexterm>
-  <simplesect>
-   <title>Data Element: 113.68-72</title>
-   <para/>
-  </simplesect>
-  <simplesect>
-   <title>Format: ANS..999</title>
-   <para/>
-  </simplesect>
-  <simplesect>
-   <title>Description</title>
-   <para>
-    Fields reserved for sending data related to Online Risk Assessment
    </para>
   </simplesect>
  </sect1> 
