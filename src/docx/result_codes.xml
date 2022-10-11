@@ -38,6 +38,10 @@
      <entry>Approved (VIP)</entry>
     </row>
     <row>
+     <entry>0004</entry>
+     <entry>Approved only the purchase and not the cashback</entry>
+    </row>
+    <row>
      <entry>1001</entry>
      <entry>Card Expired</entry>
     </row>
