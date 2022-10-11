@@ -2506,7 +2506,25 @@
        <entry>AN1</entry>
       </row>
       <row>
-       <entry>3-15</entry>
+       <entry>3</entry>
+       <entry>Card Verification Value for Card not present</entry>
+       <entry/>
+       <entry>AN2</entry>
+      </row>
+      <row>
+       <entry>4</entry>
+       <entry>Card Verification Value for Card present</entry>
+       <entry/>
+       <entry>AN2</entry>
+      </row>
+      <row>
+       <entry>5</entry>
+       <entry>ICC data validation</entry>
+       <entry/>
+       <entry>AN2</entry>
+      </row>
+      <row>
+       <entry>6-15</entry>
        <entry>Reserved for ISO use</entry>
        <entry/>
        <entry>ANS 40</entry>
