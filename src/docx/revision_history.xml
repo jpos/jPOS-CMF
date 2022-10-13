@@ -23,7 +23,7 @@
    <tbody>
      <row>
       <entry>Oct, 2022</entry>
-      <entry>1.0.18</entry>
+      <entry>1.0.18-pr2</entry>
       <entry>Rainer Reyes</entry>
       <entry>
         <itemizedlist>
@@ -31,6 +31,7 @@
           <listitem><para>Added data elements 113.30, 113.31, 113.32, 113.33 and 113.67-78.</para></listitem>
           <listitem><para>New reason and function code are added.</para></listitem>
           <listitem><para>Added new subfield to data element 49 (card validation results).</para></listitem>
+          <listitem><para>Added data element 19.</para></listitem>
         </itemizedlist>
       </entry>      
      </row>  
