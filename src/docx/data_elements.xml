@@ -3093,7 +3093,7 @@
   </simplesect>
  </sect1><?hard-pagebreak?>
  <sect1 xml:id="S.de_101">
-  <title xml:id="de_101">DE-101 File Name</title>
+  <title xml:id="de_101">DE-101 File Name / Transaction Modifier</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 101, File Name</secondary>
@@ -3108,7 +3108,11 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para>The actual or abbreviated name of the file being accessed by the transaction. </para>
+   <para>
+       While on file update messages this field containes the actual or abbreviated name of the file being 
+       accessed by the transaction, on regular authorization/financial transactions, it may contain  a transaction 
+       modifier.
+   </para>
   </simplesect>
  </sect1><?hard-pagebreak?>
  <sect1 xml:id="S.de_102">

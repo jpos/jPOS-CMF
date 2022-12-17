@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Dec, 2022</entry>
+      <entry>1.0.19</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>DE 101 repurposed for Transaction Modifier.</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>Oct, 2022</entry>
       <entry>1.0.18-pr2</entry>
       <entry>Rainer Reyes</entry>

@@ -30,7 +30,7 @@
                     <fo:table-row>
                         <fo:table-cell text-align="center">
                             <fo:block>
-                                <fo:external-graphic src="url(images/logo.jpg)"/>
+                                <fo:external-graphic src="url(images/jpos.svg)"/>
                             </fo:block>
                             <fo:block font-family="Helvetica" font-size="22pt" padding-before="10mm">
                                 <xsl:value-of  select="/d:book/d:info/d:title"/>
