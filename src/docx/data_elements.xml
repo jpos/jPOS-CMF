@@ -178,6 +178,17 @@
       </row>
       <row>
        <entry>
+        <emphasis role="bold">100</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">33</emphasis>
+       </entry>
+       <entry>
+           Verification inquiry <emphasis role="italic">(See <xref linkend="function_codes"/>)</emphasis>
+       </entry>
+      </row>
+      <row>
+       <entry>
         <emphasis role="bold">200</emphasis>
        </entry>
        <entry>

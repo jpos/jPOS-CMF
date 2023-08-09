@@ -12,8 +12,8 @@
   <title>Function codes</title>
   <tgroup cols="3" align="left" colsep="1" rowsep="1">
    <colspec colname="c1" colwidth="4*"/>
-   <colspec colname="c1" colwidth="2*"/>
-   <colspec colname="c2" colwidth="6*"/>
+   <colspec colname="c2" colwidth="2*"/>
+   <colspec colname="c3" colwidth="6*"/>
    <thead>
     <row>
      <entry>Range</entry>
@@ -97,8 +97,12 @@
      </entry>
     </row>
     <row>
-     <entry>186-199</entry>
-     <entry>Additional reserved for private use</entry>
+     <entry>186</entry>
+     <entry>Tokenization Eligibility Request</entry>
+    </row>
+    <row>
+     <entry>187-199</entry>
+     <entry namest="c2" nameend="c3">Reserved for private use</entry>
     </row>
     <row>
      <entry morerows="5"> 200-299<?br?> Used in 200, 201, 220, 221, and 240 messages to indicate

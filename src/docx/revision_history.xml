@@ -22,6 +22,17 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jun, 2023</entry>
+      <entry>1.0.20.rc1</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added '33' processing code, '186' function code</para></listitem>
+          <listitem><para>Added '113.67' tokenization data</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>Dec, 2022</entry>
       <entry>1.0.19</entry>
       <entry>Alejandro Revilla</entry>
