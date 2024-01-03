@@ -42,6 +42,10 @@
      <entry>Approved only the purchase and not the cashback</entry>
     </row>
     <row>
+     <entry>0885</entry>
+     <entry>No reason to decline</entry>
+    </row>
+    <row>
      <entry>1001</entry>
      <entry>Card Expired</entry>
     </row>

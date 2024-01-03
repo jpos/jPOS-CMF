@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jan, 2024</entry>
+      <entry>1.0.20.rc2</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added result code '0886' (no reason to decline)</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>Jun, 2023</entry>
       <entry>1.0.20.rc1</entry>
       <entry>Alejandro Revilla</entry>
