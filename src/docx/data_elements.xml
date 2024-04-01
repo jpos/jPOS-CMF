@@ -309,6 +309,28 @@
         PIN Change <emphasis role="italic">(See <xref linkend="S.de_113.52"/>)</emphasis>
        </entry>
       </row>
+      <row>
+       <entry>
+        <emphasis role="bold">600</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">73</emphasis>
+       </entry>
+       <entry><anchor xml:id="txcode.card_block" xreflabel="Card block"/>
+        Card block
+       </entry>
+      </row>
+      <row>
+       <entry>
+        <emphasis role="bold">600</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">74</emphasis>
+       </entry>
+       <entry><anchor xml:id="txcode.card_unblock" xreflabel="Card unblock"/>
+        Card unblock
+       </entry>
+      </row>
      </tbody>
     </tgroup>
    </table>
