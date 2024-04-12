@@ -229,34 +229,3 @@
  </sect2> 
  <?hard-pagebreak?>
 
- <!--
-  event-requestor: '0'
-  final-tokenization-decision-indicator: '2'
-  final-tokenization-decision: '1'
-  issuer-product-config-id: '3273254601'
-  mobile-number-last4: '    '
-  number-of-activation-attempts: ' '
-  pan-source: '1'
-  pan-unique-reference: 'FM4MMC00001860729e08b9901ff14b47aacb552fa91b9e5f'
-  papp-instance-id: '                                                '
-  t_c_datetime: '          '
-  t_c_id: '                                '
-  token-type: 'C'
-  token-type: 'C'
-  token-unique-reference: 'DM4MMC000018607228b3077e1cf548cba9576bd0f260afc3'
-  tokenization-event-indicator: '3'
-  tokenization-event-rc: '  '
-  wallet-provider-account-score: ' '
-  wallet-provider-device-score: ' '
-  wallet-provider-recommendation-version: '  '
-  wallet-provider-recommendation: ' '
-  wallet-service-provider-account-id-hash: '                                                                '
-  wallter-provider-recommendation-rc: '      '
--->
-
-
-
-
-
-
-

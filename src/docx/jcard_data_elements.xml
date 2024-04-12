@@ -1,6 +1,7 @@
 <!DOCTYPE chapter[
   <!ENTITY % constants SYSTEM "constants.ent" >
   <!ENTITY tokenization_data SYSTEM "tokenization_data.inc" >
+  <!ENTITY payfac_data SYSTEM "payfac_data.inc" >
   %constants;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
@@ -872,7 +873,7 @@
  <!-- Tokenization Data -->
 
  <sect1 xml:id="S.de_113.67">
-  <title xml:id="de_113.67">DE-113.67 Tokenization Data</title>
+  <title xml:id="de_113.67">DE-113.67 Tokenization data</title>
   <indexterm>
    <primary>Data Elements</primary>
    <secondary>DE 113.67 - Tokenization Data</secondary>
@@ -893,6 +894,31 @@
    </para>
   </simplesect>
   &tokenization_data;
+ </sect1>
+
+ <!-- Payfac Data -->
+ <sect1 xml:id="S.de_113.68">
+  <title xml:id="de_113.68">DE-113.68 PayFac marketplace data</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.68 - Payfac marketplace data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.67</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: B..999</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       This is a constructed data element composed of payment facilitator related 
+       additional data elements as described below.
+   </para>
+  </simplesect>
+  &payfac_data;
  </sect1>
 </chapter>
 

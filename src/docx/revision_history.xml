@@ -9,7 +9,7 @@
   <title>Revision History</title>
   <tgroup cols="4" align="left" colsep="1" rowsep="1">
    <colspec colname="revnumber" colwidth="1*"/>
-   <colspec colname="revversion" colwidth="1*"/>
+   <colspec colname="revversion" colwidth="2*"/>
    <colspec colname="revauthor" colwidth="3*"/>
    <colspec colname="revremarks" colwidth="6*"/>
    <thead>
@@ -24,10 +24,11 @@
      <row>
       <entry>April, 2024</entry>
       <entry>1.0.20.rc3</entry>
-      <entry>Federico González</entry>
+      <entry>Federico González<?br?>Alejandro Revilla</entry>
       <entry>
         <itemizedlist>
-            <listitem><para>Added transaction types for card block and unblock (600.73 and 600.74)</para></listitem>
+          <listitem><para>Added transaction types for card block and unblock (600.73 and 600.74).</para></listitem>
+          <listitem><para>Added <xref linkend="S.de_113.68" />.</para></listitem>
         </itemizedlist>
       </entry>      
      </row>  
