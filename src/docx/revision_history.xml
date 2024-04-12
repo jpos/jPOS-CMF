@@ -23,8 +23,18 @@
    <tbody>
      <row>
       <entry>April, 2024</entry>
+      <entry>1.0.20.rc4</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added <xref linkend="S.de_113.68" />.</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
+      <entry>April, 2024</entry>
       <entry>1.0.20.rc3</entry>
-      <entry>Federico González<?br?>Alejandro Revilla</entry>
+      <entry>Federico González</entry>
       <entry>
         <itemizedlist>
           <listitem><para>Added transaction types for card block and unblock (600.73 and 600.74).</para></listitem>
