@@ -45,7 +45,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
  <sect2 xml:id="S.de_113.67.2">
   <title xml:id="de_113.67.2">DE-113.67.2 Payment Application Instance-ID</title>
   <indexterm>
@@ -67,7 +66,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
  <sect2 xml:id="S.de_113.67.3">
   <title xml:id="de_113.67.3">DE-113.67.3 Active Tokens Count</title>
   <indexterm>
@@ -89,7 +87,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
  <sect2 xml:id="S.de_113.67.4">
   <title xml:id="de_113.67.4">DE-113.67.4 Wallet Provider Acct Hash</title>
   <indexterm>
@@ -111,7 +108,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 
  <sect2 xml:id="S.de_113.67.5">
   <title xml:id="de_113.67.5">DE-113.67.5 Tokenization Cardholder Name</title>
@@ -134,7 +130,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 
  <sect2 xml:id="S.de_113.67.6">
   <title xml:id="de_113.67.6">DE-113.67.6 Token Type</title>
@@ -157,7 +152,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 
  <sect2 xml:id="S.de_113.67.7">
   <title xml:id="de_113.67.7">DE-113.67.7 Consumer language</title>
@@ -180,7 +174,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 
  <sect2 xml:id="S.de_113.67.8">
   <title xml:id="de_113.67.8">DE-113.67.8 Device Location</title>
@@ -203,7 +196,6 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 
  <sect2 xml:id="S.de_113.67.9">
   <title xml:id="de_113.67.9">DE-113.67.9 Device Fingerprint</title>
@@ -227,5 +219,4 @@
    </para>
   </simplesect>
  </sect2> 
- <?hard-pagebreak?>
 

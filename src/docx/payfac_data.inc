@@ -24,10 +24,10 @@
   <title xml:id="de_113.68">DE-113.68.1 PayFac ID</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 113.67.1 - PayFac ID</secondary>
+   <secondary>DE 113.68.1 - PayFac ID</secondary>
   </indexterm>
   <simplesect>
-   <title>Data Element: 113.67.1</title>
+   <title>Data Element: 113.68.1</title>
    <para/>
   </simplesect>
   <simplesect>
@@ -46,10 +46,10 @@
   <title xml:id="de_113.68">DE-113.68.2 PayFac MID</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 113.67.2 - PayFac MID</secondary>
+   <secondary>DE 113.68.2 - PayFac MID</secondary>
   </indexterm>
   <simplesect>
-   <title>Data Element: 113.67.2</title>
+   <title>Data Element: 113.68.2</title>
    <para/>
   </simplesect>
   <simplesect>
@@ -63,6 +63,4 @@
    </para>
   </simplesect>
  </sect2> 
-
- <?hard-pagebreak?>
 
