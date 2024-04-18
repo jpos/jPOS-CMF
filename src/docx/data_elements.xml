@@ -3245,4 +3245,42 @@
       </para>
     </simplesect>
   </sect1><?hard-pagebreak?>
+  <sect1 xml:id="S.de_114">
+    <title xml:id="de_114">DE-114 Reserved for private use</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 114, Reserved for private use</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 114</title>
+      <para>Reserved for private use</para>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Reserved for application-specific, customer private use.</para>
+    </simplesect>
+  </sect1><?hard-pagebreak?>
+  <sect1 xml:id="S.de_115">
+    <title xml:id="de_115">DE-115 Reserved for private use</title>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 115, Reserved for private use</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 115</title>
+      <para>Reserved for private use</para>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Reserved for application-specific, customer private use.</para>
+    </simplesect>
+  </sect1><?hard-pagebreak?>
 </chapter>
