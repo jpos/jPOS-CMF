@@ -111,20 +111,236 @@
     </row>
     <row>
      <entry>1018</entry>
-     <entry>Previously Reversed</entry>
-    </row>    
+     <entry>No card record</entry>
+    </row>
     <row>
      <entry>1019</entry>
-     <entry>Further activity prevents reversal</entry>
-    </row> 
+     <entry>Transaction not permitted to cardholder</entry>
+    </row>
     <row>
      <entry>1020</entry>
-     <entry>Further activity prevents void</entry>
-    </row> 
+     <entry>Transaction not permitted to terminal</entry>
+    </row>
     <row>
      <entry>1021</entry>
-     <entry>Original transaction has been voided</entry>
+     <entry>Exceeds withdrawal amount limit</entry>
     </row>
+    <row>
+     <entry>1022</entry>
+     <entry>Security violation</entry>
+    </row>
+    <row>
+     <entry>1023</entry>
+     <entry>Exceeds withdrawal frequency limit</entry>
+    </row>
+    <row>
+     <entry>1024</entry>
+     <entry>Violation of law</entry>
+    </row>
+    <row>
+     <entry>1025</entry>
+     <entry>Card not effective</entry>
+    </row>
+    <row>
+     <entry>1026</entry>
+     <entry>Invalid PIN block</entry>
+    </row>
+    <row>
+     <entry>1027</entry>
+     <entry>PIN length error</entry>
+    </row>
+    <row>
+     <entry>1028</entry>
+     <entry>PIN key sync error</entry>
+    </row>
+    <row>
+     <entry>1029</entry>
+     <entry>Suspected counterfeit card</entry>
+    </row>
+    <row>
+     <entry>1030</entry>
+     <entry>Currency unacceptable to card issuer</entry>
+    </row>
+    <row>
+     <entry>1031</entry>
+     <entry>Declined and fees disputed</entry>
+    </row>
+    <row>
+     <entry>1032</entry>
+     <entry>Lost/stolen card</entry>
+    </row>
+    <row>
+     <entry>1033</entry>
+     <entry>Authoriozation lifecycle unacceptable</entry>
+    </row>
+    <row>
+     <entry>1034</entry>
+     <entry>Authoriozation lifecycle has expired</entry>
+    </row>
+    <row>
+     <entry>1035</entry>
+     <entry>Closed account</entry>
+    </row>
+    <row>
+     <entry>1036</entry>
+     <entry>Closed or restricted savings account</entry>
+    </row>
+    <row>
+     <entry>1037</entry>
+     <entry>Closed or restricted credit account</entry>
+    </row>
+    <row>
+     <entry>1038</entry>
+     <entry>Closed credit facility cheque account or restricted for closing</entry>
+    </row>
+    <row>
+     <entry>1039</entry>
+     <entry>Closed or restricted cheque account</entry>
+    </row>
+    <row>
+     <entry>1040</entry>
+     <entry>Bad debt</entry>
+    </row>
+    <row>
+     <entry>1041</entry>
+     <entry>From account bad status</entry>
+    </row>
+    <row>
+     <entry>1042</entry>
+     <entry>To account bad status</entry>
+    </row>
+    <row>
+     <entry>1043</entry>
+     <entry>Cheque already posted</entry>
+    </row>
+    <row>
+     <entry>1044</entry>
+     <entry>Information not on file</entry>
+    </row>
+    <row>
+     <entry>1045</entry>
+     <entry>Card verification data failed</entry>
+    </row>
+    <row>
+     <entry>1046</entry>
+     <entry>Amount not found</entry>
+    </row>
+    <row>
+     <entry>1047</entry>
+     <entry>PIN change required</entry>
+    </row>
+    <row>
+     <entry>1048</entry>
+     <entry>New PIN invalid</entry>
+    </row>
+    <row>
+     <entry>1049</entry>
+     <entry>Bank not found</entry>
+    </row>
+    <row>
+     <entry>1050</entry>
+     <entry>Bank not effective</entry>
+    </row>
+    <row>
+     <entry>1051</entry>
+     <entry>Customer vendor not found</entry>
+    </row>
+    <row>
+     <entry>1052</entry>
+     <entry>Customer vendor not effective</entry>
+    </row>
+    <row>
+     <entry>1053</entry>
+     <entry>Customer vendor account invalid</entry>
+    </row>
+    <row>
+     <entry>1054</entry>
+     <entry>Vendor not found</entry>
+    </row>
+    <row>
+     <entry>1055</entry>
+     <entry>Vendor not effective</entry>
+    </row>
+    <row>
+     <entry>1056</entry>
+     <entry>Vendor data invalid</entry>
+    </row>
+    <row>
+     <entry>1057</entry>
+     <entry>Vendor date invalid</entry>
+    </row>
+    <row>
+     <entry>1058</entry>
+     <entry>Personal ID not found</entry>
+    </row>
+    <row>
+     <entry>1059</entry>
+     <entry>Scheduled transactions exist</entry>
+    </row>
+    <row>
+     <entry>1060</entry>
+     <entry>Aborted at terminal</entry>
+    </row>
+    <row>
+     <entry>1061</entry>
+     <entry>Transaction not supported by the card issuer</entry>
+    </row>
+    <row>
+     <entry>1062</entry>
+     <entry>Cashback not allowed</entry>
+    </row>
+    <row>
+     <entry>1063</entry>
+     <entry>Cashback amount exceeded</entry>
+    </row>
+    <row>
+     <entry>1064</entry>
+     <entry>Declined, transaction processed offline by terminal</entry>
+    </row>
+    <row>
+     <entry>1065</entry>
+     <entry>Declined, terminal unable to process offline</entry>
+    </row>
+    <row>
+     <entry>1066</entry>
+     <entry>Declined, transaction processed offline after referral</entry>
+    </row>
+    <row>
+     <entry>1067</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>1068</entry>
+     <entry>ID number invalid</entry>
+    </row>
+    <row>
+     <entry>1069</entry>
+     <entry>Driver ID number invalid</entry>
+    </row>
+    <row>
+     <entry>1070</entry>
+     <entry>Vehicle ID number invalid</entry>
+    </row>
+    <row>
+     <entry>1071</entry>
+     <entry>Digital certificate expired</entry>
+    </row>
+    <row>
+     <entry>1072-1599</entry>
+     <entry>Reserved for ISO use</entry>
+    </row>
+    <row>
+     <entry>1600-1799</entry>
+     <entry>Reserved for national use</entry>
+    </row>
+    <row>
+     <entry>1800-1999</entry>
+     <entry>Reserved for private use (see below)</entry>
+    </row>
+
+
+
+
     <row>
      <entry>1802</entry>
      <entry>Missing fields</entry>
@@ -201,10 +417,29 @@
      <entry>1823</entry>
      <entry>Invalid Acquirer</entry>
     </row>  
+
+    <row>
+     <entry>1824</entry>
+     <entry>Previously Reversed</entry>
+    </row>    
+    <row>
+     <entry>1825</entry>
+     <entry>Further activity prevents reversal</entry>
+    </row> 
+    <row>
+     <entry>1826</entry>
+     <entry>Further activity prevents void</entry>
+    </row> 
+    <row>
+     <entry>1827</entry>
+     <entry>Original transaction has been voided</entry>
+    </row>
+
     <row>
       <entry>9102</entry>
       <entry>Invalid transaction</entry>
-     </row>       
+    </row>       
+
    </tbody>
   </tgroup>
  </table>

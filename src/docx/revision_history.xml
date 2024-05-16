@@ -22,6 +22,17 @@
    </thead>
    <tbody>
      <row>
+      <entry>May, 2024</entry>
+      <entry>1.0.20.rc5</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Moved rc 1018..1021 to 1824..1827. See <xref  linkend="result_codes"/></para></listitem>
+          <listitem><para>Added missing result codes in the 1021..1071 range. See <xref  linkend="result_codes"/>.</para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>April, 2024</entry>
       <entry>1.0.20.rc4</entry>
       <entry>Alejandro Revilla</entry>
