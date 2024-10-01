@@ -1913,7 +1913,7 @@
   </simplesect>
   <simplesect>
    <title>Description</title>
-   <para>Code classifying the type of business being done by the card acceptor for this transaction
+   <para>Code classifying the type of business being done by the card acceptor for this transaction. See <xref linkend="mcc"/>.
    </para>
   </simplesect>
  </sect1><?hard-pagebreak?>

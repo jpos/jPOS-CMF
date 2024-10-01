@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Oct, 2024</entry>
+      <entry>1.0.20.rc7</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added <xref  linkend="mcc"/></para></listitem>
+        </itemizedlist>
+      </entry>      
+     </row>  
+     <row>
       <entry>Jul, 2024</entry>
       <entry>1.0.20.rc6</entry>
       <entry>Alejandro Revilla</entry>

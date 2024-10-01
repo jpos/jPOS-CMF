@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="mcc" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Merchant Category Codes</title>
+ <para> The following table lists merchant category code values  DE 026 (see <xref linkend="S.de_026"/>).</para>
+ <table frame="all">
+  <title>Merchant Category Codes</title>
+  <tgroup cols="3" align="left" colsep="1" rowsep="1">
+   <colspec colname="c1" colwidth="4*"/>
+   <colspec colname="c2" colwidth="2*"/>
+   <colspec colname="c2" colwidth="8*"/>
+   <thead>
+    <row>
+     <entry>Range</entry>
+     <entry>Codes</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+       <row>
+           <entry morerows="2">0000-0699<?br?>Reserved</entry>
+           <entry>0001-0499</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>0500-0599</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>0600-0699</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+
+       <row>
+           <entry morerows="10">0700-0999<?br?>Agricultural services</entry>
+           <entry>0700-0741</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>0742</entry>
+           <entry>Veterinary services</entry>
+       </row>
+       <row>
+           <entry>0743</entry>
+           <entry>Wine producers</entry>
+       </row>
+       <row>
+           <entry>0744</entry>
+           <entry>Champagne producers</entry>
+       </row>
+       <row>
+           <entry>0745-0762</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>0763</entry>
+           <entry>Agricultural co-operatives</entry>
+       </row>
+       <row>
+           <entry>0764-0779</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>0780</entry>
+           <entry>Landscaping and horticultural services</entry>
+       </row>
+       <row>
+           <entry>0781-0819</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>0820-0879</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>0880-0999</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+
+       <row>
+           <entry>1000-1499<?br?>Reserved for ISO use</entry>
+           <entry>1000-1499</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+       <row>
+           <entry morerows="23">1500-2999<?br?>Contracted services</entry>
+           <entry>1500-1519</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1520</entry>
+           <entry>General contractors (residential and commercial)</entry>
+       </row>
+       <row>
+           <entry>1521-1710</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1711</entry>
+           <entry>Heating, plumbin and air-conditioning contractors</entry>
+       </row>
+       <row>
+           <entry>1712-1730</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>1731</entry>
+           <entry>Electrical contractors</entry>
+       </row>
+       <row>
+           <entry>1732-1739</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1740</entry>
+           <entry>Masonry, stonework, tile setting, platering and insulation contractors</entry>
+       </row>
+       <row>
+           <entry>1741-1749</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1750</entry>
+           <entry>Carpentry contractors</entry>
+       </row>
+       <row>
+           <entry>1751-1760</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1761</entry>
+           <entry>Roofing, siding and sheet metal work contractors</entry>
+       </row>
+       <row>
+           <entry>1762-1770</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>1771</entry>
+           <entry>Concrete work contractors</entry>
+       </row>
+       <row>
+           <entry>1772-1798</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>1799</entry>
+           <entry>Special trade contractors - not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>1800-2199</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>2200-2740</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>2741</entry>
+           <entry>Miscellaneous publishing and printing services</entry>
+       </row>
+       <row>
+           <entry>2742-2790</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>2791</entry>
+           <entry>Typesetting, platemaking and related services</entry>
+       </row>
+       <row>
+           <entry>2792-2841</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>2842</entry>
+           <entry>Speciality cleaning, polishing and sanitation preparations</entry>
+       </row>
+       <row>
+           <entry>2843-2999</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+
+       <row>
+           <entry>3000-3999<?br?>Reserved for private use</entry>
+           <entry>3000-3999</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+
+       <row>
+           <entry morerows="34">4000-4799<?br?>Transportation</entry>
+           <entry>4000-4010</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4011</entry>
+           <entry>Railroads</entry>
+       </row>
+       <row>
+           <entry>4012-4110</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4111</entry>
+           <entry>Local and suburban commuter passenger transportation, including ferries</entry>
+       </row>
+       <row>
+           <entry>4112</entry>
+           <entry>Passenger railways</entry>
+       </row>
+       <row>
+           <entry>4113-4118</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4119</entry>
+           <entry>Ambulance services</entry>
+       </row>
+       <row>
+           <entry>4120</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4121</entry>
+           <entry>Taxi-cabs and limousines</entry>
+       </row>
+       <row>
+           <entry>4122-4130</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4131</entry>
+           <entry>Bus lines</entry>
+       </row>
+       <row>
+           <entry>4132-4213</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4214</entry>
+           <entry>Motor freight carriers and trucking - local and long distance, moving and storage companies and local delivery</entry>
+       </row>
+       <row>
+           <entry>4215</entry>
+           <entry>Courier services - air, ground and freight forwarders</entry>
+       </row>
+       <row>
+           <entry>4216-4224</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4225</entry>
+           <entry>Public warehousing and storage - farm products, refrigerated goods and household goods</entry>
+       </row>
+       <row>
+           <entry>4226-4299</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4230-4410</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>4411</entry>
+           <entry>Steamships and cruise lines</entry>
+       </row>
+       <row>
+           <entry>4412-4456</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4457</entry>
+           <entry>Boat rentals and leasing</entry>
+       </row>
+       <row>
+           <entry>4458-4467</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4468</entry>
+           <entry>Marinas, marine service and supplies</entry>
+       </row>
+       <row>
+           <entry>4469-4510</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4511</entry>
+           <entry>Airlines and air carriers</entry>
+       </row>
+       <row>
+           <entry>4512-4581</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4582</entry>
+           <entry>Airports, flying fields and airport terminals</entry>
+       </row>
+       <row>
+           <entry>4583-4656</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4657-4721</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>4722</entry>
+           <entry>Travel agencies and tour operators</entry>
+       </row>
+       <row>
+           <entry>4723-4783</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4784</entry>
+           <entry>Tolls and bridges fees</entry>
+       </row>
+       <row>
+           <entry>4785-4788</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4789</entry>
+           <entry>Transportation services - not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>4790-4799</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+
+       <row>
+           <entry morerows="15">4800-4999<?br?>Utilities</entry>
+           <entry>4800-4811</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4812</entry>
+           <entry>Telecommunication equipment and telephone sales</entry>
+       </row>
+       <row>
+           <entry>4813</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4814</entry>
+           <entry>
+               Telecommunication services, including local and long distance calls,
+               credit card calls, call through use of magnetic stripe reading telephones
+               and faxes
+           </entry>
+       </row>
+       <row>
+           <entry>4815</entry>
+           <entry>Montly summary telephone charges</entry>
+       </row>
+       <row>
+           <entry>4816</entry>
+           <entry>Computer network/information services</entry>
+       </row>
+       <row>
+           <entry>4817-4820</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4821</entry>
+           <entry>Telegraph services</entry>
+       </row>
+       <row>
+           <entry>4822-4828</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>4829</entry>
+           <entry>Wire transfers and money orders</entry>
+       </row>
+       <row>
+           <entry>4830-4895</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>4896-4898</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4899</entry>
+           <entry>Cable and other pay television services</entry>
+       </row>
+       <row>
+           <entry>4900</entry>
+           <entry>Utilities - electric, gas, water and sanitary</entry>
+       </row>
+       <row>
+           <entry>4901-4974</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>4975-4999</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+
+       <row>
+           <entry morerows="78">5000-5599<?br?>Retail outlets</entry>
+           <entry>5000-5012</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5013</entry>
+           <entry>Motor vehicle supplies and new parts</entry>
+       </row>
+       <row>
+           <entry>5014-5020</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5021</entry>
+           <entry>Office and commercial furniture</entry>
+       </row>
+       <row>
+           <entry>5022-5038</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5039</entry>
+           <entry>Construction materials - not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5040-5043</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5044</entry>
+           <entry>Office, photographic, photocopy and microfilm equipment</entry>
+       </row>
+       <row>
+           <entry>5045</entry>
+           <entry>Computers, computer peripheral equipment — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5046</entry>
+           <entry>Commercial equipment — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5047</entry>
+           <entry>Dental/laboratory/medical/ophthalmic hospital equipment and supplies</entry>
+       </row>
+       <row>
+           <entry>5048-5050</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5051</entry>
+           <entry>Metal service centres and offices</entry>
+       </row>
+       <row>
+           <entry>5052-5064</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5065</entry>
+           <entry>Electrical parts and equipment</entry>
+       </row>
+       <row>
+           <entry>5066-5071</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5072</entry>
+           <entry>Hardware equipment and supplies</entry>
+       </row>
+       <row>
+           <entry>5073</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5074</entry>
+           <entry>Plumbing and heating equipment and supplies</entry>
+       </row>
+       <row>
+           <entry>5075-5084</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5085</entry>
+           <entry>Industrial supplies — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5086-5093</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5094</entry>
+           <entry>Precious stones and metals, watches and jewellery</entry>
+       </row>
+       <row>
+           <entry>5095-5098</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5099</entry>
+           <entry>Durable goods — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5100-5110</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5111</entry>
+           <entry>Stationery, office supplies and printing and writing paper</entry>
+       </row>
+       <row>
+           <entry>5112-5121</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5122</entry>
+           <entry>Drugs, drug proprietors</entry>
+       </row>
+       <row>
+           <entry>5123-5130</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5131</entry>
+           <entry>Piece goods, notions and other dry goods</entry>
+       </row>
+       <row>
+           <entry>5132-5136</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5137</entry>
+           <entry>Men’s, women’s and children’s uniforms and commercial clothing</entry>
+       </row>
+       <row>
+           <entry>5138</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5139</entry>
+           <entry>Commercial footwear</entry>
+       </row>
+       <row>
+           <entry>5140-5168</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5169</entry>
+           <entry>Chemicals and allied products — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5170-5171</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5172</entry>
+           <entry>Petroleum and petroleum products</entry>
+       </row>
+
+       <row>
+           <entry>5173-5191</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5192</entry>
+           <entry>Books, periodicals and newspapers</entry>
+       </row>
+       <row>
+           <entry>5193</entry>
+           <entry>Florists’ supplies, nursery stock and flowers</entry>
+       </row>
+       <row>
+           <entry>5194-5197</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5198</entry>
+           <entry>Paints, varnishes and supplies</entry>
+       </row>
+       <row>
+           <entry>5199</entry>
+           <entry>Non-durable goods — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5200</entry>
+           <entry>Home supply warehouse outlets</entry>
+       </row>
+       <row>
+           <entry>5201-5210</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5211</entry>
+           <entry>Lumber and building materials outlets</entry>
+       </row>
+       <row>
+           <entry>5212-5230</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5231</entry>
+           <entry>Glass, paint and wallpaper shops</entry>
+       </row>
+       <row>
+           <entry>5232-5250</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5251</entry>
+           <entry>Hardware shops</entry>
+       </row>
+       <row>
+           <entry>5252-5260</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5261</entry>
+           <entry>Lawn and garden supplies outlets, including nurseries</entry>
+       </row>
+       <row>
+           <entry>5262-5270</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5271</entry>
+           <entry>Mobile home dealers</entry>
+       </row>
+       <row>
+           <entry>5272-5291</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5292-5299</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5300</entry>
+           <entry>Wholesale clubs</entry>
+       </row>
+       <row>
+           <entry>5301-5308</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5309</entry>
+           <entry>Duty-free shops</entry>
+       </row>
+       <row>
+           <entry>5310</entry>
+           <entry>Discount shops</entry>
+       </row>
+       <row>
+           <entry>5311</entry>
+           <entry>Department stores</entry>
+       </row>
+       <row>
+           <entry>5312-5330</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5331</entry>
+           <entry>Variety stores</entry>
+       </row>
+       <row>
+           <entry>5332-5398</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5399</entry>
+           <entry>Miscellaneous general merchandise</entry>
+       </row>
+       <row>
+           <entry>5400-5410</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5411</entry>
+           <entry>Groceries and supermarkets</entry>
+       </row>
+       <row>
+           <entry>5412-5421</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5422</entry>
+           <entry>Freezer and locker meat provisioners</entry>
+       </row>
+       <row>
+           <entry>5423-5440</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5441</entry>
+           <entry>Candy, nut and confectionery shops</entry>
+       </row>
+       <row>
+           <entry>5442-5450</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5451</entry>
+           <entry>Dairies</entry>
+       </row>
+       <row>
+           <entry>5452-5461</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5462</entry>
+           <entry>Bakeries</entry>
+       </row>
+       <row>
+           <entry>5463-5498</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5499</entry>
+           <entry>Miscellaneous food shops - convenience and speciality retail outlets</entry>
+       </row>
+
+       <row>
+           <entry morerows="21">5500-5599<?br?>Automobiles and vehicles</entry>
+           <entry>5500-5510</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5511</entry>
+           <entry>Car and truck dealers (new and used) sales, services, repairs, parts and leasing</entry>
+       </row>
+       <row>
+           <entry>5512-5520</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5521</entry>
+           <entry>Car and truck dealers (used only) sales, service, repairs, parts and leasing</entry>
+       </row>
+       <row>
+           <entry>5522-5530</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5531</entry>
+           <entry>Auto and home supply outlets</entry>
+       </row>
+       <row>
+           <entry>5532</entry>
+           <entry>Automotive tyre outlets</entry>
+       </row>
+       <row>
+           <entry>5533</entry>
+           <entry>Automotive parts and accessories outlets</entry>
+       </row>
+       <row>
+           <entry>5534-5540</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5541</entry>
+           <entry>Service stations (with or without ancillary services)</entry>
+       </row>
+       <row>
+           <entry>5542</entry>
+           <entry>Automated fuel dispensers</entry>
+       </row>
+       <row>
+           <entry>5543-5550</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5551</entry>
+           <entry>Boat dealers</entry>
+       </row>
+       <row>
+           <entry>5552-5560</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5561</entry>
+           <entry>Camper, recreational and utility trailer dealers</entry>
+       </row>
+       <row>
+           <entry>5562-5570</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5571</entry>
+           <entry>Motorcycle shops and dealers</entry>
+       </row>
+       <row>
+           <entry>5572-5591</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5592</entry>
+           <entry>Motor home dealers</entry>
+       </row>
+       <row>
+           <entry>5593-5597</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5598</entry>
+           <entry>Snowmobile dealers</entry>
+       </row>
+       <row>
+           <entry>5599</entry>
+           <entry>Miscellaneous automotive, aircraft and farm equipment dealers — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry morerows="20">5600-5699<?br?>Clothing outlets</entry>
+           <entry>5600-5610</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5612-5620</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5621</entry>
+           <entry>Women’s ready-to-wear shops</entry>
+       </row>
+       <row>
+           <entry>5622-5630</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5631</entry>
+           <entry>Women’s accessory and speciality shops</entry>
+       </row>
+       <row>
+           <entry>5632-5640</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5641</entry>
+           <entry>Children’s and infants’ wear shops</entry>
+       </row>
+       <row>
+           <entry>5642-5650</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5651</entry>
+           <entry>Family clothing shops</entry>
+       </row>
+       <row>
+           <entry>5652-5654</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5655</entry>
+           <entry>Sports and riding apparel shops</entry>
+       </row>
+       <row>
+           <entry>5656-5660</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5661</entry>
+           <entry>Shoe shops</entry>
+       </row>
+       <row>
+           <entry>5662-5680</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5681</entry>
+           <entry>Furriers and fur shops</entry>
+       </row>
+       <row>
+           <entry>5682-5690</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5691</entry>
+           <entry>Men’s and women’s clothing shops</entry>
+       </row>
+       <row>
+           <entry>5692-5696</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>5697</entry>
+           <entry>Tailors, seamstresses, mending and alterations</entry>
+       </row>
+       <row>
+           <entry>5698</entry>
+           <entry>Wig and toupee shops</entry>
+       </row>
+       <row>
+           <entry>5699</entry>
+           <entry>Miscellaneous apparel and accessory shops</entry>
+       </row>
+
+       <row>
+           <entry morerows="53">5700-5711<?br?>Miscellaneous outlets</entry>
+           <entry>5700-5711</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>5915-5920</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5921</entry>
+           <entry>Package shops — beer, wine and liquor</entry>
+       </row>
+       <row>
+           <entry>5922-5930</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5931</entry>
+           <entry>Used merchandise and second-hand shops</entry>
+       </row>
+       <row>
+           <entry>5932</entry>
+           <entry>Antique shops — sales, repairs and restoration services</entry>
+       </row>
+       <row>
+           <entry>5933</entry>
+           <entry>Pawn shops</entry>
+       </row>
+       <row>
+           <entry>5934</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5935</entry>
+           <entry>Wrecking and salvage yards</entry>
+       </row>
+       <row>
+           <entry>5936</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5937</entry>
+           <entry>Antique reproduction shops</entry>
+       </row>
+       <row>
+           <entry>5938-5939</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5940</entry>
+           <entry>Bicycle shops — sales and service</entry>
+       </row>
+       <row>
+           <entry>5941</entry>
+           <entry>Sporting goods shops</entry>
+       </row>
+       <row>
+           <entry>5942</entry>
+           <entry>Bookshops</entry>
+       </row>
+       <row>
+           <entry>5943</entry>
+           <entry>Stationery, office and school supply shops</entry>
+       </row>
+       <row>
+           <entry>5944</entry>
+           <entry>Jewellery, watch, clock and silverware shops</entry>
+       </row>
+       <row>
+           <entry>5945</entry>
+           <entry>Hobby, toy and game shops</entry>
+       </row>
+       <row>
+           <entry>5946</entry>
+           <entry>Camera and photographic supply shops</entry>
+       </row>
+       <row>
+           <entry>5947</entry>
+           <entry>Gift, card, novelty and souvenir shops</entry>
+       </row>
+       <row>
+           <entry>5948</entry>
+           <entry>Luggage and leather goods shops</entry>
+       </row>
+       <row>
+           <entry>5949</entry>
+           <entry>Sewing, needlework, fabric and piece goods shops</entry>
+       </row>
+       <row>
+           <entry>5950</entry>
+           <entry>Glassware and crystal shops</entry>
+       </row>
+       <row>
+           <entry>5951-5959</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5960</entry>
+           <entry>Direct marketing — insurance services</entry>
+       </row>
+       <row>
+           <entry>5961</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5962</entry>
+           <entry>Telemarketing — travel-related arrangement services</entry>
+       </row>
+       <row>
+           <entry>5963</entry>
+           <entry>Door-to-door sales</entry>
+       </row>
+       <row>
+           <entry>5964</entry>
+           <entry>Direct marketing — catalogue merchants</entry>
+       </row>
+       <row>
+           <entry>5965</entry>
+           <entry>Direct marketing — combination catalogue and retail merchants</entry>
+       </row>
+       <row>
+           <entry>5966</entry>
+           <entry>Direct marketing — outbound telemarketing merchants</entry>
+       </row>
+       <row>
+           <entry>5967</entry>
+           <entry>Direct marketing — inbound telemarketing merchants</entry>
+       </row>
+       <row>
+           <entry>5968</entry>
+           <entry>Direct marketing — continuity/subscription merchants</entry>
+       </row>
+       <row>
+           <entry>5969</entry>
+           <entry>Direct marketing/direct marketers — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>5970</entry>
+           <entry>Artist supply and craft shops</entry>
+       </row>
+       <row>
+           <entry>5971</entry>
+           <entry>Art dealers and galleries</entry>
+       </row>
+       <row>
+           <entry>5972</entry>
+           <entry>Stamp and coin shops</entry>
+       </row>
+       <row>
+           <entry>5973</entry>
+           <entry>Religious goods and shops</entry>
+       </row>
+       <row>
+           <entry>5974</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5975</entry>
+           <entry>Hearing aids — sales, service and supplies</entry>
+       </row>
+       <row>
+           <entry>5976</entry>
+           <entry>Orthopaedic goods and prosthetic devices</entry>
+       </row>
+       <row>
+           <entry>5977</entry>
+           <entry>Cosmetic shops</entry>
+       </row>
+       <row>
+           <entry>5978</entry>
+           <entry>Typewriter outlets — sales, service and rentals</entry>
+       </row>
+       <row>
+           <entry>5979-5982</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5983</entry>
+           <entry>Fuel dealers — fuel oil, wood, coal and liquefied petroleum</entry>
+       </row>
+       <row>
+           <entry>5984-5991</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>5992</entry>
+           <entry>Florists</entry>
+       </row>
+       <row>
+           <entry>5993</entry>
+           <entry>Cigar shops and stands</entry>
+       </row>
+       <row>
+           <entry>5994</entry>
+           <entry>Newsagents and news-stands</entry>
+       </row>
+       <row>
+           <entry>5995</entry>
+           <entry>Pet shops, pet food and supplies</entry>
+       </row>
+       <row>
+           <entry>5996</entry>
+           <entry>Swimming pools — sales, supplies and services</entry>
+       </row>
+       <row>
+           <entry>5997</entry>
+           <entry>Electric razor shops — sales and service</entry>
+       </row>
+       <row>
+           <entry>5998</entry>
+           <entry>Tent and awning shops</entry>
+       </row>
+       <row>
+           <entry>5999</entry>
+           <entry>Miscellaneous apparel and speciality retail outlets</entry>
+       </row>
+       <row>
+           <entry morerows="43">6000-7299<?br?>Service providers</entry>
+           <entry>6000-6009</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>6010</entry>
+           <entry>Financial institutions — manual cash disbursements</entry>
+       </row>
+       <row>
+           <entry>6011</entry>
+           <entry>Financial institutions — automated cash disbursements</entry>
+       </row>
+       <row>
+           <entry>6012</entry>
+           <entry>Financial institutions — merchandise and services</entry>
+       </row>
+       <row>
+           <entry>6013-6049</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>6050</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>6051</entry>
+           <entry>Non-financial institutions — foreign currency, money orders (not wire transfer), scrip and travellers’ checks</entry>
+       </row>
+       <row>
+           <entry>6052-6210</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>6211</entry>
+           <entry>Securities — brokers and dealers</entry>
+       </row>
+       <row>
+           <entry>6212-6299</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>6300</entry>
+           <entry>Insurance sales, underwriting and premiums</entry>
+       </row>
+       <row>
+           <entry>6301-6528</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>6529-7010</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7011</entry>
+           <entry>Lodging — hotels, motels and resorts</entry>
+       </row>
+       <row>
+           <entry>7012</entry>
+           <entry>Timeshares</entry>
+       </row>
+       <row>
+           <entry>7013-7031</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7032</entry>
+           <entry>Sporting and recreational camps</entry>
+       </row>
+       <row>
+           <entry>7033</entry>
+           <entry>Trailer parks and camp-sites</entry>
+       </row>
+       <row>
+           <entry>7034-7041</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7042-7211</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7210</entry>
+           <entry>Laundry, cleaning and garment services</entry>
+       </row>
+       <row>
+           <entry>7211</entry>
+           <entry>Laundry services — family and commercial</entry>
+       </row>
+       <row>
+           <entry>7212-7215</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7216</entry>
+           <entry>Dry cleaners</entry>
+       </row>
+       <row>
+           <entry>7217</entry>
+           <entry>Carpet and upholstery cleaning</entry>
+       </row>
+       <row>
+           <entry>7218-7220</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7221</entry>
+           <entry>Photographic studios</entry>
+       </row>
+       <row>
+           <entry>7222-7229</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7230</entry>
+           <entry>Beauty and barber shops</entry>
+       </row>
+       <row>
+           <entry>7231-7250</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7251</entry>
+           <entry>Shoe repair shops, shoe shine parlours and hat cleaning shops</entry>
+       </row>
+       <row>
+           <entry>7252-7260</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7261</entry>
+           <entry>Funeral services and crematoriums</entry>
+       </row>
+       <row>
+           <entry>7262-7272</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7273</entry>
+           <entry>Dating and escort services</entry>
+       </row>
+       <row>
+           <entry>7274-7275</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7276</entry>
+           <entry>Tax preparation services</entry>
+       </row>
+       <row>
+           <entry>7277</entry>
+           <entry>Counselling services — debt, marriage and personal</entry>
+       </row>
+       <row>
+           <entry>7278</entry>
+           <entry>Buying and shopping services and clubs</entry>
+       </row>
+       <row>
+           <entry>7279-7295</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7296</entry>
+           <entry>Clothing rentals — costumes, uniforms and formal wear</entry>
+       </row>
+       <row>
+           <entry>7297</entry>
+           <entry>Massage parlours</entry>
+       </row>
+       <row>
+           <entry>7298</entry>
+           <entry>Health and beauty spas</entry>
+       </row>
+       <row>
+           <entry>7299</entry>
+           <entry>Miscellaneous personal services — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry morerows="39">7300-7529<?br?>Business services</entry>
+           <entry>7300-7310</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7311</entry>
+           <entry>Advertising services</entry>
+       </row>
+       <row>
+           <entry>7312-7320</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7321</entry>
+           <entry>Consumer credit reporting agencies</entry>
+       </row>
+       <row>
+           <entry>7322</entry>
+           <entry>Debt collection agencies</entry>
+       </row>
+       <row>
+           <entry>7323-7332</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7333</entry>
+           <entry>Commercial photography, art and graphics</entry>
+       </row>
+       <row>
+           <entry>7334-7337</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7338</entry>
+           <entry>Quick copy, reproduction and blueprinting services</entry>
+       </row>
+       <row>
+           <entry>7339</entry>
+           <entry>Stenographic and secretarial support services</entry>
+       </row>
+       <row>
+           <entry>7340-7341</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7342</entry>
+           <entry>Exterminating and disinfecting services</entry>
+       </row>
+       <row>
+           <entry>7343-7348</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7349</entry>
+           <entry>Cleaning, maintenance and janitorial services</entry>
+       </row>
+       <row>
+           <entry>7350-7360</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7361</entry>
+           <entry>Employment agencies and temporary help services</entry>
+       </row>
+       <row>
+           <entry>7362-7371</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7372</entry>
+           <entry>Computer programming, data processing and integrated systems design services</entry>
+       </row>
+       <row>
+           <entry>7373-7374</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7375</entry>
+           <entry>Information retrieval services</entry>
+       </row>
+       <row>
+           <entry>7376-7378</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7379</entry>
+           <entry>Computer maintenance and repair services — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>7380-7391</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7392</entry>
+           <entry>Management, consulting and public relations services</entry>
+       </row>
+       <row>
+           <entry>7393</entry>
+           <entry>Detective agencies, protective agencies and security services, including armoured cars and guard dogs</entry>
+       </row>
+       <row>
+           <entry>7394</entry>
+           <entry>Equipment, tool, furniture and appliance rentals and leasing</entry>
+       </row>
+       <row>
+           <entry>7395</entry>
+           <entry>Photofinishing laboratories and photo developing</entry>
+       </row>
+       <row>
+           <entry>7396-7398</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7399</entry>
+           <entry>Business services — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>7400-7406</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7407-7487</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7488-7510</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7511</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7512</entry>
+           <entry>Automobile rentals</entry>
+       </row>
+       <row>
+           <entry>7513</entry>
+           <entry>Truck and utility trailer rentals</entry>
+       </row>
+       <row>
+           <entry>7514-7518</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7519</entry>
+           <entry>Motor home and recreational vehicle rentals</entry>
+       </row>
+       <row>
+           <entry>7520-7522</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7523</entry>
+           <entry>Parking lots and garages</entry>
+       </row>
+       <row>
+           <entry>7524-7529</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry morerows="27">7530-7799<?br?>Repair services</entry>
+           <entry>7530</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+       <row>
+           <entry>7531</entry>
+           <entry>Automotive body repair shops</entry>
+       </row>
+       <row>
+           <entry>7532-7533</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7534</entry>
+           <entry>Tyre retreading and repair shops</entry>
+       </row>
+       <row>
+           <entry>7535</entry>
+           <entry>Automotive paint shops</entry>
+       </row>
+       <row>
+           <entry>7536-7537</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7538</entry>
+           <entry>Automotive service shops (non-dealer)</entry>
+       </row>
+       <row>
+           <entry>7539-7541</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7542</entry>
+           <entry>Car washes</entry>
+       </row>
+       <row>
+           <entry>7543-7548</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7549</entry>
+           <entry>Towing services</entry>
+       </row>
+       <row>
+           <entry>7550-7600</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+
+       <row>
+           <entry>7601-7606</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7607-7621</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7622</entry>
+           <entry>Electronics repair shops</entry>
+       </row>
+       <row>
+           <entry>7623</entry>
+           <entry>Air conditioning and refrigeration repair shops</entry>
+       </row>
+       <row>
+           <entry>7624-7628</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7629</entry>
+           <entry>Electrical and small appliance repair shops</entry>
+       </row>
+       <row>
+           <entry>7630</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7631</entry>
+           <entry>Watch, clock and jewellery repair shops</entry>
+       </row>
+       <row>
+           <entry>7632-7640</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7641</entry>
+           <entry>Furniture reupholstery, repair and refinishing</entry>
+       </row>
+       <row>
+           <entry>7642-7690</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7691</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7692</entry>
+           <entry>Welding services</entry>
+       </row>
+       <row>
+           <entry>7693-7698</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7699</entry>
+           <entry>Miscellaneous repair shops and related services</entry>
+       </row>
+       <row>
+           <entry>7700-7799</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+       <row>
+           <entry morerows="28">7800-7999<?br?>Amusement and entertainment</entry>
+           <entry>7800-7828</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7829</entry>
+           <entry>Motion picture and video tape production and distribution</entry>
+       </row>
+       <row>
+           <entry>7830-7831</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7832</entry>
+           <entry>Motion picture theatres</entry>
+       </row>
+       <row>
+           <entry>7833-7840</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>7841</entry>
+           <entry>Video tape rentals</entry>
+       </row>
+       <row>
+           <entry>7842-7893</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7894-7910</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7911</entry>
+           <entry>Dance halls, studios and schools</entry>
+       </row>
+       <row>
+           <entry>7912-7921</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7922</entry>
+           <entry>Theatrical producers (except motion pictures) and ticket agencies</entry>
+       </row>
+       <row>
+           <entry>7923-7928</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7929</entry>
+           <entry>Bands, orchestras and miscellaneous entertainers — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry>7930-7931</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7932</entry>
+           <entry>Billiard and pool establishments</entry>
+       </row>
+       <row>
+           <entry>7933</entry>
+           <entry>Bowling alleys</entry>
+       </row>
+       <row>
+           <entry>7934-7940</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7941</entry>
+           <entry>Commercial sports, professional sports clubs, athletic fields and sports promoters</entry>
+       </row>
+       <row>
+           <entry>7942-7959</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>7960-7990</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>7991</entry>
+           <entry>Tourist attractions and exhibits</entry>
+       </row>
+       <row>
+           <entry>7992</entry>
+           <entry>Public golf courses</entry>
+       </row>
+       <row>
+           <entry>7993</entry>
+           <entry>Video amusement game supplies</entry>
+       </row>
+       <row>
+           <entry>7994</entry>
+           <entry>Video game arcades and establishments</entry>
+       </row>
+       <row>
+           <entry>7995</entry>
+           <entry>Betting, including lottery tickets, casino gaming chips, off-track betting and wagers at race tracks</entry>
+       </row>
+       <row>
+           <entry>7996</entry>
+           <entry>Amusement parks, circuses, carnivals and fortune tellers</entry>
+       </row>
+       <row>
+           <entry>7997</entry>
+           <entry>Membership clubs (sports, recreation, athletic), country clubs and private golf courses</entry>
+       </row>
+       <row>
+           <entry>7998</entry>
+           <entry>Aquariums, seaquariums and dolphinariums</entry>
+       </row>
+       <row>
+           <entry>7999</entry>
+           <entry>Recreation services — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry morerows="55">8000-8999<?br?>Professional services and membership organizations</entry>
+           <entry>8000-8010</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+       <row>
+           <entry>8011</entry>
+           <entry>Doctors and physicians — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>8012-8020</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8021</entry>
+           <entry>Dentists and orthodontists</entry>
+       </row>
+       <row>
+           <entry>8022-8030</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8031</entry>
+           <entry>Osteopaths</entry>
+       </row>
+       <row>
+           <entry>8032-8040</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8041</entry>
+           <entry>Chiropractors</entry>
+       </row>
+       <row>
+           <entry>8042</entry>
+           <entry>Optometrists and ophthalmologists</entry>
+       </row>
+       <row>
+           <entry>8043</entry>
+           <entry>Opticians, optical goods and eyeglasses</entry>
+       </row>
+       <row>
+           <entry>8044-8048</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8049</entry>
+           <entry>Podiatrists and chiropodists</entry>
+       </row>
+       <row>
+           <entry>8050</entry>
+           <entry>Nursing and personal care facilities</entry>
+       </row>
+       <row>
+           <entry>8051-8061</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8062</entry>
+           <entry>Hospitals</entry>
+       </row>
+       <row>
+           <entry>8063-8070</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8071</entry>
+           <entry>Medical and dental laboratories</entry>
+       </row>
+       <row>
+           <entry>8072-8098</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8099</entry>
+           <entry>Medical services and health practitioners — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry>8100-8110</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8111</entry>
+           <entry>Legal services and attorneys</entry>
+       </row>
+       <row>
+           <entry>8112-8210</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8211</entry>
+           <entry>Elementary and secondary schools</entry>
+       </row>
+       <row>
+           <entry>8212-8219</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8220</entry>
+           <entry>Colleges, universities, professional schools and junior colleges</entry>
+       </row>
+       <row>
+           <entry>8221-8240</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8241</entry>
+           <entry>Correspondence schools</entry>
+       </row>
+       <row>
+           <entry>8242-8243</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8244</entry>
+           <entry>Business and secretarial schools</entry>
+       </row>
+       <row>
+           <entry>8245-8248</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8249</entry>
+           <entry>Trade and vocational schools</entry>
+       </row>
+       <row>
+           <entry>8250-8298</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8299</entry>
+           <entry>Schools and educational services — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry>8300-8350</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8351</entry>
+           <entry>Child care services</entry>
+       </row>
+       <row>
+           <entry>8352-8397</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8398</entry>
+           <entry>Charitable and social service organizations</entry>
+       </row>
+       <row>
+           <entry>8399-8492</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>8493-8640</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8641</entry>
+           <entry>Civic, social and fraternal associations</entry>
+       </row>
+       <row>
+           <entry>8642-8650</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8651</entry>
+           <entry>Political organizations</entry>
+       </row>
+       <row>
+           <entry>8652-8660</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8661</entry>
+           <entry>Religious organizations</entry>
+       </row>
+       <row>
+           <entry>8662-8674</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8675</entry>
+           <entry>Automobile associations</entry>
+       </row>
+       <row>
+           <entry>8676-8698</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8699</entry>
+           <entry>Membership organizations — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry>8700-8733</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8734</entry>
+           <entry>Testing laboratories (non-medical)</entry>
+       </row>
+       <row>
+           <entry>8735-8910</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8911</entry>
+           <entry>Architectural, engineering and surveying services</entry>
+       </row>
+       <row>
+           <entry>8912-8930</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>8931</entry>
+           <entry>Accounting, auditing and bookkeeping services</entry>
+       </row>
+       <row>
+           <entry>8932-8998</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>8999</entry>
+           <entry>Professional services — not elsewhere classified</entry>
+       </row>
+
+       <row>
+           <entry>9000-9199<?br?>Reserved for ISO use</entry>
+           <entry>9000-9199</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+
+       <row>
+           <entry morerows="11">9200-9402<?br?>Government services</entry>
+           <entry>9200-9210</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>9211</entry>
+           <entry>Court costs, including alimony and child support</entry>
+       </row>
+       <row>
+           <entry>9212-9221</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>9222</entry>
+           <entry>Fines</entry>
+       </row>
+       <row>
+           <entry>9223</entry>
+           <entry>Bail and bond payments</entry>
+       </row>
+       <row>
+           <entry>9224-9291</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>9311</entry>
+           <entry>Tax payments</entry>
+       </row>
+       <row>
+           <entry>9312-9388</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>9389-9398</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>9399</entry>
+           <entry>Government services — not elsewhere classified</entry>
+       </row>
+       <row>
+           <entry>9400-9401</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+       <row>
+           <entry>9402</entry>
+           <entry>Postal services — government only</entry>
+       </row>
+       <row>
+           <entry morerows="3">9403-9999<?br?>Other</entry>
+           <entry>9403-9499</entry>
+           <entry>Reserved for private use</entry>
+
+       </row>
+       <row>
+           <entry>9500-9699</entry>
+           <entry>Reserved for ISO use</entry>
+       </row>
+       <row>
+           <entry>9700-9799</entry>
+           <entry>Reserved for private use</entry>
+       </row>
+       <row>
+           <entry>9800-9999</entry>
+           <entry>Reserved for national use</entry>
+       </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>
+
