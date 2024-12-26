@@ -90,7 +90,7 @@
     </itemizedlist></para>
    <para> The Transaction Type Code (TTC) is used along with the Message Type Indicator (MTI) as a
     key to uniquely identify the type of transaction being processed. </para>
-   <table frame="topbot">
+   <table xml:id="txn_type_code" frame="topbot">
     <title>Positions 1 &amp; 2 (Transaction Type Code)</title>
     <tgroup cols="3" align="left" colsep="1" rowsep="1">
      <colspec colname="mti"/>
@@ -144,6 +144,16 @@
         <emphasis role="bold">09</emphasis>
        </entry>
        <entry>Authorization (Purchase with cashback)
+       </entry>
+      </row>
+      <row>
+       <entry>
+        <emphasis role="bold">100</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">11</emphasis>
+       </entry>
+       <entry>Authorization (Quasi-cash)
        </entry>
       </row>
       <row>
@@ -224,6 +234,16 @@
        </entry>
        <entry>POS Purchase With Cashback</entry>
       </row>      
+      <row>
+       <entry>
+        <emphasis role="bold">200</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">11</emphasis>
+       </entry>
+       <entry>Financial Purchase (Quasi-cash)
+       </entry>
+      </row>
       <row>
        <entry>
         <emphasis role="bold">200</emphasis>
@@ -2456,6 +2476,8 @@
     cardholder) or something (e.g. account existence) through the use of address verification,
     account verification or other identification such as a national ID, driver's license, CVV2,
     CVC2, 4DBC, etc.). </para>
+
+   <para>The following table lists the subelements that may appear in the  <emphasis role="italic">request</emphasis>.</para>
    <table frame="topbot">
     <title>DE 49 subfields, Dataset identifier 71</title>
     <tgroup cols="4" align="left" colsep="1" rowsep="1">
@@ -2529,6 +2551,8 @@
      </tbody>
     </tgroup>
    </table>
+
+   <para>The following table lists the subelements that may appear in the <emphasis role="italic">response</emphasis>.</para>
    <table frame="topbot">
     <title>DE 49 subfields, Dataset identifier 72</title>
     <tgroup cols="4" align="left" colsep="1" rowsep="1">

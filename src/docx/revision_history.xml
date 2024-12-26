@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Dec, 2024</entry>
+      <entry>1.0.20.rc8</entry>
+      <entry>Barzilai Spinak</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added Transaction Type Code '11' for Quasi-cash to <xref linkend="txn_type_code" />.</para></listitem>
+        </itemizedlist>
+      </entry>    
+     </row>  
+     <row>
       <entry>Oct, 2024</entry>
       <entry>1.0.20.rc7</entry>
       <entry>Alejandro Revilla</entry>
