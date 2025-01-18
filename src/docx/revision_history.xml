@@ -22,6 +22,18 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jan, 2025</entry>
+      <entry>1.0.20.rc9</entry>
+      <entry>Orlando Pagano</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added '113.69' - Card Token</para></listitem>
+          <listitem><para>Added '113.70' - Transaction ID</para></listitem>
+          <listitem><para>Added '113.71' - Transaction GroupID</para></listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Dec, 2024</entry>
       <entry>1.0.20.rc8</entry>
       <entry>Barzilai Spinak</entry>
