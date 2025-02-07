@@ -569,6 +569,62 @@
    </itemizedlist>
   </simplesect>
  </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_009">
+  <title xml:id="de_009">DE-009 Conversion rate, settlement</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 009, Conversion rate, settlement</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 9</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>Contains the conversion rate used for settlement purposes, formatted as ABBBBBBB. It is 
+   used when the transaction currency is different from the settlement currency.
+   <itemizedlist>
+     <listitem>
+      <para>A: single digit represents the position of the decimal point, counted from the right.</para>
+     </listitem>
+     <listitem>
+      <para>BBBBBBB: seven digits that represent the conversion factor.</para>
+     </listitem>
+   </itemizedlist></para>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_010">
+  <title xml:id="de_010">DE-010 Conversion rate, cardholder billing</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 010, Conversion rate, cardholder billing</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 10</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N8</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>Contains the conversion rate used for billing the cardholder, formatted as ABBBBBBB. It is 
+   used when the transaction currency is different from the cardholder billing currency.
+   <itemizedlist>
+     <listitem>
+      <para>A: single digit represents the position of the decimal point, counted from the right.</para>
+     </listitem>
+     <listitem>
+      <para>BBBBBBB: seven digits that represent the conversion factor.</para>
+     </listitem>
+   </itemizedlist></para>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
  <sect1 xml:id="S.de_011">
   <title xml:id="de_011">DE-011 System Trace Audit Number (STAN)</title>
   <indexterm>
