@@ -22,6 +22,16 @@
    </thead>
    <tbody>
      <row>
+      <entry>Mar, 2025</entry>
+      <entry>1.0.20.rc11</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added data element 48 - Additional private data</para></listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Feb, 2025</entry>
       <entry>1.0.20.rc10</entry>
       <entry>Federico González</entry>
