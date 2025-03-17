@@ -2511,6 +2511,87 @@
    </table>
   </simplesect>
  </sect1><?hard-pagebreak?>
+
+ <sect1 xml:id="S.de_048">
+  <title xml:id="de_048">DE-048 Additional private data</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 048, Addicional private data</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 48</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: B..9999, LLLVAR</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> The <emphasis role="italic">additional private data</emphasis> field is a composite data
+    element containing information related to 3D-Secure transactions. </para>
+   <table frame="topbot">
+    <title>DE 48 subfields</title>
+    <tgroup cols="4" align="left" colsep="1" rowsep="1">
+     <colspec colname="name"/>
+     <colspec colname="format" colwidth="2*"/>
+     <thead>
+      <row>
+       <entry>Bit</entry>
+       <entry>Name</entry>
+       <entry>Format</entry>
+       <entry>Representation</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>1</entry>
+       <entry>CAVV/AAV/AEVV data.</entry>
+       <entry>LLVAR</entry>
+       <entry>AN..40</entry>
+      </row>
+      <row>
+       <entry>2</entry>
+       <entry>Electronic commerce indicator (ECI).
+         <para>
+           <itemizedlist>
+             <listitem>
+               <para><emphasis role="bold">05</emphasis> Authentication successful</para>
+             </listitem>
+             <listitem>
+               <para><emphasis role="bold">06</emphasis> Authentication attempted</para>
+             </listitem>
+             <listitem>
+               <para><emphasis role="bold">07</emphasis> Authentication failed/not permitted</para>
+             </listitem>
+           </itemizedlist>
+         </para>
+       </entry>
+       <entry></entry>
+       <entry>AN 2</entry>
+      </row>
+      <row>
+       <entry>3</entry>
+       <entry>Transaction identifier (XID).
+         <para>
+           Typically, a 28-character base64-encoded value or a 20-character hexadecimal representation.   
+         </para>
+       </entry>
+       <entry>LLVAR</entry>
+       <entry>AN..28</entry>
+      </row>
+      <row>
+       <entry>4</entry>
+       <entry>CAVV verification result code.</entry>
+       <entry></entry>
+       <entry>AN 1</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
+
  <sect1 xml:id="S.de_049">
   <title xml:id="de_049">DE-049 Verification data</title>
   <indexterm>
