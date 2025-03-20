@@ -3607,8 +3607,8 @@
     </sect2>
   </sect1><?hard-pagebreak?>
 
-  <sect1 xml:id="S.de_120">
-    <title xml:id="de_120">DE-120 Reserved for customer-specific use</title>
+  <sect1 xml:id="S.de_123">
+    <title xml:id="de_123">DE-123 Reserved for customer-specific use</title>
     <para>
       This data element is designated for customer-specific use.
     </para>
@@ -3623,11 +3623,11 @@
     </para>
     <indexterm>
       <primary>Data Elements</primary>
-      <secondary>DE 120, customer-specific</secondary>
+      <secondary>DE 123, customer-specific</secondary>
     </indexterm>
     <simplesect>
-      <title>Data Element: 120</title>
-      <para>Reserved for national use</para>
+      <title>Data Element: 123</title>
+      <para>Reserved for customer-specific use</para>
     </simplesect>
     <simplesect>
       <title>Format: B..9999, LLLLBINARY</title>
