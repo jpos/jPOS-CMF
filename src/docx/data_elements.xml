@@ -2513,10 +2513,10 @@
  </sect1><?hard-pagebreak?>
 
  <sect1 xml:id="S.de_048">
-  <title xml:id="de_048">DE-048 Additional private data</title>
+  <title xml:id="de_048">DE-048 3D-Secure data</title>
   <indexterm>
    <primary>Data Elements</primary>
-   <secondary>DE 048, Addicional private data</secondary>
+   <secondary>DE 048, 3D-Secure data</secondary>
   </indexterm>
   <simplesect>
    <title>Data Element: 48</title>
@@ -3366,7 +3366,7 @@
    <para>Optional user field to be echoed back by the &PRODUCTNAME; based system. </para>
   </simplesect>
  </sect1><?hard-pagebreak?>
-  <sect1 xml:id="S.de_112">
+ <sect1 xml:id="S.de_112">
     <title xml:id="de_112">DE-112 Discretionary transport data</title>
     <indexterm>
       <primary>Data Elements</primary>
@@ -3444,4 +3444,199 @@
       <para>Reserved for application-specific, customer private use.</para>
     </simplesect>
   </sect1><?hard-pagebreak?>
+
+  <sect1 xml:id="S.de_116">
+    <title xml:id="de_116">DE-116 Reserved for national use</title>
+    <para>
+      This data element, reserved for national use, depends on the content 
+      of <xref linkend="S.de_019"/>, which specifies the acquiring institution's 
+      country code.
+    </para>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 116, Reserved for national use</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 116</title>
+      <para>Reserved for national use</para>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Reserved for national use.</para>
+    </simplesect>
+
+    <sect2 xml:id="S.de_116.032">
+	<title>032 - Argentina</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 032, the ISO-3166 country code for Argentina, Field 116 may include:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – CUIT/CUIL (AN11)</emphasis>: The tax identification number for businesses (CUIT) or individuals (CUIL).</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – VAT (IVA) Amount (N16)</emphasis>: The value-added tax applied to the transaction.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – Perception Tax Amount (N16)</emphasis>: An additional tax collected for specific industries or transactions.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.076">
+	<title>076 - Brazil</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 076, the ISO-3166 country code for Brazil, Field 116 may include:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – CPF/CNPJ (AN14)</emphasis>: The tax identification number for individuals (CPF) or businesses (CNPJ).</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – ISS Tax Amount (N16)</emphasis>: The municipal tax applied to service transactions.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – ICMS Tax Amount (N16)</emphasis>: The state tax applied to the sale of goods.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.356">
+	<title>356 - India</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 356, the ISO-3166 country code for India, Field 116 may include:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – GSTIN (AN15)</emphasis>: The Goods and Services Tax Identification Number used for tax compliance.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – GST Amount (N16)</emphasis>: The total tax applied under the Goods and Services Tax system.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – TDS Amount (N16)</emphasis>: The Tax Deducted at Source (TDS) for applicable transactions.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.566">
+	<title>566 - Nigeria</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 566, the ISO-3166 country code for Nigeria, Field 116 may include:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – TIN (AN10)</emphasis>: The Taxpayer Identification Number used for VAT and corporate tax compliance.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – VAT Amount (N16)</emphasis>: The total Value-Added Tax applied to the transaction.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – Withholding Tax Amount (N16)</emphasis>: The tax amount deducted at source for applicable transactions.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.724">
+	<title>724 - Spain</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 724, the ISO-3166 country code for Spain, Field 116 may include:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – NIF (AN9)</emphasis>: The Spanish tax identification number for individuals and businesses.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – VAT (IVA) Amount (N16)</emphasis>: The total VAT applied to the transaction.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – SII Reporting Indicator (N1)</emphasis>: Identifies transactions that must be reported in Spain’s Immediate Supply of Information (SII) system.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.840">
+	<title>840 - USA</title>
+	<para>
+	    When <xref linkend="S.de_019"/> has the value 840, the ISO-3166 country code for the United States, 
+	    Field 116 may include tax-related or regulatory information such as:
+	</para>
+	<itemizedlist>
+	    <listitem>
+		<para><emphasis role="bold">116.1 – Sales Tax Amount (N16)</emphasis>: The total applicable sales tax for the transaction, based on state and local tax rates.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.2 – Merchant Category Code (N4)</emphasis>: The MCC assigned to the merchant for taxation and reporting.</para>
+	    </listitem>
+	    <listitem>
+		<para><emphasis role="bold">116.3 – Tax Jurisdiction Code (AN10)</emphasis>: Identifies the tax jurisdiction (state, county, or city) for proper tax reporting.</para>
+	    </listitem>
+	</itemizedlist>
+    </sect2>
+
+    <sect2 xml:id="S.de_116.858">
+        <title>858 - Uruguay</title>
+        <para>
+            When <xref linkend="S.de_019"/> has the value 858, the ISO-3166 country code for Uruguay,
+            Field 116 has the following composite data elements:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para><emphasis role="bold">116.1 – Base Amount (N16)</emphasis>: The total transaction amount before applying any tax benefits. This field represents the full value of the transaction as processed by the acquiring institution.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">116.2 – Tax Benefit Amount (N16)</emphasis>: The portion of the transaction amount that qualifies for tax benefits or deductions. This is used to calculate tax-exempt or tax-reduced amounts.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">116.3 – Tax Benefit Points (N3)</emphasis>: A numerical representation of tax benefits accrued from the transaction. This value may be used in specific tax-related incentive programs.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">116.4 – Law Limit Reached (AN1)</emphasis>: Indicates whether the transaction has reached a predefined tax benefit limit established by national regulations. Values may include 'Y' (Yes) or 'N' (No).</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">116.5 – Law Indicator (N1)</emphasis>: Identifies the specific tax law or regulation under which the transaction qualifies for benefits. The assigned numeric code corresponds to predefined legal provisions.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">116.6 – Law Description (AN20)</emphasis>: A brief textual description of the applicable tax law, providing additional context on the regulatory framework governing the transaction.</para>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+  </sect1><?hard-pagebreak?>
+
+  <sect1 xml:id="S.de_120">
+    <title xml:id="de_120">DE-120 Reserved for customer-specific use</title>
+    <para>
+      This data element is designated for customer-specific use.
+    </para>
+    <para>
+        This field is defined as a binary field to allow for flexible
+        configuration as a composite jPOS field. This structure enables
+        customers to define their own subfields, which can be configured as
+        inner fields within the composite element. By leveraging this approach,
+        organizations can encapsulate multiple data points within a single field
+        while maintaining a structured, hierarchical format that aligns with
+        their specific business or regulatory requirements.
+    </para>
+    <indexterm>
+      <primary>Data Elements</primary>
+      <secondary>DE 120, customer-specific</secondary>
+    </indexterm>
+    <simplesect>
+      <title>Data Element: 120</title>
+      <para>Reserved for national use</para>
+    </simplesect>
+    <simplesect>
+      <title>Format: B..9999, LLLLBINARY</title>
+      <para/>
+    </simplesect>
+    <simplesect>
+      <title>Description</title>
+      <para>Reserved for customer-specific use.</para>
+    </simplesect>
+  </sect1>
 </chapter>
+
