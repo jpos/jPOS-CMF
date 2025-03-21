@@ -3586,22 +3586,22 @@
         </para>
         <itemizedlist>
             <listitem>
-                <para><emphasis role="bold">116.1 – Base Amount (N16)</emphasis>: The total transaction amount before applying any tax benefits. This field represents the full value of the transaction as processed by the acquiring institution.</para>
+                <para><emphasis role="bold">116.1 - Taxable Amount (N16)</emphasis>: The total transaction amount before applying any tax benefits. This field represents the full value of the transaction as processed by the acquiring institution.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.2 – Tax Benefit Amount (N16)</emphasis>: The portion of the transaction amount that qualifies for tax benefits or deductions. This is used to calculate tax-exempt or tax-reduced amounts.</para>
+                <para><emphasis role="bold">116.2 - Taxable Benefit Amount (N16)</emphasis>: The portion of the transaction amount that qualifies for tax benefits or deductions. This is used to calculate tax-exempt or tax-reduced amounts.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.3 – Tax Benefit Points (N3)</emphasis>: A numerical representation of tax benefits accrued from the transaction. This value may be used in specific tax-related incentive programs.</para>
+                <para><emphasis role="bold">116.3 - Tax Benefit Points (N3)</emphasis>: A numerical representation of tax benefits accrued from the transaction. This value may be used in specific tax-related incentive programs.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.4 – Law Limit Reached (AN1)</emphasis>: Indicates whether the transaction has reached a predefined tax benefit limit established by national regulations. Values may include 'Y' (Yes) or 'N' (No).</para>
+                <para><emphasis role="bold">116.4 - Law Limit Reached (AN1)</emphasis>: Indicates whether the transaction has reached a predefined tax benefit limit established by national regulations. Values may include 'Y' (Yes) or 'N' (No).</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.5 – Law Indicator (N1)</emphasis>: Identifies the specific tax law or regulation under which the transaction qualifies for benefits. The assigned numeric code corresponds to predefined legal provisions.</para>
+                <para><emphasis role="bold">116.5 - Law Indicator (N1)</emphasis>: Identifies the specific tax law or regulation under which the transaction qualifies for benefits. The assigned numeric code corresponds to predefined legal provisions.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.6 – Law Description (AN20)</emphasis>: A brief textual description of the applicable tax law, providing additional context on the regulatory framework governing the transaction.</para>
+                <para><emphasis role="bold">116.6 - Law Description (AN20)</emphasis>: A brief textual description of the applicable tax law, providing additional context on the regulatory framework governing the transaction.</para>
             </listitem>
         </itemizedlist>
     </sect2>
