@@ -3586,10 +3586,10 @@
         </para>
         <itemizedlist>
             <listitem>
-                <para><emphasis role="bold">116.1 - Taxable Amount (N16)</emphasis>: The total transaction amount before applying any tax benefits. This field represents the full value of the transaction as processed by the acquiring institution.</para>
+                <para><emphasis role="bold">116.1 - Taxable Amount (N16)</emphasis>: The portion of the original amount that is subject to applicable transaction taxes.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.2 - Taxable Benefit Amount (N16)</emphasis>: The portion of the transaction amount that qualifies for tax benefits or deductions. This is used to calculate tax-exempt or tax-reduced amounts.</para>
+                <para><emphasis role="bold">116.2 - Taxable Benefit Amount (N16)</emphasis>: Amount to be subtracted from the original transaction total due to a tax benefit.</para>
             </listitem>
             <listitem>
                 <para><emphasis role="bold">116.3 - Tax Benefit Points (N3)</emphasis>: A numerical representation of tax benefits accrued from the transaction. This value may be used in specific tax-related incentive programs.</para>
