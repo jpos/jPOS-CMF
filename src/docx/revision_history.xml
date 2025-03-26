@@ -23,12 +23,30 @@
    <tbody>
      <row>
       <entry>Mar, 2025</entry>
-      <entry>1.0.20.rc12</entry>
+      <entry>1.0.20.rc13</entry>
       <entry>Federico González</entry>
       <entry>
         <itemizedlist>
           <listitem><para>Added data element 34 - Electronic commerce data</para></listitem>
           <listitem><para>Removed data element 48</para></listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Mar, 2025</entry>
+      <entry>1.0.20.rc12</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+          <listitem><para>Added 3DS referencie to data element 48</para></listitem>
+          <listitem><para>Added data element  <xref linkend="S.de_116" /> along with
+          <xref linkend="S.de_116.032" />,
+          <xref linkend="S.de_116.076" />,
+          <xref linkend="S.de_116.356" />,
+          <xref linkend="S.de_116.566" />,
+          <xref linkend="S.de_116.724" />, and
+          <xref linkend="S.de_116.840" />.</para></listitem>
+          <listitem><para>Added data element  <xref linkend="S.de_123" /></para></listitem>
         </itemizedlist>
       </entry>
      </row>
