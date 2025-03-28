@@ -50,6 +50,7 @@
   <xi:include href="reason_codes.xml"/>
   <xi:include href="error_codes.xml"/>
   <xi:include href="mcc.xml"/>
+  <xi:include href="service_result_codes.xml"/>
   <xi:include href="revision_history.xml"/>
   <xi:include href="license.xml"/>
   <xi:include href="glossary.xml"/>
