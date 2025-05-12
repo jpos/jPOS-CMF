@@ -4051,7 +4051,7 @@
                 <para><emphasis role="bold">116.5 - Law Indicator (N1)</emphasis>: Identifies the specific tax law or regulation under which the transaction qualifies for benefits. The assigned numeric code corresponds to predefined legal provisions.</para>
             </listitem>
             <listitem>
-                <para><emphasis role="bold">116.6 - Law Description (AN20)</emphasis>: A brief textual description of the applicable tax law, providing additional context on the regulatory framework governing the transaction.</para>
+                <para><emphasis role="bold">116.6 - Law Description (AN..20)</emphasis>: A brief textual description of the applicable tax law, providing additional context on the regulatory framework governing the transaction.</para>
             </listitem>
         </itemizedlist>
     </sect2>
