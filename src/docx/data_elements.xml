@@ -3164,7 +3164,7 @@
       </row>
       <row>
        <entry>2</entry>
-       <entry>Address verification result code</entry>
+       <entry>Address verification result code (see <xref linkend="avs_codes"/>)</entry>
        <entry/>
        <entry>AN1</entry>
       </row>

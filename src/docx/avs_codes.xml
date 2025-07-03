@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="avs_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Address verification result codes</title>
+ <para> The following table specifies the Address Verification Result codes returned in DE-049 SE-002 (see <xref linkend="S.de_049"/>). </para>
+
+ <table frame="all">
+  <title>Address verification result codes</title>
+  <tgroup cols="2" align="left" colsep="1" rowsep="1">
+   <colspec colname="c2" colwidth="2*"/>
+   <colspec colname="c3" colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Code</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>X</entry>
+     <entry>Address and 9-digit postal code match.</entry>
+    </row>
+    <row>
+     <entry>Y</entry>
+     <entry>Address and 5-digit postal code match.</entry>
+    </row>
+    <row>
+     <entry>A</entry>
+     <entry>Address matches, postal code does not.</entry>
+    </row>
+    <row>
+     <entry>W</entry>
+     <entry>9-digit postal code matches, address does not.</entry>
+    </row>
+    <row>
+     <entry>Z</entry>
+     <entry>5-digit postal code matches, address does not.</entry>
+    </row>
+    <row>
+     <entry>N</entry>
+     <entry>Nothing matches.</entry>
+    </row>
+    <row>
+     <entry>R</entry>
+     <entry>Retry, system unable to process.</entry>
+    </row>
+    <row>
+     <entry>S</entry>
+     <entry>Address verification service not supported.</entry>
+    </row>
+    <row>
+     <entry>U</entry>
+     <entry>Address verification not performed by card-issuing entity.</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>
