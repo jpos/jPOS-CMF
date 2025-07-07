@@ -101,7 +101,11 @@
      <entry>Tokenization Eligibility Request</entry>
     </row>
     <row>
-     <entry>187-199</entry>
+     <entry>187</entry>
+     <entry>Incremental authorization.</entry>
+    </row>
+    <row>
+     <entry>188-199</entry>
      <entry namest="c2" nameend="c3">Reserved for private use</entry>
     </row>
     <row>
