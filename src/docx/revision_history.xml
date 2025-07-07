@@ -82,17 +82,6 @@
       </entry>
      </row>
      <row>
-      <entry>Feb, 2025</entry>
-      <entry>1.0.20.rc10</entry>
-      <entry>Federico González</entry>
-      <entry>
-        <itemizedlist>
-          <listitem><para>Added data element 9 - Conversion rate, settlement</para></listitem>
-          <listitem><para>Added data element 10 - Conversion rate, cardholder billing</para></listitem>
-        </itemizedlist>
-      </entry>
-     </row>
-     <row>
       <entry>Jan, 2025</entry>
       <entry>1.0.20.rc9</entry>
       <entry>Orlando Pagano</entry>
