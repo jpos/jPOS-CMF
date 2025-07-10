@@ -23,6 +23,21 @@
    <tbody>
      <row>
       <entry>Jul, 2025</entry>
+      <entry>1.0.20.rc15</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added function code 187 — Incremental authorization (see <xref linkend="function_codes" />).</para>
+            </listitem>
+            <listitem>
+                <para>Added reason code 4351 — Authorization expired (see <xref linkend="reason_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Jul, 2025</entry>
       <entry>1.0.20.rc14</entry>
       <entry>Federico González</entry>
       <entry>
