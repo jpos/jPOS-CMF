@@ -28,7 +28,7 @@
      <entry>Reserved</entry>
     </row>
     <row>
-     <entry morerows="14">100-199<?br?> Used in 100, 101, 120, 121, and 140 messages to indicate
+     <entry morerows="15">100-199<?br?> Used in 100, 101, 120, 121, and 140 messages to indicate
       type of authorization or verification transaction. </entry>
      <entry>100</entry>
      <entry>Original authorization - amount accurate</entry>
@@ -101,7 +101,11 @@
      <entry>Tokenization Eligibility Request</entry>
     </row>
     <row>
-     <entry>187-199</entry>
+     <entry>187</entry>
+     <entry>Incremental authorization</entry>
+    </row>
+    <row>
+     <entry>188-199</entry>
      <entry namest="c2" nameend="c3">Reserved for private use</entry>
     </row>
     <row>

@@ -237,7 +237,7 @@
     </row>
 
     <row>
-     <entry morerows="24">4000-4499<?br?> Reason for a reversal </entry>
+     <entry morerows="25">4000-4499<?br?> Reason for a reversal </entry>
      <entry>4000</entry>
      <entry>Customer cancellation</entry>
     </row>
@@ -334,7 +334,11 @@
      <entry>Reserved for national use</entry>
     </row>
     <row>
-     <entry>4351-4499</entry>
+     <entry>4351</entry>
+     <entry>Authorization expired</entry>
+    </row>
+    <row>
+     <entry>4352-4499</entry>
      <entry>Reserved for private use</entry>
     </row>
 
