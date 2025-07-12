@@ -2144,6 +2144,42 @@
    </itemizedlist>
   </simplesect>
  </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_031">
+  <title xml:id="de_031">DE-031 Acquirer Reference Number</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 031, Acquirer Reference Number</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 31</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N23</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> The Acquirer Reference Number (ARN) is a constructed data element of five parts totalling 23 positions. </para>
+   <itemizedlist>
+    <listitem>
+     <para>User format identifier, N1</para>
+    </listitem>
+    <listitem>
+     <para>Acquirer number, N6</para>
+    </listitem>
+    <listitem>
+     <para>Julian processing date, N4</para>
+    </listitem>
+    <listitem>
+     <para>Sequence number, N11</para>
+    </listitem>
+    <listitem>
+     <para>Luhn check digit, N1</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_032">
   <title xml:id="de_032">DE-032 Acquiring institution identification code</title>
   <indexterm>
