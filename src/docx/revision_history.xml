@@ -23,6 +23,18 @@
    <tbody>
      <row>
       <entry>Jul, 2025</entry>
+      <entry>1.0.20.rc16</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added Data element 16 — Conversion date (see <xref linkend="S.de_016" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Jul, 2025</entry>
       <entry>1.0.20.rc15</entry>
       <entry>Federico González</entry>
       <entry>
