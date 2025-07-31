@@ -726,6 +726,27 @@
     </para>
   </simplesect>
  </sect1><?hard-pagebreak?>
+ <sect1 xml:id="S.de_016">
+  <title xml:id="de_016">DE-016 Conversion date</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 016, Conversion date</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 16</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N4 (MMDD)</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+      The month and day the conversion rate is effective to convert the transaction amount from the original to reconciliation currency.
+    </para>
+  </simplesect>
+ </sect1><?hard-pagebreak?>
  <sect1 xml:id="S.de_017">
   <title xml:id="de_017">DE-017 Capture date</title>
   <indexterm>
