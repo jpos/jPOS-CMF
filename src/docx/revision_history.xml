@@ -22,6 +22,18 @@
    </thead>
    <tbody>
      <row>
+      <entry>Aug, 2025</entry>
+      <entry>1.0.20.rc17</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added result code 9107 (see <xref linkend="result_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Jul, 2025</entry>
       <entry>1.0.20.rc16</entry>
       <entry>Federico González</entry>
