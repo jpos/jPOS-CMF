@@ -439,7 +439,10 @@
       <entry>9102</entry>
       <entry>Invalid transaction</entry>
     </row>       
-
+    <row>
+      <entry>9107</entry>
+      <entry>Card issuer or switch inoperative</entry>
+    </row>       
    </tbody>
   </tgroup>
  </table>
