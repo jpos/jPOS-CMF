@@ -265,7 +265,7 @@
      <entry>Reserved for ISO use</entry>
     </row>
     <row>
-     <entry > 820-829<?br?> Used in 804, 805, 824, 825 and 844 messages to indicate system accounting. </entry>
+     <entry> 820-829<?br?> Used in 804, 805, 824, 825 and 844 messages to indicate system accounting. </entry>
      <entry>821</entry>
      <entry>System accounting/cutover</entry>
     </row>
