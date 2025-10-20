@@ -22,6 +22,18 @@
    </thead>
    <tbody>
      <row>
+      <entry>Oct, 2025</entry>
+      <entry>1.0.20.rc18</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added function code 821 (see <xref linkend="function_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Aug, 2025</entry>
       <entry>1.0.20.rc17</entry>
       <entry>Federico González</entry>
