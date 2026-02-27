@@ -434,6 +434,10 @@
      <entry>1827</entry>
      <entry>Original transaction has been voided</entry>
     </row>
+    <row>
+     <entry>1828</entry>
+     <entry>Card tokenization not supported</entry>
+    </row>
 
     <row>
       <entry>9102</entry>

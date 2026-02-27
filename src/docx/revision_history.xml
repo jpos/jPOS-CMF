@@ -22,6 +22,18 @@
    </thead>
    <tbody>
      <row>
+      <entry>Feb, 2026</entry>
+      <entry>1.0.20.rc18</entry>
+      <entry>Gregorio Osorio</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added result code 1828 (see <xref linkend="result_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Aug, 2025</entry>
       <entry>1.0.20.rc17</entry>
       <entry>Federico González</entry>
