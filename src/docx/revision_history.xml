@@ -23,6 +23,18 @@
    <tbody>
      <row>
       <entry>Feb, 2026</entry>
+      <entry>1.0.20.rc20</entry>
+      <entry>Gregorio Osorio</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added result code 1828 (see <xref linkend="result_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Feb, 2026</entry>
       <entry>1.0.20.rc19</entry>
       <entry>Alejandro Revilla</entry>
       <entry>
