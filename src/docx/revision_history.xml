@@ -22,6 +22,18 @@
    </thead>
    <tbody>
      <row>
+      <entry>Mar, 2026</entry>
+      <entry>1.0.20.rc21</entry>
+      <entry>Gregorio Osorio</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added function codes 188, 189, 190, and 191 for card tokenization (see <xref linkend="function_codes" />).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Feb, 2026</entry>
       <entry>1.0.20.rc20</entry>
       <entry>Gregorio Osorio</entry>
