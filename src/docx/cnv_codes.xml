@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix [
+<!ENTITY % constants SYSTEM "constants.ent" >
+%constants;
+]>
+
+<appendix xml:id="cnv_codes" xmlns="http://docbook.org/ns/docbook" version="5.0">
+ <title>Cardholder Name Verification response codes</title>
+ <para> The following table specifies the Cardholder Name Verification response codes returned in DE-113.38 (see <xref linkend="S.de_113.38"/>). </para>
+
+ <table frame="all">
+  <title>Cardholder Name Verification response codes</title>
+  <tgroup cols="2" align="left" colsep="1" rowsep="1">
+   <colspec colname="c1" colwidth="2*"/>
+   <colspec colname="c2" colwidth="6*"/>
+   <thead>
+    <row>
+     <entry>Code</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>M</entry>
+     <entry>Full Match: Name matches issuer records perfectly.</entry>
+    </row>
+    <row>
+     <entry>P</entry>
+     <entry>Partial Match: First/Last name matches; minor layout or initial variance.</entry>
+    </row>
+    <row>
+     <entry>N</entry>
+     <entry>Mismatch: Name does not match issuer files.</entry>
+    </row>
+    <row>
+     <entry>U</entry>
+     <entry>Unavailable: Issuer or country network does not support name matching.</entry>
+    </row>
+    <row>
+     <entry>S</entry>
+     <entry>System Error: Timeout or processing failure at the network switch.</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</appendix>
