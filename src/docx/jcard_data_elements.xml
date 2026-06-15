@@ -725,6 +725,29 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.38">
+  <title xml:id="de_113.38">DE-113.38 Cardholder Name Verification Response</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.38 - Cardholder Name Verification Response</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.38</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN1</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    Cardholder name verification response code returned by the issuer indicating
+    the result of matching the cardholder name against issuer records.
+    See <xref linkend="cnv_codes"/> for valid values and network mappings.
+   </para>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_113.39">
   <title xml:id="de_113.39">DE-113.39 Remote Result Code</title>
   <indexterm>

@@ -22,6 +22,21 @@
    </thead>
    <tbody>
      <row>
+      <entry>Jun, 2026</entry>
+      <entry>1.0.20.rc21</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added data element <xref linkend="S.de_113.38"/> — Cardholder Name Verification Response.</para>
+            </listitem>
+            <listitem>
+                <para>Added table of Cardholder Name Verification response codes (see <xref linkend="cnv_codes"/>).</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
       <entry>Feb, 2026</entry>
       <entry>1.0.20.rc20</entry>
       <entry>Gregorio Osorio</entry>
