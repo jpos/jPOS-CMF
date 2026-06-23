@@ -725,6 +725,36 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.34">
+  <title xml:id="de_113.34">DE-113.34 Extended Authorization Indicator</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.34 - Extended Authorization Indicator</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.34</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN1</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para>
+    Indicates whether a transaction is an extended authorization. When present, the authorization expiry
+    is extended beyond the standard period.
+   </para>
+   <itemizedlist>
+    <listitem>
+     <para><emphasis role="bold">Y</emphasis> — Extended authorization.</para>
+    </listitem>
+    <listitem>
+     <para><emphasis role="bold">Absent</emphasis> — Standard authorization.</para>
+    </listitem>
+   </itemizedlist>
+  </simplesect>
+ </sect1>
  <sect1 xml:id="S.de_113.38">
   <title xml:id="de_113.38">DE-113.38 Cardholder Name Verification Response</title>
   <indexterm>
