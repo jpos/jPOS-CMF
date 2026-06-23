@@ -23,6 +23,18 @@
    <tbody>
      <row>
       <entry>Jun, 2026</entry>
+      <entry>1.0.20.rc22</entry>
+      <entry>Federico González</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added data element <xref linkend="S.de_113.34"/> — Extended Authorization Indicator.</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Jun, 2026</entry>
       <entry>1.0.20.rc21</entry>
       <entry>Federico González</entry>
       <entry>
