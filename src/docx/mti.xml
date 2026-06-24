@@ -68,9 +68,14 @@
      <entry>File Update</entry>
     </row>
     <row>
+     <entry align="center"><emphasis role="bold">400</emphasis></entry>
+     <entry align="center"><emphasis role="bold">410</emphasis></entry>
+     <entry>Reversal requests for Authorization and Financial messages</entry>
+    </row>
+    <row>
      <entry align="center"><emphasis role="bold">420</emphasis></entry>
      <entry align="center"><emphasis role="bold">430</emphasis></entry>
-     <entry>Reversals of Authorization and Financial messages</entry>
+     <entry>Reversal advices for Authorization and Financial messages</entry>
     </row>
     <row>
      <entry align="center"><emphasis role="bold">600</emphasis></entry>
@@ -106,4 +111,3 @@
   </tgroup>
  </table>
 </section>
-

@@ -187,8 +187,8 @@
     </row>
 
     <row>
-     <entry morerows="4"> 400-449<?br?> Used in 420, 421 and 440 messages to indicate the function
-      of the reversal. </entry>
+     <entry morerows="4"> 400-449<?br?> Used in 400, 401, 420, 421, 440 and 441 messages to indicate
+      the function of the reversal. </entry>
      <entry>400</entry>
      <entry>Full reversal, transaction did not complete as approved</entry>
     </row>
