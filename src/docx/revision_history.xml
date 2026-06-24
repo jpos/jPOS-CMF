@@ -23,6 +23,18 @@
    <tbody>
      <row>
       <entry>Jun, 2026</entry>
+      <entry>1.0.20.rc23</entry>
+      <entry>Alejandro Revilla</entry>
+      <entry>
+        <itemizedlist>
+            <listitem>
+                <para>Added reversal request/response message type identifiers 400 and 410.</para>
+            </listitem>
+        </itemizedlist>
+      </entry>
+     </row>
+     <row>
+      <entry>Jun, 2026</entry>
       <entry>1.0.20.rc22</entry>
       <entry>Federico González</entry>
       <entry>

@@ -6,7 +6,7 @@
 <section xml:id="reversal" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
  <title>Reversals</title>
  <indexterm><primary>Reversals</primary></indexterm>
- <indexterm><primary>420, 430</primary></indexterm>
+ <indexterm><primary>400, 410, 420, 430</primary></indexterm>
 
  <table frame="all" tocentry="1">
   <title>Reversals</title>
@@ -30,8 +30,8 @@
      <entry align="right"><emphasis role="bold">MTI</emphasis></entry>
      <entry>Message Type indicator</entry>
      <entry/>
-     <entry align="center"><emphasis role="bold">420</emphasis></entry>
-     <entry align="center"><emphasis role="bold">430</emphasis></entry>
+     <entry align="center"><emphasis role="bold">400</emphasis>, <emphasis role="bold">420</emphasis></entry>
+     <entry align="center"><emphasis role="bold">410</emphasis>, <emphasis role="bold">430</emphasis></entry>
     </row>
     <row>
      <entry align="right"><emphasis role="bold">2</emphasis></entry>
@@ -233,4 +233,3 @@
      <para>See <xref linkend="conditionals" /> for condition details.</para>
  </note>
 </section>
-

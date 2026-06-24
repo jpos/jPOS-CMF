@@ -309,6 +309,17 @@
       </row>
       <row>
        <entry>
+        <emphasis role="bold">400</emphasis>
+       </entry>
+       <entry>
+        <emphasis role="bold">XX</emphasis>
+       </entry>
+       <entry>Reversal - use same code as original <emphasis role="italic">(See <xref
+          linkend="reversal"/>)</emphasis>
+       </entry>
+      </row>
+      <row>
+       <entry>
         <emphasis role="bold">420</emphasis>
        </entry>
        <entry>
@@ -4146,4 +4157,3 @@
     </simplesect>
   </sect1>
 </chapter>
-
